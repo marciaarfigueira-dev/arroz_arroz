@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz Static Scenarios</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .bar-chart {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>Static Scenarios</h1>
+        <p class="lede">
+          Aggregate single-score impacts across crop protection, sowing, fertilisation, and machines per farmer-season.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Scope</h2>
+          </div>
+          <div class="panel-actions">
+            <a class="ghost" href="./index.html">Home</a>
+            <button class="ghost" id="reset-filters">Reset</button>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="field">
+            <span>Season</span>
+            <select id="season-filter"></select>
+          </label>
+          <label class="field">
+            <span>Farmer</span>
+            <select id="farmer-filter"></select>
+          </label>
+        </div>
+        <div class="chip" id="active-filters"></div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Totals (single score)</h2>
+          </div>
+        </div>
+        <div class="stat-grid" id="stat-grid"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Breakdown</p>
+            <h2>Impact by input</h2>
+          </div>
+          <div class="chip muted" id="impact-count"></div>
+        </div>
+        <div id="impact-bars" class="bar-chart"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Impact categories</p>
+            <h2>Category totals</h2>
+          </div>
+          <div class="chip muted" id="cat-count"></div>
+        </div>
+        <div id="cat-bars" class="bar-chart"></div>
+      </section>
+
+      <section class="panel detail">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Detail</p>
+            <h2>Farmer-season table</h2>
+          </div>
+          <div class="chip muted" id="detail-count"></div>
+        </div>
+        <div id="detail-table" class="table-shell"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./scenarios.js"></script>
+</body>
+
+</html>

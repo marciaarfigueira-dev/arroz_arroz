@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characterisation Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">Aparroz | Characterisation</p>
+          <h1>Impact Explorer</h1>
+          <p class="lede">
+            Browse characterisation results by product and impact category with units.
+          </p>
+        </div>
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Impact categories</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel filters">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Select</p>
+              <h2>Product</h2>
+            </div>
+            <div class="panel-actions">
+              <a class="ghost" href="./index.html">Home</a>
+              <a class="ghost" href="./singlescore.html">Singlescore</a>
+            </div>
+          </div>
+          <div class="filter-grid">
+            <label class="field">
+              <span>Product</span>
+              <select id="product-filter"></select>
+            </label>
+          </div>
+          <div class="chip" id="product-meta"></div>
+        </section>
+
+        <section class="panel stats">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>Impact categories</h2>
+            </div>
+          </div>
+          <div id="bar-chart" class="bar-chart"></div>
+        </section>
+
+        <section class="panel detail">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Detail</p>
+              <h2>Category table</h2>
+            </div>
+            <div class="chip muted" id="category-count"></div>
+          </div>
+          <div id="category-table" class="table-shell"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./characterisation.js"></script>
+  </body>
+</html>

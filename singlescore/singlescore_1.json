@@ -1,0 +1,3399 @@
+{
+  "product_id": "singlescore_1_1",
+  "functional_unit": "1 kg Rice, start material, at seed production {PT} Economic, U (of project Agri-footprint - economic - unit)",
+  "categories": [
+    {
+      "impact_category": "Total",
+      "unit": "µPt",
+      "total": 437.1592,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 359.555,
+          "share": 0.8224806889572495
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 40.62626,
+          "share": 0.0929324145528677
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 9.994028,
+          "share": 0.022861300871627546
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 9.661835,
+          "share": 0.02210141065314421
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 6.269895,
+          "share": 0.014342360860757363
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 2.977071,
+          "share": 0.006810038539735639
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 2.065004,
+          "share": 0.004723688761439768
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 1.335831,
+          "share": 0.0030557083094671232
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 1.187908,
+          "share": 0.00271733501205053
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 1.077795,
+          "share": 0.0024654519451952515
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.506822,
+          "share": 0.0011593533888798406
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.40527,
+          "share": 0.0009270535768205267
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.339359,
+          "share": 0.0007762824161083652
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.29624,
+          "share": 0.0006776478683280599
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.239864,
+          "share": 0.0005486879836910673
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.185449,
+          "share": 0.000424213879062822
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.160416,
+          "share": 0.0003669509871918514
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.137999,
+          "share": 0.0003156721853274505
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.097031,
+          "share": 0.00022195804183007016
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.040085,
+          "share": 9.16942843705451e-05
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change",
+      "unit": "µPt",
+      "total": 88.40721,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 80.0052,
+          "share": 0.9049623893797801
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.844439,
+          "share": 0.03217428759486924
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 2.277115,
+          "share": 0.025757118678442624
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 1.477698,
+          "share": 0.01671467745673684
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.556355,
+          "share": 0.006293095325596181
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.354074,
+          "share": 0.004005035335918869
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.293874,
+          "share": 0.0033240953990064837
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.112324,
+          "share": 0.0012705298583678864
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.096837,
+          "share": 0.0010953518383851272
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.09444,
+          "share": 0.0010682386651495958
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.085754,
+          "share": 0.000969988759966523
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.062319,
+          "share": 0.0007049085702399159
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.05166,
+          "share": 0.0005843414807457446
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.045775,
+          "share": 0.000517774511829974
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.035431,
+          "share": 0.00040077048014522794
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.010196,
+          "share": 0.00011532996007904784
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.003727,
+          "share": 4.215719509754916e-05
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Ozone depletion",
+      "unit": "µPt",
+      "total": 0.061847,
+      "contributors": [
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.020111,
+          "share": 0.3251734118065549
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.013051,
+          "share": 0.21102074474105453
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.009377,
+          "share": 0.15161608485456043
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.006867,
+          "share": 0.11103206299416302
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.005467,
+          "share": 0.08839555677720827
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002363,
+          "share": 0.03820718870761718
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.00104,
+          "share": 0.01681569033259495
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.000972,
+          "share": 0.015716202887771435
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000763,
+          "share": 0.012336895888240336
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000561,
+          "share": 0.009070771419794007
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.000459,
+          "share": 0.007421540252558733
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000328,
+          "share": 0.0053034100279722544
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000252,
+          "share": 0.004074571119051854
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.000161,
+          "share": 0.0026031982149497955
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 4.5e-05,
+          "share": 0.0007276019855449739
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 2.98e-05,
+          "share": 0.0004818342037608938
+        },
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Ionising radiation",
+      "unit": "µPt",
+      "total": 0.295542,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.094639,
+          "share": 0.3202218297230173
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.064781,
+          "share": 0.2191938878399686
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.042038,
+          "share": 0.1422403583923774
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.026873,
+          "share": 0.09092785458581183
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.023964,
+          "share": 0.08108492194002882
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.015522,
+          "share": 0.05252045394563209
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.006843,
+          "share": 0.023154069472359255
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.006564,
+          "share": 0.022210041212416508
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.00504,
+          "share": 0.01705341372799805
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.002714,
+          "share": 0.009183127947973553
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.001531,
+          "share": 0.005180312781262899
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.001365,
+          "share": 0.004618632884666138
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.001283,
+          "share": 0.004341176550202678
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.001195,
+          "share": 0.004043418532729696
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.001096,
+          "share": 0.0037084407630725916
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 9.35e-05,
+          "share": 0.00031636789356504315
+        },
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Photochemical ozone formation",
+      "unit": "µPt",
+      "total": 3.978875,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 1.741043,
+          "share": 0.4375716754107631
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.937952,
+          "share": 0.2357329647199271
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.608669,
+          "share": 0.15297515001099557
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.411235,
+          "share": 0.10335459143602149
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.070032,
+          "share": 0.017600955043825202
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.050919,
+          "share": 0.012797335930382332
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.046085,
+          "share": 0.011582419653796614
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.03267,
+          "share": 0.00821086362351167
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.024608,
+          "share": 0.006184662750149226
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.021784,
+          "share": 0.005474914391630801
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.007523,
+          "share": 0.001890735446577236
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.007428,
+          "share": 0.0018668593509471897
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.00639,
+          "share": 0.0016059815902736325
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.004349,
+          "share": 0.001093022525211272
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.004252,
+          "share": 0.0010686437749363826
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.003043,
+          "share": 0.0007647890421287424
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000893,
+          "share": 0.0002244352989224341
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Particulate matter",
+      "unit": "µPt",
+      "total": 9.481597,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 6.115167,
+          "share": 0.644951161708307
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 1.395678,
+          "share": 0.14719862065430536
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.905703,
+          "share": 0.09552219947757745
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.354204,
+          "share": 0.03735699798251286
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.337689,
+          "share": 0.035615202797587786
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.122898,
+          "share": 0.012961740516919248
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.089894,
+          "share": 0.009480892301159815
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.055163,
+          "share": 0.005817901773298316
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.033352,
+          "share": 0.003517550893588917
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.019746,
+          "share": 0.002082560564428123
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.017851,
+          "share": 0.0018826997182014799
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.009334,
+          "share": 0.0009844333185643726
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.007894,
+          "share": 0.0008325601689251293
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.005898,
+          "share": 0.0006220471087307338
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.004869,
+          "share": 0.0005135210872176913
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.004868,
+          "share": 0.0005134156197526639
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.001389,
+          "share": 0.0001464943089228534
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer",
+      "unit": "µPt",
+      "total": 3.984551,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 3.099342,
+          "share": 0.7778397114254529
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.549214,
+          "share": 0.13783585653690966
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.100748,
+          "share": 0.025284655661327964
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.075434,
+          "share": 0.018931618644108205
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.048952,
+          "share": 0.012285449477243483
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.04635,
+          "share": 0.011632427342503585
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.018951,
+          "share": 0.004756119321850818
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.013305,
+          "share": 0.0033391466190293463
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.010316,
+          "share": 0.0025889993627889315
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.00819,
+          "share": 0.002055438617801604
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.003841,
+          "share": 0.00096397310512527
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002792,
+          "share": 0.0007007063029184468
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.001813,
+          "share": 0.0004550073521458252
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.001445,
+          "share": 0.00036265064746316463
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.001145,
+          "share": 0.00028735985560229994
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.000857,
+          "share": 0.00021508069541586994
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000756,
+          "share": 0.00018973279548937887
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000607,
+          "share": 0.0001523383688651494
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000337,
+          "share": 8.457665619037126e-05
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.000156,
+          "share": 3.9151211767649604e-05
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer",
+      "unit": "µPt",
+      "total": 0.591472,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.400153,
+          "share": 0.6765375199502258
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.051193,
+          "share": 0.08655185706170368
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.049943,
+          "share": 0.0844384856764141
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.033221,
+          "share": 0.05616664863256418
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.025803,
+          "share": 0.04362505748370168
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.013987,
+          "share": 0.023647780452836314
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.005862,
+          "share": 0.009910866448454026
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002856,
+          "share": 0.0048286309411096386
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002188,
+          "share": 0.0036992452728108853
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.001477,
+          "share": 0.002497159628858171
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.001202,
+          "share": 0.0020322179240944626
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.000961,
+          "share": 0.0016247599210106312
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.000698,
+          "share": 0.001180106581545703
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000696,
+          "share": 0.0011767251873292396
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000523,
+          "share": 0.0008842345876051614
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.000363,
+          "share": 0.0006137230502880948
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000271,
+          "share": 0.00045817891633078144
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 7.69e-05,
+          "share": 0.00013001460762301513
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Acidification",
+      "unit": "µPt",
+      "total": 3.888327,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.957897,
+          "share": 0.24635196576831117
+        },
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.908145,
+          "share": 0.23355674561321618
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.721767,
+          "share": 0.1856240485946784
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.46838,
+          "share": 0.12045797588525863
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.373833,
+          "share": 0.09614237691428731
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.171869,
+          "share": 0.044201272166667055
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.078123,
+          "share": 0.02009167438849665
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.065943,
+          "share": 0.016959221793846044
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.035434,
+          "share": 0.009112916686276644
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.035369,
+          "share": 0.009096199985237866
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.026524,
+          "share": 0.006821442743884452
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.016719,
+          "share": 0.004299792687189118
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.008407,
+          "share": 0.002162112394353664
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.007911,
+          "share": 0.0020345511064270056
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.006207,
+          "share": 0.0015963163591950985
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.003954,
+          "share": 0.0010168897831895312
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.001844,
+          "share": 0.00047423994946927046
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, freshwater",
+      "unit": "µPt",
+      "total": 7.423655,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 6.256864,
+          "share": 0.842827960081658
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.702643,
+          "share": 0.09464919908050684
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.135983,
+          "share": 0.018317526878606293
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.097988,
+          "share": 0.013199428044541403
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.088244,
+          "share": 0.01188686704864383
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.052926,
+          "share": 0.00712937225665794
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.021181,
+          "share": 0.0028531767707416357
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.016788,
+          "share": 0.0022614197453949573
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.015418,
+          "share": 0.0020768745314807867
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.01266,
+          "share": 0.001705359422009778
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.012098,
+          "share": 0.0016296554729442571
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.003841,
+          "share": 0.0005174001216381957
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.003165,
+          "share": 0.0004263398555024445
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002693,
+          "share": 0.00036275931465026324
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.000658,
+          "share": 8.863558449308325e-05
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.000311,
+          "share": 4.18931106038737e-05
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.000194,
+          "share": 2.6132679926532147e-05
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, marine",
+      "unit": "µPt",
+      "total": 5.257809,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 4.310729,
+          "share": 0.8198717374480511
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.38857,
+          "share": 0.07390340729379861
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.252157,
+          "share": 0.04795856981491721
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.182078,
+          "share": 0.03463001413706736
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.023521,
+          "share": 0.004473536410318443
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.022719,
+          "share": 0.004321001390503155
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.02157,
+          "share": 0.004102469298523396
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.019937,
+          "share": 0.0037918836534381528
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.010196,
+          "share": 0.0019392108005444853
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.010107,
+          "share": 0.0019222835975974022
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.003596,
+          "share": 0.000683935076378773
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.002779,
+          "share": 0.000528547157190381
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002572,
+          "share": 0.0004891771458415473
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002467,
+          "share": 0.0004692068502298201
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.002275,
+          "share": 0.0004326897382540903
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.001877,
+          "share": 0.000356992808221067
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000659,
+          "share": 0.00012533737912503098
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, terrestrial",
+      "unit": "µPt",
+      "total": 3.324196,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 1.606133,
+          "share": 0.48316435011653946
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.589149,
+          "share": 0.17723052431324748
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.382319,
+          "share": 0.11501096806566159
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.306217,
+          "share": 0.09211761280020793
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.268075,
+          "share": 0.08064356012702019
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.035148,
+          "share": 0.010573383759561709
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.03279,
+          "share": 0.009864039304541609
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.028459,
+          "share": 0.008561167873374494
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.027893,
+          "share": 0.008390901138200034
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.015636,
+          "share": 0.004703693765349576
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0155,
+          "share": 0.004662781616968433
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.003884,
+          "share": 0.0011684028258261547
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.003803,
+          "share": 0.001144036031569739
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.00368,
+          "share": 0.001107034603254441
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.002805,
+          "share": 0.0008438130603610618
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.002094,
+          "share": 0.0006299267552214129
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000611,
+          "share": 0.00018380384309469116
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater",
+      "unit": "µPt",
+      "total": 44.45385,
+      "contributors": [
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 40.07705,
+          "share": 0.901542835997332
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 1.07359,
+          "share": 0.024150664115706513
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.784747,
+          "share": 0.01765307166870811
+        },
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.6149,
+          "share": 0.013832322734701268
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.493962,
+          "share": 0.011111793466707608
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.39708,
+          "share": 0.008932409678801722
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.320549,
+          "share": 0.007210826508840066
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.243836,
+          "share": 0.005485149205299428
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.115125,
+          "share": 0.002589764441100152
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.097671,
+          "share": 0.0021971325318279515
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.067373,
+          "share": 0.0015155717671247822
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.046533,
+          "share": 0.001046770977091973
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.034347,
+          "share": 0.0007726439892157823
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.023362,
+          "share": 0.0005255337839129794
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.021409,
+          "share": 0.00048160058127698726
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.012237,
+          "share": 0.00027527424508788325
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.00998,
+          "share": 0.00022450248966062554
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.008353,
+          "share": 0.0001879027350836879
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.005963,
+          "share": 0.00013413911281025153
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.005784,
+          "share": 0.00013011246494960504
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Land use",
+      "unit": "µPt",
+      "total": 14.74304,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 14.64792,
+          "share": 0.9935481420385482
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.041018,
+          "share": 0.002782194174335822
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.017508,
+          "share": 0.0011875434103142907
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.011362,
+          "share": 0.0007706687358916478
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.008137,
+          "share": 0.000551921449036291
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.007031,
+          "share": 0.00047690299965271745
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.004138,
+          "share": 0.0002806748133356486
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.001312,
+          "share": 8.89911442958847e-05
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.001219,
+          "share": 8.268308300052092e-05
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000966,
+          "share": 6.552244313248828e-05
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.000616,
+          "share": 4.178242750477513e-05
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000596,
+          "share": 4.042585518319152e-05
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000348,
+          "share": 2.3604358395554783e-05
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.000291,
+          "share": 1.97381272790415e-05
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000266,
+          "share": 1.8042411877061992e-05
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000213,
+          "share": 1.4447495224865428e-05
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 9.73e-05,
+          "share": 6.599724344504254e-06
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Water use",
+      "unit": "µPt",
+      "total": 240.3751,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 239.8494,
+          "share": 0.9978130014298486
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.35475,
+          "share": 0.0014758184187962896
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.049931,
+          "share": 0.00020772118243528553
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.040018,
+          "share": 0.00016648147000250857
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.028281,
+          "share": 0.00011765361720078327
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.018352,
+          "share": 7.6347342133191e-05
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.015505,
+          "share": 6.450335330073706e-05
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.009125,
+          "share": 3.796150266812161e-05
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.003558,
+          "share": 1.480186591706046e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.002075,
+          "share": 8.632341702613956e-06
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.001578,
+          "share": 6.564739858662565e-06
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000812,
+          "share": 3.378053716878329e-06
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.000545,
+          "share": 2.2672897483974007e-06
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.000473,
+          "share": 1.9677578917283864e-06
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.000454,
+          "share": 1.888714762885174e-06
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.000181,
+          "share": 7.529898063484946e-07
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 8.55e-05,
+          "share": 3.556940797944546e-07
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Resource use, fossils",
+      "unit": "µPt",
+      "total": 6.343035,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.802559,
+          "share": 0.28417926118963555
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 1.516732,
+          "share": 0.23911770942458932
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.984259,
+          "share": 0.15517161737244078
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.702102,
+          "share": 0.11068865298709529
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.38608,
+          "share": 0.060866761731568554
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.332634,
+          "share": 0.052440826828166635
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.201289,
+          "share": 0.03173386241759662
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.1071,
+          "share": 0.01688466168009478
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.077773,
+          "share": 0.012261165199309162
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.065535,
+          "share": 0.010331804885200854
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.046574,
+          "share": 0.007342541858905082
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.045801,
+          "share": 0.007220675906722885
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.032033,
+          "share": 0.005050106140041794
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.030979,
+          "share": 0.0048839396282694325
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.009288,
+          "share": 0.0014642832650300682
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.002297,
+          "share": 0.0003621294853331252
+        },
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Resource use, minerals and metals",
+      "unit": "µPt",
+      "total": 4.549024,
+      "contributors": [
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 1.116925,
+          "share": 0.24553068966002375
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.0547,
+          "share": 0.23185193131537665
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.947617,
+          "share": 0.20831215662964186
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.614941,
+          "share": 0.13518086517019914
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.443976,
+          "share": 0.09759807818116589
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.269012,
+          "share": 0.059136201523667484
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.06066,
+          "share": 0.013334728504400064
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.01325,
+          "share": 0.002912712704967043
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.010571,
+          "share": 0.0023237951701288013
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.007875,
+          "share": 0.0017311405699332427
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002889,
+          "share": 0.0006350812833697953
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.002404,
+          "share": 0.0005284650069993036
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.002396,
+          "share": 0.0005267063880076254
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.00076,
+          "share": 0.00016706880420943042
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.000688,
+          "share": 0.0001512412332843265
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.000359,
+          "share": 7.891802725155989e-05
+        },
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Fossil",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Biogenic",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Land use and LU change",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - organics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - inorganics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - organics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - inorganics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - organics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - inorganics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Rice, start material, at seed production {PT} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (pig), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Manure (poultry), at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Di ammonium phosphate, as 100% (NH3)2HPO4 (NPK 22-57-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Liquid urea-ammonium nitrate solution (NPK 30-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Urea, as 100% CO(NH2)2 (NPK 46.6-0-0), market mix, at regional storage {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Single superphosphate, as 35% Ca(H2PO4)2 (NPK 0-21-0), at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Basic infrastructure, at farm {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Lime fertilizer, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Transport, truck 10-20t, EURO4, 80%LF, empty return {GLO} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Insecticide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Fungicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Herbicide emissions, at farm {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Energy, from diesel burned in machinery {RER} Economic, U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {PT}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz Data Hub</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .section-title {
+      margin: 36px 0 6px;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .card {
+      padding: 18px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card h3 {
+      margin: 0;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .card a {
+      margin-top: auto;
+      align-self: flex-start;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>Pivot Hub</h1>
+        <p class="lede">
+          Explore inputs through pivot tables, then jump into LCA calculators using singlescore or characterisation factors.
+        </p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Start here</span>
+      </div>
+    </header>
+
+    <main>
+      <h3 class="section-title">Pivot tables (inputs & operations)</h3>
+      <div class="hero">
+        <div class="card">
+          <h3>Crop protection</h3>
+          <p>Explore fungicide/herbicide/pesticide operations, filter by enemy, and see doses in kg/ha and kg/t.</p>
+          <a class="ghost" href="./crop-protection.html">Open crop protection</a>
+        </div>
+        <div class="card">
+          <h3>Sowing</h3>
+          <p>Review sowing events by season, farmer, variety, operation, and equipment with seed rates in kg/ha and kg/t.</p>
+          <a class="ghost" href="./sowing.html">Open sowing</a>
+        </div>
+        <div class="card">
+          <h3>Fertilisation</h3>
+          <p>Inspect fertiliser applications with nutrient rates (N, P, K, SO₄) in kg/ha and kg/t across operations, equipment, and products.</p>
+          <a class="ghost" href="./fertilisation.html">Open fertilisation</a>
+        </div>
+        <div class="card">
+          <h3>Machine operations</h3>
+          <p>See all field operations by category, equipment, farmer, and season. Track area worked, repetitions, and area per tonne.</p>
+          <a class="ghost" href="./machines.html">Open machine operations</a>
+        </div>
+      </div>
+
+      <h3 class="section-title">LCA & impacts</h3>
+      <div class="hero">
+        <div class="card">
+          <h3>LCA Crop protection</h3>
+          <p>Combine crop protection doses with singlescore or characterisation factors to see burdens by impact category.</p>
+          <a class="ghost" href="./lca.html">Open LCA (crop protection)</a>
+        </div>
+        <div class="card">
+          <h3>LCA Sowing</h3>
+          <p>Calculate seed impacts using sowing rates (kg/ha or kg/t) with singlescore/characterisation factors.</p>
+          <a class="ghost" href="./lca-sowing.html">Open LCA sowing</a>
+        </div>
+        <div class="card">
+          <h3>LCA Fertilisation</h3>
+          <p>Calculate N/P/K impacts using fertiliser rates (kg/ha or kg/t) with singlescore/characterisation factors.</p>
+          <a class="ghost" href="./lca-fertilisation.html">Open LCA fertilisation</a>
+        </div>
+        <div class="card">
+          <h3>LCA Machines</h3>
+          <p>Multiply area worked or area per tonne by machine factors to see equipment burdens per m² basis.</p>
+          <a class="ghost" href="./lca-machines.html">Open LCA machines</a>
+        </div>
+      </div>
+
+      <h3 class="section-title">Raw impact factors (per input)</h3>
+      <div class="hero">
+        <div class="card">
+          <h3>Singlescore</h3>
+          <p>Product-level single scores with totals and contributors for each input.</p>
+          <a class="ghost" href="./singlescore.html">Open singlescore</a>
+        </div>
+        <div class="card">
+          <h3>Characterisation</h3>
+          <p>Impact categories with native units for each characterised product.</p>
+          <a class="ghost" href="./characterisation.html">Open characterisation</a>
+        </div>
+        <div class="card">
+          <h3>Static scenarios</h3>
+          <p>Aggregate single-score impacts per farmer-season across all inputs (crop protection, sowing, fertilisation, machines).</p>
+          <a class="ghost" href="./scenarios.html">Open scenarios</a>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

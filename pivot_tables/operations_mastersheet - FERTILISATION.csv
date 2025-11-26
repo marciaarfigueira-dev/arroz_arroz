@@ -1,0 +1,88 @@
+dmu_id,variety,area_TOTAL,productivity_weighted,operation_category,operation,equipment,product,dose_kg_ha,dose_unit,covered_area,area_tonne,n_density,p_density,k_density,so4_density,n_kg_ha_weight,p_kg_ha_weight,k_kg_ha_weight,so4_kg_ha_weight,n_kg_t,p_kg_t,k_kg_t,so4_kg_t,year,month,day
+C1_2022,All,45.92,4.43,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,300.00,kg/ha,45.92,0.23,60.00,30.00,0.00,0.00,60.00,30.00,0.00,0.00,13.54,6.77,0.00,0.00,"2,022.00",4.00,25.00
+C1_2022,All,45.92,4.43,fertilisation,topdressing,centrifugal_spreader,Urea 46%,140.00,kg/ha,45.92,0.23,64.40,0.00,0.00,0.00,64.40,0.00,0.00,0.00,14.54,0.00,0.00,0.00,"2,022.00",5.00,7.00
+C1_2022,All,45.92,4.43,fertilisation,topdressing,centrifugal_spreader,Ammonium sulfate 21%,80.00,kg/ha,45.92,0.23,0.00,0.00,0.00,16.80,0.00,0.00,0.00,16.80,0.00,0.00,0.00,3.79,"2,022.00",7.00,20.00
+C1_2023,All,45.51,4.54,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,300.00,kg/ha,45.51,0.22,60.00,30.00,0.00,0.00,60.00,30.00,0.00,0.00,13.22,6.61,0.00,0.00,"2,023.00",5.00,15.00
+C1_2023,All,45.51,4.54,fertilisation,topdressing,centrifugal_spreader,Urea 46%,150.00,kg/ha,45.51,0.22,69.00,0.00,0.00,0.00,69.00,0.00,0.00,0.00,15.20,0.00,0.00,0.00,"2,023.00",7.00,25.00
+C1_2024,All,45.51,4.78,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,300.00,kg/ha,45.51,0.21,60.00,30.00,0.00,0.00,60.00,30.00,0.00,0.00,12.55,6.28,0.00,0.00,"2,024.00",5.00,15.00
+C1_2024,All,45.51,4.78,fertilisation,topdressing,centrifugal_spreader,Urea 46%,150.00,kg/ha,45.51,0.21,69.00,0.00,0.00,0.00,69.00,0.00,0.00,0.00,14.44,0.00,0.00,0.00,"2,024.00",7.00,25.00
+C2_2022,All,111.38,6.91,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,300.00,kg/ha,111.38,0.14,60.00,60.00,0.00,0.00,60.00,60.00,0.00,0.00,8.68,8.68,0.00,0.00,"2,022.00",5.00,10.00
+C2_2022,All,111.38,6.91,fertilisation,topdressing,airplane_sprayer,Urea 46%,90.00,kg/ha,111.38,0.14,41.40,0.00,0.00,0.00,41.40,0.00,0.00,0.00,5.99,0.00,0.00,0.00,"2,022.00",6.00,25.00
+C2_2023,All,115.21,8.71,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,200.00,kg/ha,115.21,0.11,40.00,20.00,0.00,0.00,40.00,20.00,0.00,0.00,4.59,2.30,0.00,0.00,"2,023.00",5.00,15.00
+C2_2023,All,115.21,8.71,fertilisation,topdressing,centrifugal_spreader,Yara Vera Amidas (40%),100.00,kg/ha,45.50,0.05,40.00,0.00,0.00,0.00,15.80,0.00,0.00,0.00,4.59,0.00,0.00,0.00,"2,023.00",7.00,20.00
+C2_2023,All,115.21,8.71,fertilisation,topdressing,centrifugal_spreader,Nergetic 30,100.00,kg/ha,31.49,0.03,30.00,0.00,0.00,0.00,8.20,0.00,0.00,0.00,3.44,0.00,0.00,0.00,"2,023.00",7.00,20.00
+C2_2023,All,115.21,8.71,fertilisation,topdressing,centrifugal_spreader,Urea 46%,100.00,kg/ha,36.00,0.04,46.00,0.00,0.00,0.00,14.37,0.00,0.00,0.00,5.28,0.00,0.00,0.00,"2,023.00",7.00,20.00
+C2_2024,All,120.72,7.39,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,300.00,kg/ha,84.00,0.09,60.00,30.00,0.00,0.00,41.75,20.87,0.00,0.00,8.12,4.06,0.00,0.00,"2,024.00",5.00,15.00
+C2_2024,All,120.72,7.39,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,300.00,kg/ha,36.72,0.04,60.00,60.00,0.00,0.00,18.25,18.25,0.00,0.00,8.12,8.12,0.00,0.00,"2,024.00",5.00,15.00
+C2_2024,All,120.72,7.39,fertilisation,topdressing,centrifugal_spreader,Yara Vera Amidas (40%),140.00,kg/ha,14.00,0.02,56.00,0.00,0.00,0.00,6.49,0.00,0.00,0.00,7.58,0.00,0.00,0.00,"2,024.00",7.00,20.00
+C2_2024,All,120.72,7.39,fertilisation,topdressing,centrifugal_spreader,Urea 46%,140.00,kg/ha,120.00,0.13,64.40,0.00,0.00,0.00,64.02,0.00,0.00,0.00,8.71,0.00,0.00,0.00,"2,024.00",7.00,20.00
+C3_2022,All,114.54,4.77,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,200.00,kg/ha,114.54,0.21,40.00,20.00,0.00,0.00,40.00,20.00,0.00,0.00,8.39,4.19,0.00,0.00,"2,022.00",5.00,24.00
+C3_2022,All,114.54,4.77,fertilisation,topdressing,centrifugal_spreader,Urea 46%,120.00,kg/ha,114.54,0.21,55.20,0.00,0.00,0.00,55.20,0.00,0.00,0.00,11.57,0.00,0.00,0.00,"2,022.00",7.00,10.00
+C3_2022,All,114.54,4.77,fertilisation,topdressing,centrifugal_spreader,Ammonium sulfate 21%,70.00,kg/ha,114.54,0.21,0.00,0.00,0.00,14.70,0.00,0.00,0.00,14.70,0.00,0.00,0.00,3.08,"2,022.00",7.00,25.00
+C3_2023,All,112.23,5.94,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,250.00,kg/ha,93.60,0.14,50.00,25.00,0.00,0.00,41.70,20.85,0.00,0.00,8.42,4.21,0.00,0.00,"2,023.00",5.00,15.00
+C3_2023,All,112.23,5.94,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,250.00,kg/ha,18.63,0.03,50.00,50.00,0.00,0.00,8.30,8.30,0.00,0.00,8.42,8.42,0.00,0.00,"2,023.00",5.00,15.00
+C3_2023,All,112.23,5.94,fertilisation,topdressing,centrifugal_spreader,Urea 46%,130.00,kg/ha,112.23,0.17,59.80,0.00,0.00,0.00,59.80,0.00,0.00,0.00,10.07,0.00,0.00,0.00,"2,023.00",7.00,20.00
+C3_2024,All,112.23,5.77,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,250.00,kg/ha,25.00,0.04,50.00,25.00,0.00,0.00,11.14,5.57,0.00,0.00,8.67,4.33,0.00,0.00,"2,024.00",5.00,15.00
+C3_2024,All,112.23,5.77,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,250.00,kg/ha,87.23,0.13,50.00,50.00,0.00,0.00,38.86,38.86,0.00,0.00,8.67,8.67,0.00,0.00,"2,024.00",5.00,15.00
+C3_2024,All,112.23,5.77,fertilisation,topdressing,centrifugal_spreader,Urea 46%,140.00,kg/ha,112.23,0.17,64.40,0.00,0.00,0.00,64.40,0.00,0.00,0.00,11.16,0.00,0.00,0.00,"2,024.00",7.00,20.00
+C4_2022,Ronaldo,25.21,3.62,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,260.00,kg/ha,25.21,0.28,39.00,39.00,39.00,0.00,39.00,39.00,39.00,0.00,10.77,10.77,10.77,0.00,"2,022.00",5.00,22.00
+C4_2022,Ronaldo,25.21,3.62,fertilisation,topdressing,centrifugal_spreader,Urea 46%,182.00,kg/ha,19.21,0.21,83.72,0.00,0.00,0.00,63.79,0.00,0.00,0.00,23.13,0.00,0.00,0.00,"2,022.00",7.00,20.00
+C4_2023,All,23.84,4.50,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,300.00,kg/ha,23.84,0.22,60.00,30.00,0.00,0.00,60.00,30.00,0.00,0.00,13.33,6.67,0.00,0.00,"2,023.00",5.00,25.00
+C4_2023,All,23.84,4.50,fertilisation,topdressing,centrifugal_spreader,Urea 46%,188.00,kg/ha,23.84,0.22,86.48,0.00,0.00,0.00,86.48,0.00,0.00,0.00,19.22,0.00,0.00,0.00,"2,023.00",7.00,10.00
+C4_2024,All,23.87,8.28,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-0,350.00,kg/ha,23.87,0.12,70.00,70.00,0.00,0.00,70.00,70.00,0.00,0.00,8.46,8.46,0.00,0.00,"2,024.00",4.00,18.00
+C4_2024,All,23.87,8.28,fertilisation,topdressing,centrifugal_spreader,Urea 46%,100.00,kg/ha,23.87,0.12,46.00,0.00,0.00,0.00,46.00,0.00,0.00,0.00,5.56,0.00,0.00,0.00,"2,024.00",7.00,1.00
+C5_2022,Ronaldo,35.75,5.99,fertilisation,topdressing,centrifugal_spreader,Nexur S (38%),100.00,kg/ha,25.75,0.12,38.00,0.00,0.00,0.00,27.37,0.00,0.00,0.00,6.34,0.00,0.00,0.00,"2,022.00",7.00,4.00
+C5_2022,All,35.75,5.99,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,200.00,kg/ha,35.75,0.17,40.00,20.00,0.00,0.00,40.00,20.00,0.00,0.00,6.68,3.34,0.00,0.00,"2,022.00",7.00,5.00
+C5_2022,PVL,35.75,5.99,fertilisation,topdressing,centrifugal_spreader,Urea 46%,100.00,kg/ha,10.00,0.05,46.00,0.00,0.00,0.00,12.87,0.00,0.00,0.00,7.68,0.00,0.00,0.00,"2,022.00",7.00,20.00
+C5_2023,All,35.44,6.23,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,350.00,kg/ha,15.54,0.07,70.00,35.00,0.00,0.00,30.69,15.35,0.00,0.00,11.24,5.62,0.00,0.00,"2,023.00",5.00,15.00
+C5_2023,All,35.44,6.23,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,300.00,kg/ha,11.60,0.05,60.00,60.00,0.00,0.00,19.64,19.64,0.00,0.00,9.63,9.63,0.00,0.00,"2,023.00",5.00,15.00
+C5_2023,All,35.44,6.23,fertilisation,basal_fertilisation,centrifugal_spreader,20-08-08,300.00,kg/ha,8.30,0.04,60.00,24.00,24.00,0.00,14.05,5.62,5.62,0.00,9.63,3.85,3.85,0.00,"2,023.00",5.00,15.00
+C5_2023,All,35.44,6.23,fertilisation,topdressing,centrifugal_spreader,Urea 46%,137.00,kg/ha,5.44,0.02,63.02,0.00,0.00,0.00,9.67,0.00,0.00,0.00,10.12,0.00,0.00,0.00,"2,023.00",7.00,25.00
+C5_2023,All,35.44,6.23,fertilisation,topdressing,centrifugal_spreader,Nexur S (38%),121.00,kg/ha,30.00,0.14,45.98,0.00,0.00,0.00,38.92,0.00,0.00,0.00,7.38,0.00,0.00,0.00,"2,023.00",7.00,25.00
+C5_2024,All,35.44,8.20,fertilisation,topdressing,centrifugal_spreader,Ammonium sulfate 21%,231.00,kg/ha,35.44,0.12,0.00,0.00,0.00,48.51,0.00,0.00,0.00,48.51,0.00,0.00,0.00,5.92,"2,024.00",7.00,20.00
+C5_2024,All,35.44,8.20,fertilisation,topdressing,centrifugal_spreader,Nexur S (38%),141.00,kg/ha,35.44,0.12,53.58,0.00,0.00,0.00,53.58,0.00,0.00,0.00,6.53,0.00,0.00,0.00,"2,024.00",7.00,20.00
+C5_2024,All,35.44,8.20,fertilisation,basal_fertilisation,centrifugal_spreader,40-20-0,200.00,kg/ha,35.44,0.12,40.00,20.00,0.00,0.00,40.00,20.00,0.00,0.00,4.88,2.44,0.00,0.00,"2,024.00",8.00,5.00
+C6_2022,All,73.11,2.15,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,360.00,kg/ha,73.11,0.47,72.00,72.00,0.00,0.00,72.00,72.00,0.00,0.00,33.49,33.49,0.00,0.00,"2,022.00",6.00,2.00
+C6_2022,All,73.11,2.15,fertilisation,topdressing,centrifugal_spreader,Ammonium sulfate 21%,100.00,kg/ha,48.00,0.31,0.00,0.00,0.00,21.00,0.00,0.00,0.00,13.79,0.00,0.00,0.00,9.77,"2,022.00",8.00,4.00
+C6_2022,All,73.11,2.15,fertilisation,topdressing,centrifugal_spreader,Urea 46%,100.00,kg/ha,73.11,0.47,46.00,0.00,0.00,21.00,46.00,0.00,0.00,21.00,21.40,0.00,0.00,9.77,"2,022.00",8.00,4.00
+C6_2023,All,71.09,2.88,fertilisation,basal_fertilisation,centrifugal_spreader,20-08-10,270.00,kg/ha,71.09,0.35,54.00,21.60,27.00,0.00,54.00,21.60,27.00,0.00,18.75,7.50,9.38,0.00,"2,023.00",5.00,2.00
+C6_2023,All,71.09,2.88,fertilisation,topdressing,centrifugal_spreader,Urea 46%,175.00,kg/ha,71.09,0.35,80.50,0.00,0.00,0.00,80.50,0.00,0.00,0.00,27.95,0.00,0.00,0.00,"2,023.00",5.00,2.00
+C6_2024,Diva PV,54.22,7.25,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,270.00,kg/ha,54.22,0.14,54.00,54.00,0.00,0.00,54.00,54.00,0.00,0.00,7.45,7.45,0.00,0.00,"2,024.00",6.00,2.00
+C6_2024,Diva PV,54.22,7.25,fertilisation,topdressing,airplane_sprayer,Urea 46%,160.00,kg/ha,54.22,0.14,73.60,0.00,0.00,0.00,73.60,0.00,0.00,0.00,10.15,0.00,0.00,0.00,"2,024.00",7.00,30.00
+C7_2023,All,37.33,6.65,fertilisation,topdressing,centrifugal_spreader,Nergetic 30,200.00,kg/ha,7.33,0.03,60.00,0.00,0.00,0.00,11.78,0.00,0.00,0.00,9.02,0.00,0.00,0.00,"2,023.00",5.00,2.00
+C7_2023,All,37.33,6.65,fertilisation,topdressing,centrifugal_spreader,Urea 46%,150.00,kg/ha,30.00,0.12,69.00,0.00,0.00,0.00,55.45,0.00,0.00,0.00,10.37,0.00,0.00,0.00,"2,023.00",5.00,2.00
+C7_2023,All,37.33,6.65,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,37.33,0.15,45.00,45.00,45.00,0.00,45.00,45.00,45.00,0.00,6.76,6.76,6.76,0.00,"2,023.00",6.00,6.00
+C7_2024,All,37.33,4.99,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,26.00,0.14,45.00,45.00,45.00,0.00,31.34,31.34,31.34,0.00,9.02,9.02,9.02,0.00,"2,024.00",8.00,6.00
+C7_2024,All,37.33,4.99,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,26.00,0.14,45.00,45.00,45.00,0.00,31.34,31.34,31.34,0.00,9.02,9.02,9.02,0.00,"2,024.00",8.00,6.00
+C7_2024,All,37.33,4.99,fertilisation,basal_fertilisation,centrifugal_spreader,20-08-10,370.00,kg/ha,11.35,0.06,74.00,29.60,37.00,0.00,22.50,9.00,11.25,0.00,14.83,5.93,7.41,0.00,"2,024.00",8.00,6.00
+C7_2024,All,37.33,4.99,fertilisation,topdressing,centrifugal_spreader,Urea 46%,120.00,kg/ha,37.35,0.20,55.20,0.00,0.00,0.00,55.23,0.00,0.00,0.00,11.06,0.00,0.00,0.00,"2,024.00",8.00,20.00
+C8_2022,All,58.32,5.56,fertilisation,basal_fertilisation,centrifugal_spreader,20-10-00,250.00,kg/ha,58.32,0.18,50.00,25.00,0.00,0.00,50.00,25.00,0.00,0.00,8.99,4.50,0.00,0.00,"2,022.00",5.00,15.00
+C8_2022,All,58.32,5.56,fertilisation,topdressing,centrifugal_spreader,Urea 46%,150.00,kg/ha,58.32,0.18,69.00,0.00,0.00,0.00,69.00,0.00,0.00,0.00,12.41,0.00,0.00,0.00,"2,022.00",7.00,10.00
+C8_2022,Gládio,58.32,5.56,fertilisation,topdressing,centrifugal_spreader,Ammonium sulfate 21%,100.00,kg/ha,12.50,0.04,0.00,0.00,0.00,21.00,0.00,0.00,0.00,4.50,0.00,0.00,0.00,3.78,"2,022.00",7.00,14.00
+C8_2023,All,58.34,5.73,fertilisation,topdressing,centrifugal_spreader,Urea 46%,70.00,kg/ha,58.04,0.17,32.20,0.00,0.00,0.00,32.03,0.00,0.00,0.00,5.62,0.00,0.00,0.00,"2,023.00",7.00,2.00
+C8_2023,All,58.34,5.73,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,58.04,0.17,45.00,45.00,45.00,0.00,44.77,44.77,44.77,0.00,7.85,7.85,7.85,0.00,"2,023.00",8.00,5.00
+C8_2024,All,59.12,3.95,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-0,300.00,kg/ha,59.12,0.25,60.00,60.00,0.00,0.00,60.00,60.00,0.00,0.00,15.19,15.19,0.00,0.00,"2,024.00",5.00,15.00
+C8_2024,All,59.12,3.95,fertilisation,topdressing,centrifugal_spreader,Nexur S (38%),200.00,kg/ha,59.12,0.25,76.00,0.00,0.00,0.00,76.00,0.00,0.00,0.00,19.24,0.00,0.00,0.00,"2,024.00",7.00,20.00
+D1_2022,Leonardo,12.25,1.36,fertilisation,topdressing,airplane_sprayer,Urea 46%,120.00,kg/ha,12.25,0.74,55.20,0.00,0.00,0.00,55.20,0.00,0.00,0.00,40.59,0.00,0.00,0.00,"2,022.00",6.00,14.00
+D1_2022,Leonardo,12.25,1.36,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,6.60,0.40,45.00,45.00,45.00,0.00,24.24,24.24,24.24,0.00,33.09,33.09,33.09,0.00,"2,022.00",9.00,5.00
+D1_2023,Carnaroli,17.99,4.90,fertilisation,basal_fertilisation,centrifugal_spreader,08-20-30,300.00,kg/ha,17.99,0.20,24.00,60.00,90.00,0.00,24.00,60.00,90.00,0.00,4.90,12.24,18.37,0.00,"2,023.00",5.00,15.00
+D1_2023,Carnaroli,17.99,4.90,fertilisation,topdressing,centrifugal_spreader,Urea 46%,50.00,kg/ha,17.99,0.20,23.00,0.00,0.00,0.00,23.00,0.00,0.00,0.00,4.69,0.00,0.00,0.00,"2,023.00",7.00,25.00
+D1_2024,All,24.80,5.68,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,300.00,kg/ha,24.80,0.18,60.00,60.00,0.00,0.00,60.00,60.00,0.00,0.00,10.56,10.56,0.00,0.00,"2,024.00",5.00,15.00
+D1_2024,All,24.80,5.68,fertilisation,topdressing,centrifugal_spreader,Nexur S (38%),200.00,kg/ha,24.80,0.18,76.00,0.00,0.00,0.00,76.00,0.00,0.00,0.00,13.38,0.00,0.00,0.00,"2,024.00",7.00,20.00
+D2_2022,Luna CL,18.22,1.23,fertilisation,topdressing,airplane_sprayer,Urea 46%,150.00,kg/ha,18.21,0.81,69.00,0.00,0.00,0.00,68.96,0.00,0.00,0.00,56.10,0.00,0.00,0.00,"2,022.00",6.00,11.00
+D2_2022,Luna CL,18.22,1.23,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,500.00,kg/ha,18.21,0.81,75.00,75.00,75.00,0.00,74.96,74.96,74.96,0.00,60.98,60.98,60.98,0.00,"2,022.00",8.00,5.00
+D2_2023,Luna CL,18.22,4.84,fertilisation,topdressing,centrifugal_spreader,Urea 46%,80.00,kg/ha,18.22,0.21,36.80,0.00,0.00,0.00,36.80,0.00,0.00,0.00,7.60,0.00,0.00,0.00,"2,023.00",1.00,8.00
+D2_2023,Luna CL,18.22,4.84,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,18.22,0.21,45.00,45.00,45.00,0.00,45.00,45.00,45.00,0.00,9.30,9.30,9.30,0.00,"2,023.00",4.00,24.00
+D2_2024,PVL136IT,18.22,6.77,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,400.00,kg/ha,18.22,0.15,60.00,60.00,60.00,0.00,60.00,60.00,60.00,0.00,8.86,8.86,8.86,0.00,"2,024.00",5.00,15.00
+D2_2024,PVL136IT,18.22,6.77,fertilisation,topdressing,centrifugal_spreader,Urea 46%,100.00,kg/ha,18.22,0.15,46.00,0.00,0.00,0.00,46.00,0.00,0.00,0.00,6.79,0.00,0.00,0.00,"2,024.00",7.00,20.00
+NT1_2024,Ronaldo,12.70,7.11,fertilisation,basal_fertilisation,centrifugal_spreader,20-20-00,330.00,kg/ha,30.90,0.34,66.00,66.00,0.00,0.00,160.58,160.58,0.00,0.00,9.28,9.28,0.00,0.00,"2,024.00",5.00,20.00
+NT1_2024,Ronaldo,7.00,7.11,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,330.00,kg/ha,7.00,0.14,49.50,49.50,49.50,0.00,49.50,49.50,49.50,0.00,6.96,6.96,6.96,0.00,"2,024.00",5.00,20.00
+NT1_2024,Ronaldo,37.90,7.11,fertilisation,topdressing,centrifugal_spreader,Nitroagro 40,230.00,kg/ha,37.90,0.14,92.00,0.00,0.00,0.00,92.00,0.00,0.00,0.00,12.94,0.00,0.00,0.00,"2,024.00",7.00,10.00
+NT1_2023,Velox,14.92,6.49,fertilisation,topdressing,centrifugal_spreader,18-46-00,120.00,kg/ha,14.92,0.15,21.60,55.20,0.00,0.00,21.60,55.20,0.00,0.00,3.33,8.51,0.00,0.00,"2,023.00",2.00,5.00
+NT1_2023,Velox,14.92,6.49,fertilisation,topdressing,centrifugal_spreader,Nitroagro 40,170.00,kg/ha,14.92,0.15,68.00,0.00,0.00,0.00,68.00,0.00,0.00,0.00,10.48,0.00,0.00,0.00,"2,023.00",5.00,2.00
+NT2_2022,Luna CL,20.42,4.10,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,380.00,kg/ha,20.42,0.24,57.00,57.00,57.00,0.00,57.00,57.00,57.00,0.00,13.90,13.90,13.90,0.00,"2,022.00",4.00,15.00
+NT2_2022,Luna CL,20.42,4.10,fertilisation,topdressing,centrifugal_spreader,Urea 46%,125.00,kg/ha,3.00,0.04,57.50,0.00,0.00,0.00,8.45,0.00,0.00,0.00,14.02,0.00,0.00,0.00,"2,022.00",4.00,15.00
+NT2_2023,PVL 136 IT,20.19,7.31,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,250.00,kg/ha,20.19,0.14,37.50,37.50,37.50,0.00,37.50,37.50,37.50,0.00,5.13,5.13,5.13,0.00,"2,023.00",4.00,19.00
+NT2_2023,PVL 136 IT,20.19,7.31,fertilisation,topdressing,centrifugal_spreader,Urea 46%,200.00,kg/ha,20.19,0.14,92.00,0.00,0.00,0.00,92.00,0.00,0.00,0.00,12.59,0.00,0.00,0.00,"2,023.00",6.00,20.00
+NT2_2024,PVL 136 IT,20.19,4.77,fertilisation,basal_fertilisation,centrifugal_spreader,15-15-15,300.00,kg/ha,20.19,0.21,45.00,45.00,45.00,0.00,45.00,45.00,45.00,0.00,9.44,9.44,9.44,0.00,"2,024.00",4.00,19.00
+NT2_2024,PVL 136 IT,20.19,4.77,fertilisation,topdressing,centrifugal_spreader,Urea 46%,100.00,kg/ha,20.19,0.21,46.00,0.00,0.00,0.00,46.00,0.00,0.00,0.00,9.65,0.00,0.00,0.00,"2,024.00",6.00,1.00

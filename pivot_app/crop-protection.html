@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Protection Pivot Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">Aparroz | Crop Protection</p>
+          <h1>Pivot Explorer</h1>
+          <p class="lede">
+            Filter by season, farmer, or active substance to see how protection operations stack up.
+          </p>
+        </div>
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Interactive pivot &amp; detail view</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel filters">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Filters</p>
+              <h2>Slice the data</h2>
+            </div>
+            <div class="panel-actions">
+              <a class="ghost" href="./index.html">Home</a>
+              <a class="ghost" href="./sowing.html">Sowing</a>
+              <a class="ghost" href="./fertilisation.html">Fertilisation</a>
+              <a class="ghost" href="./machines.html">Machines</a>
+              <a class="ghost" href="./singlescore.html">Singlescore</a>
+              <a class="ghost" href="./characterisation.html">Characterisation</a>
+              <a class="ghost" href="./lca.html">LCA (crop)</a>
+              <a class="ghost" href="./lca-sowing.html">LCA (sowing)</a>
+              <a class="ghost" href="./lca-fertilisation.html">LCA (fert)</a>
+              <a class="ghost" href="./lca-machines.html">LCA (machines)</a>
+              <button class="ghost" id="reset-filters">Reset</button>
+            </div>
+          </div>
+          <div class="filter-grid">
+            <label class="field">
+              <span>Season</span>
+              <select id="season-filter"></select>
+            </label>
+            <label class="field">
+              <span>Farmer ID</span>
+              <select id="farmer-filter"></select>
+            </label>
+            <label class="field">
+              <span>Operation type</span>
+              <select id="operation-filter"></select>
+            </label>
+            <label class="field">
+              <span>Active substance</span>
+              <select id="substance-filter"></select>
+            </label>
+            <label class="field">
+              <span>Target (enemy)</span>
+              <select id="enemy-filter"></select>
+            </label>
+            <label class="field wide">
+              <span>Quick search</span>
+              <input
+                id="search-filter"
+                type="search"
+                placeholder="Product, substance, variety, stage..."
+              />
+            </label>
+          </div>
+          <div class="chip" id="active-filters"></div>
+        </section>
+
+        <section class="panel stats">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>Operations in view</h2>
+            </div>
+          </div>
+          <div class="stat-grid" id="stat-grid"></div>
+        </section>
+
+        <section class="panel pivot">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Pivot</p>
+              <h2>Active substance by operation</h2>
+            </div>
+            <div class="chip muted" id="pivot-count"></div>
+          </div>
+          <div id="pivot-table" class="table-shell"></div>
+        </section>
+
+        <section class="panel detail">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Detail</p>
+              <h2>Underlying operations</h2>
+            </div>
+            <div class="chip muted" id="detail-count"></div>
+          </div>
+          <div id="detail-table" class="table-shell"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LCA Calculator — Sowing</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-default-dataset="sowing">
+    <div class="page">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">Aparroz | LCA</p>
+          <h1>Seed LCA Calculator</h1>
+          <p class="lede">
+            Combine seed rates with singlescore impacts (Seeds) to see sowing burdens by impact category.
+          </p>
+        </div>
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Seeds × impact</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel filters">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Filters</p>
+              <h2>Slice the data</h2>
+            </div>
+            <div class="panel-actions">
+              <a class="ghost" href="./index.html">Home</a>
+              <a class="ghost" href="./lca.html">LCA Crop protection</a>
+              <a class="ghost" href="./crop-protection.html">Crop protection</a>
+              <a class="ghost" href="./sowing.html">Sowing</a>
+              <a class="ghost" href="./fertilisation.html">Fertilisation</a>
+              <a class="ghost" href="./machines.html">Machines</a>
+              <a class="ghost" href="./singlescore.html">Singlescore</a>
+              <button class="ghost" id="reset-filters">Reset</button>
+            </div>
+          </div>
+          <div class="filter-grid">
+            <label class="field">
+              <span>Season</span>
+              <select id="season-filter"></select>
+            </label>
+            <label class="field">
+              <span>Farmer ID</span>
+              <select id="farmer-filter"></select>
+            </label>
+            <label class="field">
+              <span>Operation</span>
+              <select id="operation-filter"></select>
+            </label>
+            <label class="field">
+              <span>Impact basis</span>
+              <select id="basis-filter">
+                <option value="ha">Per hectare (kg/ha)</option>
+                <option value="tonne">Per tonne (kg/t)</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Impact type</span>
+              <select id="score-filter">
+                <option value="single">Single score</option>
+                <option value="chara">Characterisation</option>
+              </select>
+            </label>
+          </div>
+          <div class="chip" id="active-filters"></div>
+        </section>
+
+        <section class="panel stats">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>Filtered scope</h2>
+            </div>
+          </div>
+          <div class="stat-grid" id="stat-grid"></div>
+        </section>
+
+        <section class="panel pivot">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Impact</p>
+              <h2>Totals by impact category</h2>
+            </div>
+            <div class="chip muted" id="impact-count"></div>
+          </div>
+          <div id="impact-bars" class="bar-chart"></div>
+        </section>
+
+        <section class="panel detail">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Detail</p>
+              <h2>Underlying operations</h2>
+            </div>
+            <div class="chip muted" id="detail-count"></div>
+          </div>
+          <div id="detail-table" class="table-shell"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./lca-sowing.js"></script>
+  </body>
+</html>

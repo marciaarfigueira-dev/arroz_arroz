@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Singlescore Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">Aparroz | Singlescore</p>
+          <h1>Impact Explorer</h1>
+          <p class="lede">
+            Pick a product and review its impact categories with totals and top contributors.
+          </p>
+        </div>
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Product impacts</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel filters">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Select</p>
+              <h2>Product</h2>
+            </div>
+            <div class="panel-actions">
+              <a class="ghost" href="./index.html">Home</a>
+              <a class="ghost" href="./crop-protection.html">Crop protection</a>
+              <a class="ghost" href="./sowing.html">Sowing</a>
+              <a class="ghost" href="./fertilisation.html">Fertilisation</a>
+              <a class="ghost" href="./machines.html">Machines</a>
+            </div>
+          </div>
+          <div class="filter-grid">
+            <label class="field">
+              <span>Product</span>
+              <select id="product-filter"></select>
+            </label>
+            <label class="field">
+              <span>Contributors for</span>
+              <select id="category-filter"></select>
+            </label>
+          </div>
+          <div class="chip" id="functional-unit"></div>
+        </section>
+
+        <section class="panel stats">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Totals</p>
+              <h2>Impact categories</h2>
+            </div>
+          </div>
+          <div id="bar-chart" class="bar-chart"></div>
+          <div id="bar-legend" class="legend"></div>
+        </section>
+
+        <section class="panel pivot">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Table</p>
+              <h2>Impacts by category</h2>
+            </div>
+          </div>
+          <div id="impact-table" class="table-shell"></div>
+        </section>
+
+        <section class="panel detail">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Drivers</p>
+              <h2>Top contributors</h2>
+            </div>
+            <div class="chip muted" id="contrib-count"></div>
+          </div>
+          <div id="contrib-chart" class="bar-chart"></div>
+          <div id="contrib-table" class="table-shell"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./singlescore.js"></script>
+  </body>
+</html>

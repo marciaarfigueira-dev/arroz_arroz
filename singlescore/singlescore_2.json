@@ -1,0 +1,2674 @@
+{
+  "product_id": "singlescore_2_1",
+  "functional_unit": "1 kg Herbicide, at plant {RER} Economic, U (of project Agri-footprint - economic - unit)",
+  "categories": [
+    {
+      "impact_category": "Total",
+      "unit": "mPt",
+      "total": 1.276644,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.374662,
+          "share": 0.29347414001084093
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.247138,
+          "share": 0.19358411585375407
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.181451,
+          "share": 0.1421312441056395
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.096755,
+          "share": 0.07578855185940639
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.085152,
+          "share": 0.06669987874458347
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.083235,
+          "share": 0.06519828550480793
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.077867,
+          "share": 0.06099351111194665
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.076985,
+          "share": 0.06030263722697949
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.018494,
+          "share": 0.014486419080025443
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.016933,
+          "share": 0.013263681966155015
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.008304,
+          "share": 0.006504554127853968
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.003886,
+          "share": 0.003043918273222606
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.003175,
+          "share": 0.0024869893251368434
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001468,
+          "share": 0.001149889867496342
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000584,
+          "share": 0.0004574493750802887
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000299,
+          "share": 0.0002342078136113122
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000257,
+          "share": 0.00020130905718430514
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change",
+      "unit": "mPt",
+      "total": 0.355628,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.086148,
+          "share": 0.2422418932142576
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.082684,
+          "share": 0.23250137784426422
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.056826,
+          "share": 0.15979056767183686
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.04118,
+          "share": 0.11579515673681488
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.038088,
+          "share": 0.10710067823680924
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.022247,
+          "share": 0.06255694152316466
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.008427,
+          "share": 0.023696109417706144
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.007726,
+          "share": 0.021724948541734623
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.005752,
+          "share": 0.016174204505831936
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.004132,
+          "share": 0.01161888265265952
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000849,
+          "share": 0.0023873260823107294
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000787,
+          "share": 0.0022129866039794395
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000544,
+          "share": 0.0015296883260035767
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000148,
+          "share": 0.0004161652063392084
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 7.5e-05,
+          "share": 0.00021089453023946368
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.25e-05,
+          "share": 3.5149088373243956e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Ozone depletion",
+      "unit": "mPt",
+      "total": 0.001732,
+      "contributors": [
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00066,
+          "share": 0.3810623556581986
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000279,
+          "share": 0.16108545034642033
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000258,
+          "share": 0.14896073903002308
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000195,
+          "share": 0.1125866050808314
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.000129,
+          "share": 0.07448036951501154
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 7.55e-05,
+          "share": 0.043591224018475754
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 6.73e-05,
+          "share": 0.038856812933025404
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 5.03e-05,
+          "share": 0.029041570438799076
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 8.05e-06,
+          "share": 0.004647806004618937
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.85e-06,
+          "share": 0.0022228637413394922
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.47e-06,
+          "share": 0.002003464203233256
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.24e-06,
+          "share": 0.0018706697459584295
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.09e-07,
+          "share": 0.00017840646651270207
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.26e-07,
+          "share": 7.274826789838337e-05
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 9.9e-08,
+          "share": 5.715935334872979e-05
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.77e-08,
+          "share": 2.1766743648960737e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Ionising radiation",
+      "unit": "mPt",
+      "total": 0.047106,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.022759,
+          "share": 0.4831443977412644
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.015013,
+          "share": 0.31870674648664715
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.005877,
+          "share": 0.12476117692013756
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.002424,
+          "share": 0.05145841294102662
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000247,
+          "share": 0.005243493397868637
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000203,
+          "share": 0.004309429796628879
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000197,
+          "share": 0.004182057487368912
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000182,
+          "share": 0.0038636267142189954
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.000128,
+          "share": 0.0027172759308792933
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.94e-05,
+          "share": 0.0010486986795737274
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.5e-05,
+          "share": 0.0003184307731499172
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.21e-06,
+          "share": 0.00011060162187407123
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.56e-06,
+          "share": 5.434551861758587e-05
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.72e-06,
+          "share": 3.6513395321190504e-05
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 9.93e-07,
+          "share": 2.108011718252452e-05
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.32e-07,
+          "share": 7.047934445718167e-06
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Photochemical ozone formation",
+      "unit": "mPt",
+      "total": 0.029268,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.008889,
+          "share": 0.30371053710537105
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.005864,
+          "share": 0.2003553368867022
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.005863,
+          "share": 0.20032116987836546
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.002296,
+          "share": 0.07844745114117807
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.001661,
+          "share": 0.05675140084734181
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001536,
+          "share": 0.052480524805248056
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.000883,
+          "share": 0.03016946836135028
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000848,
+          "share": 0.028973623069564032
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000598,
+          "share": 0.02043187098537652
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00034,
+          "share": 0.011616782834495012
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000293,
+          "share": 0.010010933442667761
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000103,
+          "share": 0.0035192018586852536
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.68e-05,
+          "share": 0.001940686073527402
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.19e-05,
+          "share": 0.0007482574825748258
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.37e-05,
+          "share": 0.00046808801421347547
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.55e-06,
+          "share": 8.71258712587126e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Particulate matter",
+      "unit": "mPt",
+      "total": 0.0406,
+      "contributors": [
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.009422,
+          "share": 0.2320689655172414
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.008981,
+          "share": 0.22120689655172412
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.005924,
+          "share": 0.14591133004926107
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.005839,
+          "share": 0.14381773399014777
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.003596,
+          "share": 0.08857142857142858
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.002319,
+          "share": 0.05711822660098522
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001285,
+          "share": 0.03165024630541872
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000714,
+          "share": 0.017586206896551725
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00066,
+          "share": 0.01625615763546798
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000595,
+          "share": 0.014655172413793105
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000515,
+          "share": 0.012684729064039411
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000254,
+          "share": 0.00625615763546798
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00023,
+          "share": 0.0056650246305418725
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000201,
+          "share": 0.004950738916256158
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.4e-05,
+          "share": 0.0008374384236453202
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.81e-05,
+          "share": 0.00044581280788177344
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.24e-05,
+          "share": 0.0003054187192118227
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer",
+      "unit": "mPt",
+      "total": 0.009946,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.003484,
+          "share": 0.3502915745023125
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.002298,
+          "share": 0.23104765734968832
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.001558,
+          "share": 0.15664588779408806
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0009,
+          "share": 0.09048863864870299
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000722,
+          "share": 0.07259199678262618
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000382,
+          "share": 0.03840739995978283
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000206,
+          "share": 0.020711843957369795
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 9.27e-05,
+          "share": 0.009320329780816409
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 8.57e-05,
+          "share": 0.008616529257993163
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 7.36e-05,
+          "share": 0.007399959782827268
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.88e-05,
+          "share": 0.0059119243917152625
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.34e-05,
+          "share": 0.0033581339231852
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.16e-05,
+          "share": 0.003177156645887794
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 8.3e-06,
+          "share": 0.0008345063342047054
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.76e-06,
+          "share": 0.0006796702191835914
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.23e-06,
+          "share": 0.00032475366981701186
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.86e-06,
+          "share": 0.00018700985320731952
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer",
+      "unit": "mPt",
+      "total": 0.008272,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001718,
+          "share": 0.20768858800773693
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001323,
+          "share": 0.15993713733075435
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001281,
+          "share": 0.1548597678916828
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.001133,
+          "share": 0.13696808510638298
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000778,
+          "share": 0.09405222437137331
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.00069,
+          "share": 0.08341392649903288
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000444,
+          "share": 0.053675048355899424
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.000384,
+          "share": 0.04642166344294004
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000176,
+          "share": 0.02127659574468085
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000163,
+          "share": 0.019705029013539654
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000135,
+          "share": 0.016320116054158607
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.8e-05,
+          "share": 0.0021760154738878143
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.37e-05,
+          "share": 0.0016561895551257253
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 8.16e-06,
+          "share": 0.0009864603481624758
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.06e-06,
+          "share": 0.0004908123791102515
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.95e-06,
+          "share": 0.0002357350096711799
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.36e-06,
+          "share": 0.0001644100580270793
+        }
+      ]
+    },
+    {
+      "impact_category": "Acidification",
+      "unit": "mPt",
+      "total": 0.057872,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.020864,
+          "share": 0.36051976776333977
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.013762,
+          "share": 0.2378006635333149
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.008895,
+          "share": 0.1537012717721869
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.005388,
+          "share": 0.09310201824716617
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.002825,
+          "share": 0.048814625380149294
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.001502,
+          "share": 0.025953829140171414
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001389,
+          "share": 0.024001244124965442
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000907,
+          "share": 0.015672518661874482
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00077,
+          "share": 0.013305225324854852
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000549,
+          "share": 0.00948645286148742
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000443,
+          "share": 0.007654824440143765
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000208,
+          "share": 0.0035941387890517
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000177,
+          "share": 0.003058473873375726
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000148,
+          "share": 0.0025573679845175556
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.55e-05,
+          "share": 0.00044062759192701133
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.41e-05,
+          "share": 0.00024364113906552391
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.64e-06,
+          "share": 9.745645562620957e-05
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, freshwater",
+      "unit": "mPt",
+      "total": 0.115568,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.057643,
+          "share": 0.4987799390834833
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.038023,
+          "share": 0.32900976048733216
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.014886,
+          "share": 0.12880728229267616
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.001957,
+          "share": 0.016933753288107433
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000723,
+          "share": 0.006256057040011076
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000568,
+          "share": 0.004914855323272878
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000509,
+          "share": 0.004404333379482209
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.00033,
+          "share": 0.0028554617195071298
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000305,
+          "share": 0.002639138861968711
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000225,
+          "share": 0.0019469057178457703
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000224,
+          "share": 0.0019382528035442337
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 7.37e-05,
+          "share": 0.000637719784023259
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.88e-05,
+          "share": 0.00042226221791499374
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.64e-05,
+          "share": 0.0001419077945452028
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.63e-05,
+          "share": 0.00014104250311504913
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.3e-05,
+          "share": 0.00011248788591997784
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 7.86e-06,
+          "share": 6.801190641007891e-05
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, marine",
+      "unit": "mPt",
+      "total": 0.01913,
+      "contributors": [
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.006038,
+          "share": 0.31562990067956087
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.004721,
+          "share": 0.2467851542080502
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.003114,
+          "share": 0.16278097229482488
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.002053,
+          "share": 0.107318348144276
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.001219,
+          "share": 0.06372190277051751
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000564,
+          "share": 0.029482488238369055
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000522,
+          "share": 0.02728698379508625
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000315,
+          "share": 0.016466283324621012
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000209,
+          "share": 0.010925248301097753
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000166,
+          "share": 0.008677469942498692
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 8.4e-05,
+          "share": 0.004391008886565603
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.56e-05,
+          "share": 0.0023836905384213274
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.65e-05,
+          "share": 0.0013852587558808155
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 2.27e-05,
+          "share": 0.001186617877679038
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.92e-05,
+          "share": 0.0010036591740721378
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.51e-06,
+          "share": 0.0003403031887088343
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.9e-06,
+          "share": 0.00020386826973340302
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, terrestrial",
+      "unit": "mPt",
+      "total": 0.019312,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.005768,
+          "share": 0.29867439933719964
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.003805,
+          "share": 0.19702775476387738
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.003128,
+          "share": 0.1619718309859155
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.002088,
+          "share": 0.10811930405965203
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.00149,
+          "share": 0.07715410107705054
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000849,
+          "share": 0.04396230323115162
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000785,
+          "share": 0.04064830157415079
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000461,
+          "share": 0.02387116818558409
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000319,
+          "share": 0.016518227009113505
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000242,
+          "share": 0.012531068765534384
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000138,
+          "share": 0.0071458160729080365
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000127,
+          "share": 0.006576222038111019
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.46e-05,
+          "share": 0.003345070422535211
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.91e-05,
+          "share": 0.0015068351284175641
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 9.57e-06,
+          "share": 0.0004955468102734051
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.54e-06,
+          "share": 0.00028686826843413426
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.99e-06,
+          "share": 0.00015482601491300746
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater",
+      "unit": "mPt",
+      "total": 0.160826,
+      "contributors": [
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.059826,
+          "share": 0.37199209083108453
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.04884,
+          "share": 0.30368224043376074
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.019922,
+          "share": 0.12387300560854587
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.013141,
+          "share": 0.0817094250929576
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.009131,
+          "share": 0.05677564572892443
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.005145,
+          "share": 0.031991095967070005
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000931,
+          "share": 0.005788864984517429
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000908,
+          "share": 0.005645853282429458
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00076,
+          "share": 0.00472560406899382
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000688,
+          "share": 0.004277915262457563
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000636,
+          "share": 0.003954584457736933
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000371,
+          "share": 0.002306840933679878
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000283,
+          "share": 0.0017596657256911195
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000154,
+          "share": 0.0009575566139803266
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.84e-05,
+          "share": 0.0003009463643938169
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.6e-05,
+          "share": 0.00016166540236031487
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.58e-05,
+          "share": 9.82428214343452e-05
+        }
+      ]
+    },
+    {
+      "impact_category": "Land use",
+      "unit": "mPt",
+      "total": 0.009034,
+      "contributors": [
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.005933,
+          "share": 0.6567411999114456
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001297,
+          "share": 0.14356874031436795
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.000856,
+          "share": 0.09475315474872703
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000419,
+          "share": 0.04638034093424839
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000335,
+          "share": 0.0370821341598406
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.65e-05,
+          "share": 0.005147221607261456
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 4.27e-05,
+          "share": 0.004726588443657294
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 3.66e-05,
+          "share": 0.004051361523134824
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.39e-05,
+          "share": 0.0037524905911002875
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.33e-05,
+          "share": 0.001472216072614567
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.08e-05,
+          "share": 0.0011954837281381448
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.72e-06,
+          "share": 0.0006331636041620544
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.18e-06,
+          "share": 0.00024131060438344033
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.15e-06,
+          "share": 0.0001272968784591543
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 7.94e-07,
+          "share": 8.789019260571176e-05
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.09e-07,
+          "share": 6.74119991144565e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Water use",
+      "unit": "mPt",
+      "total": 0.014282,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.006071,
+          "share": 0.42508052093544324
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.004004,
+          "share": 0.28035289175185546
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.001568,
+          "share": 0.10978854502170564
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000874,
+          "share": 0.06119591093684358
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00074,
+          "share": 0.05181347150259068
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.000502,
+          "share": 0.03514913877608178
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000138,
+          "share": 0.009662512253185828
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.000112,
+          "share": 0.007842038930121831
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 8.91e-05,
+          "share": 0.00623862204173085
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 7.39e-05,
+          "share": 0.005174345329785744
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.84e-05,
+          "share": 0.0047892452037529756
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.69e-05,
+          "share": 0.0011833076599915978
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.58e-05,
+          "share": 0.0011062876347850443
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.94e-06,
+          "share": 0.00027587172664892876
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.17e-06,
+          "share": 0.00022195770900434113
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.31e-06,
+          "share": 9.172384820053214e-05
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Resource use, fossils",
+      "unit": "mPt",
+      "total": 0.3153,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.089582,
+          "share": 0.2841167142404059
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.059091,
+          "share": 0.18741198858230254
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.05548,
+          "share": 0.1759594037424675
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.034585,
+          "share": 0.10968918490326672
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.031988,
+          "share": 0.10145258483983507
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.023134,
+          "share": 0.07337139232477005
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.006594,
+          "share": 0.020913415794481444
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.005655,
+          "share": 0.017935299714557564
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.004951,
+          "share": 0.015702505550269582
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.002977,
+          "share": 0.009441801458928005
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000566,
+          "share": 0.0017951157627656199
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000336,
+          "share": 0.0010656517602283537
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000232,
+          "share": 0.0007358071677767206
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 9.92e-05,
+          "share": 0.0003146209958769426
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.42e-05,
+          "share": 7.675229939739929e-05
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.29e-06,
+          "share": 1.9949254678084362e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Resource use, minerals and metals",
+      "unit": "mPt",
+      "total": 0.072768,
+      "contributors": [
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.03662,
+          "share": 0.5032431838170625
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.024156,
+          "share": 0.3319591029023747
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.009457,
+          "share": 0.12996097185576078
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.001233,
+          "share": 0.016944261213720314
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.00033,
+          "share": 0.004534960422163588
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000308,
+          "share": 0.004232629727352682
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.000285,
+          "share": 0.00391655672823219
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.000126,
+          "share": 0.0017315303430079155
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 9.8e-05,
+          "share": 0.0013467458223394898
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 5.29e-05,
+          "share": 0.0007269678979771328
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 3.99e-05,
+          "share": 0.0005483179419525067
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 2.7e-05,
+          "share": 0.000371042216358839
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 1.77e-05,
+          "share": 0.00024323878627968338
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 7.83e-06,
+          "share": 0.00010760224274406333
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 6.51e-06,
+          "share": 8.946240105540898e-05
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 4.5e-06,
+          "share": 6.184036939313985e-05
+        },
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Fossil",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Biogenic",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Land use and LU change",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - organics",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - inorganics",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - metals",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - organics",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - inorganics",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - metals",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - organics",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - inorganics",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - metals",
+      "unit": "mPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Herbicide, at plant {RER} Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Benzene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Emulsifier, proxy (based on AFP4.0: Soap stock (coconut oil refining), at plant {PH}) Economic, U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Kaolin {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Naphtha {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Polypropylene, granulate {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Packaging film, low density polyethylene {GLO}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, heavy fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, other than natural gas {RoW}| heat production, light fuel oil, at industrial furnace 1MW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Heat, district or industrial, natural gas {Europe without Switzerland}| heat production, natural gas, at industrial furnace >100kW | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (2)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Electricity, low voltage {RER}| market group for | Cut-off, S - Copied from ecoinvent U (3)",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Wastewater, average {RoW}| market for wastewater, average | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        },
+        {
+          "name": "Municipal solid waste {RoW}| market for | Cut-off, S - Copied from ecoinvent U",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    }
+  ]
+}

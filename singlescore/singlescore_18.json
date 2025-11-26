@@ -1,0 +1,354 @@
+{
+  "product_id": "singlescore_18_1",
+  "functional_unit": "1 m3 water (of project Rice_Parametrization)",
+  "categories": [
+    {
+      "impact_category": "Total",
+      "unit": "µPt",
+      "total": 368.0255,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 368.0255,
+          "share": 1.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ozone depletion",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ionising radiation",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Photochemical ozone formation",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Particulate matter",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Acidification",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, freshwater",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, marine",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Eutrophication, terrestrial",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Land use",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Water use",
+      "unit": "µPt",
+      "total": 368.0255,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 368.0255,
+          "share": 1.0
+        }
+      ]
+    },
+    {
+      "impact_category": "Resource use, fossils",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Resource use, minerals and metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Fossil",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Biogenic",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Climate change - Land use and LU change",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - organics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - inorganics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - organics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - inorganics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Human toxicity, cancer - metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - organics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - inorganics",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - metals",
+      "unit": "µPt",
+      "total": 0.0,
+      "contributors": [
+        {
+          "name": "Water",
+          "score": 0.0,
+          "share": null
+        }
+      ]
+    }
+  ]
+}

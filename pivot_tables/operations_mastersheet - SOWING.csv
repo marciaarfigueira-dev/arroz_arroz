@@ -1,0 +1,81 @@
+dmu_id,variety,area_ha,productivity,year,month,day,operation_category,operation,equipment,product,dose_kg_ha,dose_unit,dose_kg/t,dose_unit,repetitions,covered_area
+C1_2022,Ronaldo,15.48,4.49,"2,022.00",5.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,155.00,kg/ha,34.50,kg/t,1.00,15.48
+C1_2022,Corimbo,1.50,3.48,"2,022.00",5.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,155.00,kg/ha,44.50,kg/t,1.00,1.50
+C1_2022,Sprint,18.30,4.44,"2,022.00",5.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,155.00,kg/ha,34.93,kg/t,1.00,18.30
+C1_2022,Leonardo,1.60,3.16,"2,022.00",5.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,155.00,kg/ha,49.04,kg/t,1.00,1.60
+C1_2022,JSendra,4.30,5.18,"2,022.00",5.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,30.91,kg/t,1.00,4.30
+C1_2022,PVL136IT,4.74,4.29,"2,022.00",5.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,150.00,kg/ha,34.93,kg/t,1.00,4.74
+C1_2023,Leonardo,28.40,4.00,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,55.00,kg/t,1.00,28.40
+C1_2023,Corimbo,4.01,2.16,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,170.00,kg/ha,78.70,kg/t,1.00,4.01
+C1_2023,PVL136IT,4.10,5.00,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,120.00,kg/ha,24.00,kg/t,1.00,4.10
+C1_2023,Telemaco,9.00,6.00,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,36.67,kg/t,1.00,9.00
+C1_2024,PVL136IT,6.31,6.00,"2,024.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,31.67,kg/t,1.00,6.31
+C1_2024,Leonardo,14.21,2.00,"2,024.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,95.00,kg/t,1.00,14.21
+C1_2024,Ronaldo,8.42,1.46,"2,024.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,130.14,kg/t,1.00,8.42
+C1_2024,DIVA PV,11.84,9.00,"2,024.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,21.11,kg/t,1.00,11.84
+C1_2024,Formula,4.73,9.00,"2,024.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,24.44,kg/t,1.00,4.73
+C2_2022,Ronaldo,34.06,5.46,"2,022.00",5.00,20.00,sowing,broadcast sowing,airplane_sprayer,Seeds,200.00,kg/ha,36.63,kg/t,1.00,34.06
+C2_2022,Gládio,75.37,7.70,"2,022.00",5.00,20.00,sowing,broadcast sowing,airplane_sprayer,Seeds,200.00,kg/ha,25.97,kg/t,1.00,75.37
+C2_2022,Selénio,1.95,5.93,"2,022.00",5.00,20.00,sowing,broadcast sowing,airplane_sprayer,Seeds,250.00,kg/ha,42.16,kg/t,1.00,1.95
+C2_2023,Selénio,2.22,6.08,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,180.00,kg/ha,29.61,kg/t,1.00,2.22
+C2_2023,Ronaldo,45.50,13.83,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,180.00,kg/ha,13.02,kg/t,1.00,45.50
+C2_2023,Leonardo,67.49,5.34,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,180.00,kg/ha,33.71,kg/t,1.00,67.49
+C2_2024,Formula,7.50,7.39,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,21.65,kg/t,1.00,7.50
+C2_2024,Ibérico,15.62,7.39,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,21.65,kg/t,1.00,15.62
+C2_2024,Leonardo,4.40,7.39,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,21.65,kg/t,1.00,4.40
+C2_2024,Ronaldo,90.70,7.39,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,21.65,kg/t,1.00,90.70
+C2_2024,Selénio,2.50,7.39,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,21.65,kg/t,1.00,2.50
+C3_2022,Sprint,26.31,4.99,"2,022.00",5.00,28.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,38.08,kg/t,1.00,26.31
+C3_2022,Telemaco,36.57,2.36,"2,022.00",5.00,28.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,80.51,kg/t,1.00,36.57
+C3_2022,Selénio,27.89,6.36,"2,022.00",5.00,28.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,29.87,kg/t,1.00,27.89
+C3_2022,JSendra,23.77,4.26,"2,022.00",5.00,28.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,44.60,kg/t,1.00,23.77
+C3_2023,Leonardo,34.38,9.61,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,16.65,kg/t,1.00,34.38
+C3_2023,Telemaco,38.89,3.88,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,180.00,kg/ha,46.39,kg/t,1.00,38.89
+C3_2023,Selénio,38.96,4.07,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,150.00,kg/ha,36.86,kg/t,1.00,38.96
+C3_2024,Selénio,20.00,3.81,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,49.87,kg/t,1.00,20.00
+C3_2024,Sintra,39.21,4.54,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,41.85,kg/t,1.00,39.21
+C3_2024,Ronaldo,5.52,7.90,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,27.85,kg/t,1.00,5.52
+C3_2024,Diva,23.70,8.96,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,21.21,kg/t,1.00,23.70
+C3_2024,JSendra,23.80,8.96,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,21.21,kg/t,,23.80
+C4_2022,Ronaldo,25.21,3.62,"2,022.00",5.00,30.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,60.77,kg/t,1.00,25.21
+C4_2023,Provisi PVL a,5.76,9.57,"2,023.00",5.00,29.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,200.00,kg/ha,20.90,kg/t,1.00,5.76
+C4_2023,Luna,18.08,2.89,"2,023.00",6.00,1.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,200.00,kg/ha,69.20,kg/t,1.00,18.08
+C4_2024,Formula,8.57,7.67,"2,024.00",5.00,3.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,170.00,kg/ha,22.16,kg/t,1.00,8.57
+C4_2024,Diva PV,15.30,8.61,"2,024.00",5.00,3.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,170.00,kg/ha,19.74,kg/t,1.00,15.30
+C5_2022,Ronaldo,25.75,5.66,"2,022.00",5.00,15.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,165.00,kg/ha,29.15,kg/t,1.00,25.75
+C5_2022,PVL,10.00,6.83,"2,022.00",5.00,27.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,145.00,kg/ha,21.23,kg/t,1.00,10.00
+C5_2023,Luna CL,21.44,6.69,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,205.00,kg/ha,30.64,kg/t,1.00,21.44
+C5_2023,PVL136 IT,14.00,5.29,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,120.00,kg/ha,22.68,kg/t,1.00,14.00
+C5_2024,Ronaldo,15.25,10.78,"2,024.00",5.00,18.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,200.00,kg/ha,18.55,kg/t,1.00,15.25
+C5_2024,Diva PV,20.19,6.25,"2,024.00",5.00,18.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,120.00,kg/ha,19.20,kg/t,1.00,20.19
+C6_2022,Ronaldo,73.11,2.15,"2,022.00",6.00,10.00,sowing,broadcast sowing,airplane_sprayer,Seeds,200.00,kg/ha,93.02,kg/t,1.00,73.11
+C6_2023,Ronaldo,71.09,2.88,"2,023.00",5.00,20.00,sowing,broadcast sowing,airplane_sprayer,Seeds,200.00,kg/ha,69.44,kg/t,1.00,71.09
+C6_2024,Diva PV,54.22,7.25,"2,024.00",6.00,6.00,sowing,broadcast sowing,airplane_sprayer,Seeds,180.00,kg/ha,24.83,kg/t,1.00,54.22
+C7_2023,Elettra,6.09,4.96,"2,023.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,32.26,kg/t,1.00,6.09
+C7_2023,Ronaldo,31.24,6.98,"2,023.00",7.00,5.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,22.92,kg/t,1.00,31.24
+C7_2024,Ronaldo,22.45,4.42,"2,024.00",6.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,170.00,kg/ha,38.46,kg/t,1.00,22.45
+C7_2024,Caravela,14.90,3.93,"2,024.00",6.00,24.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,170.00,kg/ha,43.26,kg/t,1.00,14.90
+C8_2022,PVL136IT,12.50,4.15,"2,022.00",5.00,27.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,140.00,kg/ha,33.73,kg/t,1.00,12.50
+C8_2022,Ronaldo,32.50,5.78,"2,022.00",5.00,27.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,200.00,kg/ha,34.60,kg/t,1.00,32.50
+C8_2022,Gládio,12.50,6.45,"2,022.00",5.00,27.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,240.00,kg/ha,37.21,kg/t,1.00,12.50
+C8_2022,Elettra,0.82,4.34,"2,022.00",5.00,27.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,200.00,kg/ha,46.08,kg/t,1.00,0.82
+C8_2023,PVL 136IT,37.80,3.17,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,130.00,kg/ha,41.01,kg/t,1.00,37.80
+C8_2023,Leonardo,14.34,14.11,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,130.00,kg/ha,9.21,kg/t,1.00,14.34
+C8_2023,Selénio,5.90,2.07,"2,023.00",5.00,25.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,130.00,kg/ha,62.80,kg/t,1.00,5.90
+C8_2024,Selénio,4.00,1.52,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,105.26,kg/t,1.00,4.00
+C8_2024,PVL,12.50,5.06,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,31.62,kg/t,1.00,12.50
+C8_2024,Ronaldo,17.20,3.98,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,40.20,kg/t,1.00,17.20
+C8_2024,Leonardo,25.42,3.77,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,42.44,kg/t,1.00,25.42
+D1_2022,Leonardo,12.25,1.36,"2,022.00",4.00,24.00,sowing,row sowing,seeder,Seeds,120.00,kg/ha,88.24,kg/t,1.00,12.25
+D1_2023,Carnaroli,17.99,4.90,"2,023.00",5.00,15.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,44.90,kg/t,1.00,17.99
+D1_2024,Ronaldo,13.00,6.42,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,24.92,kg/t,1.00,13.00
+D1_2024,Carnaroli,10.00,4.39,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,36.45,kg/t,1.00,10.00
+D1_2024,PVL,1.80,5.56,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,160.00,kg/ha,28.78,kg/t,1.00,1.80
+D2_2022,Luna,18.21,1.23,"2,022.00",5.00,20.00,sowing,row sowing,seeder,Seeds,200.00,kg/ha,162.60,kg/t,1.00,18.21
+D2_2023,Luna CL,18.22,4.84,"2,023.00",5.00,10.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,220.00,kg/ha,45.45,kg/t,1.00,18.22
+D2_2024,PVL136IT,18.22,6.77,"2,024.00",6.00,6.00,sowing,broadcast sowing,centrifugal_spreader,Seeds,190.00,kg/ha,28.06,kg/t,1.00,18.22
+NT1_2024,Ronaldo,37.90,7.11,"2,024.00",5.00,26.00,sowing,row sowing,seeder,Seeds,230.00,kg/ha,32.35,kg/t,1.00,37.90
+NT2_2022,Luna CL,20.42,4.07,"2,022.00",4.00,29.00,sowing,row sowing,seeder,Seeds,135.00,kg/ha,33.17,kg/t,1.00,20.42
+NT2_2023,PVL 136 IT,20.19,7.31,"2,023.00",5.00,1.00,sowing,row sowing,seeder,Seeds,150.00,kg/ha,20.53,kg/t,1.00,20.19
+NT2_2024,PVL 136 IT,20.19,4.77,"2,024.00",5.00,10.00,sowing,row sowing,seeder,Seeds,150.00,kg/ha,31.47,kg/t,1.00,20.19
+NT1_2023,Velox,14.92,6.49,"2,023.00",6.00,6.00,sowing,row sowing,seeder,Seeds,200.00,kg/ha,30.82,kg/t,1.00,14.92
