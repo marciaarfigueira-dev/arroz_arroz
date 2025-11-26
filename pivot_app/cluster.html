@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | Clustering of Farmers</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .scatter {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .legend {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      display: inline-block;
+    }
+
+    .tooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(15, 23, 42, 0.95);
+      color: #e2e8f0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      font-size: 12px;
+      display: none;
+      z-index: 10;
+      max-width: 240px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>Clustering of Farmers</h1>
+        <p class="lede">
+          PCA + hierarchical clustering on four drivers per farmer-season: N rate, pesticide load, yield, and mechanisation.
+        </p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Pilot clusters</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Scope</h2>
+          </div>
+          <div class="panel-actions">
+            <a class="ghost" href="./index.html">Home</a>
+            <button class="ghost" id="reset-filters">Reset</button>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="field">
+            <span>Season</span>
+            <select id="season-filter"></select>
+          </label>
+          <label class="field">
+            <span>Farmer</span>
+            <select id="farmer-filter"></select>
+          </label>
+          <label class="field">
+            <span>Cluster</span>
+            <select id="cluster-filter"></select>
+          </label>
+        </div>
+        <div class="chip" id="active-filters"></div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Clusters</h2>
+          </div>
+        </div>
+        <div class="stat-grid" id="stat-grid"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+      <div>
+        <p class="eyebrow">Projection</p>
+        <h2>PCA scatter (PC1 vs PC2)</h2>
+      </div>
+      <div class="chip muted" id="point-count"></div>
+    </div>
+    <div id="scatter" class="scatter">
+      <div id="tooltip" class="tooltip"></div>
+    </div>
+    <div id="legend" class="legend"></div>
+  </section>
+
+      <section class="panel detail">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Detail</p>
+            <h2>Farm-year metrics</h2>
+          </div>
+          <div class="panel-actions">
+            <div class="chip muted" id="detail-count"></div>
+            <button class="ghost" id="download-csv">Download CSV</button>
+          </div>
+        </div>
+        <div id="detail-table" class="table-shell"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./cluster.js"></script>
+</body>
+
+</html>

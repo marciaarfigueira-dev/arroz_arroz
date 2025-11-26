@@ -4,20 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aparroz Static Scenarios</title>
+  <title>Aparroz | Clustered LCA results</title>
   <link rel="stylesheet" href="./styles.css" />
-  <style>
-    .hero {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 14px;
-      margin-top: 18px;
-    }
-
-    .bar-chart {
-      margin-top: 10px;
-    }
-  </style>
 </head>
 
 <body>
@@ -25,14 +13,16 @@
     <header class="top-bar">
       <div>
         <p class="eyebrow">Aparroz</p>
-        <h1>Static Scenarios</h1>
-        <p class="lede">
-          Aggregate single-score impacts across crop protection, sowing, fertilisation, and machines per farmer-season.
-        </p>
+        <h1>Clustered LCA results</h1>
+        <p class="lede">Mean LCA intensities per cluster-year using single score (Total) — view per ha or per tonne.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Cluster summary</span>
       </div>
     </header>
 
-    <main>
+    <main class="layout">
       <section class="panel filters">
         <div class="panel-header">
           <div>
@@ -50,8 +40,15 @@
             <select id="season-filter"></select>
           </label>
           <label class="field">
-            <span>Farmer</span>
-            <select id="farmer-filter"></select>
+            <span>Cluster</span>
+            <select id="cluster-filter"></select>
+          </label>
+          <label class="field">
+            <span>Impact basis</span>
+            <select id="basis-filter">
+              <option value="ha">Per hectare</option>
+              <option value="tonne">Per tonne</option>
+            </select>
           </label>
         </div>
         <div class="chip" id="active-filters"></div>
@@ -61,7 +58,7 @@
         <div class="panel-header">
           <div>
             <p class="eyebrow">Overview</p>
-            <h2>Totals (single score)</h2>
+            <h2>Averages</h2>
           </div>
         </div>
         <div class="stat-grid" id="stat-grid"></div>
@@ -70,39 +67,31 @@
       <section class="panel pivot">
         <div class="panel-header">
           <div>
-            <p class="eyebrow">Breakdown</p>
-            <h2>Impact by input</h2>
+            <p class="eyebrow">Impact</p>
+            <h2>Totals by input</h2>
           </div>
           <div class="chip muted" id="impact-count"></div>
         </div>
         <div id="impact-bars" class="bar-chart"></div>
       </section>
 
-      <section class="panel pivot">
-        <div class="panel-header">
-          <div>
-            <p class="eyebrow">Impact categories</p>
-            <h2>Category totals</h2>
-          </div>
-          <div class="chip muted" id="cat-count"></div>
-        </div>
-        <div id="cat-bars" class="bar-chart"></div>
-      </section>
-
       <section class="panel detail">
         <div class="panel-header">
           <div>
             <p class="eyebrow">Detail</p>
-            <h2>Farmer-season table</h2>
+            <h2>Cluster-year rows</h2>
           </div>
-          <div class="chip muted" id="detail-count"></div>
+          <div class="panel-actions">
+            <div class="chip muted" id="detail-count"></div>
+            <button class="ghost" id="download-csv">Download CSV</button>
+          </div>
         </div>
         <div id="detail-table" class="table-shell"></div>
       </section>
     </main>
   </div>
 
-  <script type="module" src="./scenarios.js"></script>
+  <script type="module" src="./cluster-lca.js"></script>
 </body>
 
 </html>

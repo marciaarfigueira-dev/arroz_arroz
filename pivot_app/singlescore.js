@@ -116,43 +116,61 @@ function renderBars(categories) {
 
   const bars = categories
     .map((cat) => {
-      const contributors = aggregateContributors(cat.contributors || [], cat.total);
-      const sorted = contributors.sort((a, b) => (b.score || 0) - (a.score || 0));
-      const top = sorted.slice(0, 10);
-      const remainderShare =
-        sorted.slice(10).reduce((sum, c) => sum + contributorShare(c, cat.total), 0) || 0;
-      const segments = top.map((c) => {
-        const share = contributorShare(c, cat.total);
-        const color = colorFor(c.name);
-        legendItems.set(c.name, color);
-        return { name: c.name, share, color };
-      });
-      if (remainderShare > 0.001) {
-        segments.push({ name: "Other", share: remainderShare, color: "#4b5563" });
-        legendItems.set("Other", "#4b5563");
-      }
-      const fills = segments
-        .map(
-          (seg) => `
-            <div class="stack-segment" style="width:${seg.share * 100}%; background:${seg.color}">
-              <span class="stack-label">
-                ${seg.share * 100 >= 3 ? formatNumber(seg.share * 100, 1) + "%" : ""}
-              </span>
+      const hasContribs = Array.isArray(cat.contributors) && cat.contributors.length > 0;
+      if (!hasContribs) {
+        const color = colorFor(cat.impact_category);
+        legendItems.set(cat.impact_category, color);
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              <div>${cat.impact_category}</div>
+              <small>${formatNumber(cat.total || 0, 2)} ${cat.unit || ""}</small>
             </div>
-          `
-        )
-        .join("");
-      return `
-        <div class="bar-row">
-          <div class="bar-label">
-            <div>${cat.impact_category}</div>
-            <small>${formatNumber(cat.total || 0, 2)} ${cat.unit || ""}</small>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:100%; background:${color}"></div>
+              <span class="bar-value">${formatNumber(cat.total || 0, 2)}</span>
+            </div>
           </div>
-          <div class="stack-bar-track">
-            ${fills}
+        `;
+      } else {
+        const contributors = aggregateContributors(cat.contributors || [], cat.total);
+        const sorted = contributors.sort((a, b) => (b.score || 0) - (a.score || 0));
+        const top = sorted.slice(0, 10);
+        const remainderShare =
+          sorted.slice(10).reduce((sum, c) => sum + contributorShare(c, cat.total), 0) || 0;
+        const segments = top.map((c) => {
+          const share = contributorShare(c, cat.total);
+          const color = colorFor(c.name);
+          legendItems.set(c.name, color);
+          return { name: c.name, share, color };
+        });
+        if (remainderShare > 0.001) {
+          segments.push({ name: "Other", share: remainderShare, color: "#4b5563" });
+          legendItems.set("Other", "#4b5563");
+        }
+        const fills = segments
+          .map(
+            (seg) => `
+              <div class="stack-segment" style="width:${seg.share * 100}%; background:${seg.color}">
+                <span class="stack-label">
+                  ${seg.share * 100 >= 3 ? formatNumber(seg.share * 100, 1) + "%" : ""}
+                </span>
+              </div>
+            `
+          )
+          .join("");
+        return `
+          <div class="bar-row">
+            <div class="bar-label">
+              <div>${cat.impact_category}</div>
+              <small>${formatNumber(cat.total || 0, 2)} ${cat.unit || ""}</small>
+            </div>
+            <div class="stack-bar-track">
+              ${fills}
+            </div>
           </div>
-        </div>
-      `;
+        `;
+      }
     })
     .join("");
   elements.barChart.innerHTML = bars;

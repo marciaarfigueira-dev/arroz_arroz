@@ -224,18 +224,17 @@ function enrichRow(row) {
     state.filters.score === "chara" ? EQUIPMENT_CHARA_MAP[eqKey] : EQUIPMENT_MAP[eqKey];
   const mapSet = state.filters.score === "chara" ? state.charaMaps : state.singleMaps;
   const catMap = factorId ? mapSet[factorId] : null;
-  const areaHa = row.total_area_worked || row.area_ha || 0;
-  const areaM2 = areaHa * 10000;
+  // Use repetitions as the normalized area basis (per-ha proxy)
+  const areaHa = row.repetitions || row.total_area_worked || row.area_ha || 0;
   const areaPerTonneHa = row.area_per_tonne || 0;
-  const areaPerTonneM2 = areaPerTonneHa * 10000;
   const impactHa = {};
   const impactT = {};
   if (catMap) {
     Object.entries(catMap).forEach(([cat, ef]) => {
       const factor = typeof ef === "object" ? ef.ef : ef;
       if (factor == null) return;
-      impactHa[cat] = areaM2 ? areaM2 * factor : null;
-      impactT[cat] = areaPerTonneM2 ? areaPerTonneM2 * factor : null;
+      impactHa[cat] = areaHa ? areaHa * factor : null;
+      impactT[cat] = areaPerTonneHa ? areaPerTonneHa * factor : null;
     });
   }
   const totalHa = totalFromMap(impactHa);

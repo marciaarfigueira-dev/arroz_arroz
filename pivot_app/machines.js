@@ -52,6 +52,7 @@ function enrichRecord(row) {
     area_ha: row.area_ha || 0,
     total_area_worked: row.total_area_worked || row.area_ha || 0,
     repetitions: row.repetitions || 0,
+    area_normalized: row.repetitions || 0, // normalized area proxy
   };
 }
 
@@ -182,15 +183,15 @@ function renderActiveFilters(filters, count) {
 }
 
 function renderStats(rows) {
-  const totalArea = sum(rows, "area_ha");
+  const totalArea = sum(rows, "area_normalized");
   const totalWorked = sum(rows, "total_area_worked");
-  const totalReps = sum(rows, "repetitions");
+  const totalNorm = sum(rows, "area_normalized");
   const avgAreaPerT = averageWeighted(rows, "area_per_tonne");
   const stats = [
     { label: "Operations", value: formatNumber(rows.length, 0) },
     { label: "Total area (ha)", value: formatNumber(totalArea, 1) },
     { label: "Area worked (ha)", value: formatNumber(totalWorked, 1) },
-    { label: "Repetitions", value: formatNumber(totalReps, 0) },
+    { label: "Normalized area (repetitions)", value: formatNumber(totalNorm, 0) },
     {
       label: "Area per tonne",
       value: avgAreaPerT === null ? "—" : formatNumber(avgAreaPerT, 3),
@@ -224,7 +225,7 @@ function renderPivot(rows) {
           <th>Categories</th>
           <th>Operations</th>
           <th>Events</th>
-          <th>Area (ha)</th>
+          <th>Normalized area (ha)</th>
           <th>Area worked (ha)</th>
           <th>Repetitions</th>
           <th>Area per tonne</th>
@@ -268,9 +269,9 @@ function renderDetail(rows) {
           <th>Category</th>
           <th>Operation</th>
           <th>Equipment</th>
+          <th>Normalized area (ha)</th>
           <th>Repetitions</th>
           <th>Total area worked (ha)</th>
-          <th>Area (ha)</th>
           <th>Area per tonne</th>
           <th>Date</th>
         </tr>
@@ -285,9 +286,9 @@ function renderDetail(rows) {
                 <td>${row.category_display}</td>
                 <td>${row.operation_display}</td>
                 <td>${row.equipment}</td>
+                <td>${row.area_normalized == null ? "—" : formatNumber(row.area_normalized, 2)}</td>
                 <td>${row.repetitions == null ? "—" : formatNumber(row.repetitions, 0)}</td>
                 <td>${row.total_area_worked == null ? "—" : formatNumber(row.total_area_worked, 2)}</td>
-                <td>${row.area_ha == null ? "—" : formatNumber(row.area_ha, 2)}</td>
                 <td>${row.area_per_tonne == null ? "—" : formatNumber(row.area_per_tonne, 3)}</td>
                 <td>${row.date || "—"}</td>
               </tr>
@@ -319,7 +320,7 @@ function aggregateByEquipment(rows) {
     }
     const agg = map.get(key);
     agg.count += 1;
-    const area = row.area_ha || 0;
+    const area = row.area_normalized || 0;
     agg.area += area;
     agg.worked += row.total_area_worked || 0;
     agg.repetitions += row.repetitions || 0;
@@ -360,7 +361,7 @@ function averageWeighted(rows, key) {
   let weight = 0;
   for (const row of rows) {
     if (row[key] != null) {
-      const area = row.area_ha || 1;
+      const area = row.area_normalized || 1;
       total += (row[key] || 0) * area;
       weight += area;
     }
