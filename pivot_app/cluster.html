@@ -52,6 +52,27 @@
       max-width: 240px;
       line-height: 1.4;
     }
+
+    .axis-label-x,
+    .axis-label-y {
+      position: absolute;
+      color: #94a3b8;
+      font-size: 12px;
+      pointer-events: none;
+    }
+
+    .axis-label-x {
+      bottom: 6px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .axis-label-y {
+      top: 50%;
+      left: 6px;
+      transform: translateY(-50%) rotate(-90deg);
+      transform-origin: left top;
+    }
   </style>
 </head>
 
@@ -120,6 +141,8 @@
     </div>
     <div id="scatter" class="scatter">
       <div id="tooltip" class="tooltip"></div>
+      <div class="axis-label-x">PC1</div>
+      <div class="axis-label-y">PC2</div>
     </div>
     <div id="legend" class="legend"></div>
   </section>

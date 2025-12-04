@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | About Single Score Conversion</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>About Single Score Conversion</h1>
+        <p class="lede">How characterisation results are converted to single scores (Pt) for each input.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Method</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Approach</p>
+            <h2>From characterisation to single score</h2>
+          </div>
+        </div>
+        <p>
+          Single scores are computed by multiplying each characterisation midpoint result by the EF 3.0 weighting factor
+          Fₖ = WF / NF (from <code>singlescore - singlescore_conversion.csv</code>) and summing across categories. Units are
+          Pt (points).
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Data sources</p>
+            <h2>Inputs used</h2>
+          </div>
+        </div>
+        <ul class="bullets">
+          <li><strong>Characterisation</strong>: <code>pivot_app/data/characterisation.json</code></li>
+          <li><strong>Weighting/normalisation</strong>: <code>singlescore/singlescore - singlescore_conversion.csv</code></li>
+          <li><strong>Outputs</strong>: <code>pivot_app/data/singlescore.json</code> and per-product files in <code>singlescore/</code></li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Aggregation</p>
+            <h2>Pesticide group sums</h2>
+          </div>
+        </div>
+        <p>
+          Herbicide, Insecticide, and Fungicide are provided as aggregates (plant + emissions), replacing the individual
+          component records for clarity.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Units</p>
+            <h2>What you see</h2>
+          </div>
+        </div>
+        <p>
+          All single-score results are expressed in Pt (points). Extremely small or large values may display in scientific
+          notation in the UI for readability.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Methods</p>
+            <h2>Environmental Footprint (EF 3.0)</h2>
+          </div>
+        </div>
+        <p><strong>Normalisation and weighting.</strong> This application uses the official EF 3.0 normalisation (NFₖ) and weighting (WFₖ) sets from the European Commission JRC. Global normalisation factors are from Sala et al. (2017), expressing per-capita burdens; weighting factors are from Sala et al. (2018), combining survey, expert, and robustness inputs.</p>
+        <p><strong>Single-score formula.</strong> For each impact category k with characterisation result Cₖ, the EF single score is:</p>
+        <p><code>SS (Pt) = Σₖ (Cₖ / NFₖ × WFₖ)</code></p>
+        <p>The resulting unit is Pt (Points), allowing comparison across categories and inputs.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Reference</p>
+            <h2>Conversion table (NF, WF, Fₖ)</h2>
+          </div>
+        </div>
+        <div class="table-shell horizontal-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Impact category</th>
+                <th>NF (per person, EF)</th>
+                <th>WF (fraction)</th>
+                <th>Fₖ = WF/NF (Pt per unit)</th>
+              </tr>
+            </thead>
+            <tbody id="conversion-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <script>
+        (() => {
+          const tableBody = document.getElementById("conversion-table");
+          if (!tableBody) return;
+          const data = [
+            ["Climate change", "8.40E+03", "0.2106", "1.77E+03"],
+            ["Ozone depletion", "2.34E-02", "0.0631", "1.48E-03"],
+            ["Human toxicity, cancer", "3.85E-05", "0.0213", "8.20E-07"],
+            ["Human toxicity, non-cancer", "4.75E-04", "0.0184", "8.74E-06"],
+            ["Particulate matter", "2.90E-04", "0.0608", "1.77E-05"],
+            ["Ionising radiation", "1.84E+03", "0.0442", "8.11E+01"],
+            ["Photochemical ozone formation", "2.97E-01", "0.0477", "1.42E-02"],
+            ["Acidification", "2.68E-01", "0.0177", "4.74E-03"],
+            ["Eutrophication, terrestrial", "1.37E-01", "0.0413", "5.65E-03"],
+            ["Eutrophication, freshwater", "1.14E-02", "0.0187", "2.14E-04"],
+            ["Eutrophication, marine", "1.15E-02", "0.0355", "4.07E-04"],
+            ["Ecotoxicity, freshwater", "1.65E+05", "0.0017", "2.78E+02"],
+            ["Human toxicity, cancer - organics", "2.65E-05", "0.0016", "4.24E-08"],
+            ["Human toxicity, cancer - inorganics", "6.10E-05", "0.0060", "3.66E-07"],
+            ["Human toxicity, cancer - metals", "2.07E-05", "0.0022", "4.55E-08"],
+            ["Human toxicity, non-cancer - organics", "4.90E-04", "0.0017", "8.33E-07"],
+            ["Human toxicity, non-cancer - inorganics", "3.66E-04", "0.0072", "6.46E-07"],
+            ["Human toxicity, non-cancer - metals", "3.43E-04", "0.0051", "4.17E-07"],
+            ["Ecotoxicity, freshwater - organics", "3.36E+03", "0.0004", "1.18E+00"],
+            ["Ecotoxicity, freshwater - inorganics", "4.73E+04", "0.0006", "2.84E+01"],
+            ["Ecotoxicity, freshwater - metals", "1.13E+04", "0.0007", "7.10E+00"],
+            ["Resource use, fossils", "6.53E+04", "0.0832", "5.43E+03"],
+            ["Resource use, minerals and metals", "6.36E-02", "0.0755", "4.80E-03"],
+            ["Land use", "2.03E+01", "0.0212", "1.06E+00"],
+            ["Climate change - Fossil", "8.40E+03", "0.2106", "1.77E+03"],
+            ["Climate change - Biogenic", "1.54E+03", "0.2106", "3.23E+02"],
+            ["Climate change - Land use and LU change", "1.08E+03", "0.2106", "2.27E+02"],
+            ["Water use", "4.69E+04", "0.0010", "4.50E+01"],
+          ];
+          tableBody.innerHTML = data
+            .map(
+              (r) => `<tr>${r.map((c) => `<td>${c}</td>`).join("")}</tr>`
+            )
+            .join("");
+        })();
+      </script>
+
+      <div style="margin-top:16px;">
+        <a class="ghost" href="./index.html">Back to home</a>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

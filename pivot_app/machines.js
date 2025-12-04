@@ -4,7 +4,6 @@ const state = {
     season: "all",
     farmer: "all",
     category: "all",
-    operation: "all",
     equipment: "all",
     search: "",
   },
@@ -14,7 +13,6 @@ const elements = {
   season: document.getElementById("season-filter"),
   farmer: document.getElementById("farmer-filter"),
   category: document.getElementById("category-filter"),
-  operation: document.getElementById("operation-filter"),
   equipment: document.getElementById("equipment-filter"),
   search: document.getElementById("search-filter"),
   reset: document.getElementById("reset-filters"),
@@ -52,7 +50,7 @@ function enrichRecord(row) {
     area_ha: row.area_ha || 0,
     total_area_worked: row.total_area_worked || row.area_ha || 0,
     repetitions: row.repetitions || 0,
-    area_normalized: row.repetitions || 0, // normalized area proxy
+    area_normalized: row.total_area_worked || row.area_ha || 0,
   };
 }
 
@@ -67,13 +65,10 @@ function hydrateFilters(data) {
     "Category"
   );
   fillSelect(
-    elements.operation,
-    uniqueValues(data, "operation_normalized")
-      .map((op) => ({ value: op, label: toTitle(op) }))
-      .sort((a, b) => a.label.localeCompare(b.label)),
-    "Operation"
+    elements.equipment,
+    uniqueValues(data, "equipment").sort(),
+    "Equipment"
   );
-  fillSelect(elements.equipment, uniqueValues(data, "equipment").sort(), "Equipment");
 }
 
 function fillSelect(select, values, label) {
@@ -108,10 +103,6 @@ function attachEvents() {
     state.filters.category = elements.category.value;
     render();
   });
-  elements.operation.addEventListener("change", () => {
-    state.filters.operation = elements.operation.value;
-    render();
-  });
   elements.equipment.addEventListener("change", () => {
     state.filters.equipment = elements.equipment.value;
     render();
@@ -125,14 +116,12 @@ function attachEvents() {
       season: "all",
       farmer: "all",
       category: "all",
-      operation: "all",
       equipment: "all",
       search: "",
     });
     elements.season.value = "all";
     elements.farmer.value = "all";
     elements.category.value = "all";
-    elements.operation.value = "all";
     elements.equipment.value = "all";
     elements.search.value = "";
     render();
@@ -152,7 +141,6 @@ function applyFilters(rows, filters) {
     if (filters.season !== "all" && `${row.season}` !== filters.season) return false;
     if (filters.farmer !== "all" && row.farmer_id !== filters.farmer) return false;
     if (filters.category !== "all" && row.operation_category !== filters.category) return false;
-    if (filters.operation !== "all" && row.operation_normalized !== filters.operation) return false;
     if (filters.equipment !== "all" && row.equipment !== filters.equipment) return false;
     if (filters.search) {
       const term = filters.search.toLowerCase();
@@ -175,7 +163,6 @@ function renderActiveFilters(filters, count) {
   if (filters.season !== "all") active.push(`Season ${filters.season}`);
   if (filters.farmer !== "all") active.push(`Farmer ${filters.farmer}`);
   if (filters.category !== "all") active.push(toTitle(filters.category.replace(/_/g, " ")));
-  if (filters.operation !== "all") active.push(toTitle(filters.operation));
   if (filters.equipment !== "all") active.push(filters.equipment);
   if (filters.search) active.push(`Search: “${filters.search}”`);
   const label = active.length ? active.join(" • ") : "No filters applied";
@@ -183,15 +170,16 @@ function renderActiveFilters(filters, count) {
 }
 
 function renderStats(rows) {
-  const totalArea = sum(rows, "area_normalized");
   const totalWorked = sum(rows, "total_area_worked");
-  const totalNorm = sum(rows, "area_normalized");
+  const avgWorked = rows.length ? totalWorked / rows.length : null;
   const avgAreaPerT = averageWeighted(rows, "area_per_tonne");
   const stats = [
     { label: "Operations", value: formatNumber(rows.length, 0) },
-    { label: "Total area (ha)", value: formatNumber(totalArea, 1) },
     { label: "Area worked (ha)", value: formatNumber(totalWorked, 1) },
-    { label: "Normalized area (repetitions)", value: formatNumber(totalNorm, 0) },
+    {
+      label: "Avg area worked (ha/op)",
+      value: avgWorked == null ? "—" : formatNumber(avgWorked, 2),
+    },
     {
       label: "Area per tonne",
       value: avgAreaPerT === null ? "—" : formatNumber(avgAreaPerT, 3),

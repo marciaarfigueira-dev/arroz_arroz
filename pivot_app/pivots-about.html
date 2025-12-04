@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | About the Pivot Tables</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>About the Pivot Tables</h1>
+        <p class="lede">12 farmers across 3 seasons. Pivot views to explore inputs and operations before LCA.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Context</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Scope</p>
+            <h2>Farmers & seasons</h2>
+          </div>
+        </div>
+        <p>Data covers 12 farmers over 3 production seasons (2022–2024). Each row in the pivots represents an operation
+          or input event for a farmer-season.</p>
+        <p>Farmer C7 and NT1 did not produce rice in the year 2022. </p>
+
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Inputs & operations</p>
+            <h2>What’s included</h2>
+          </div>
+        </div>
+        <ul class="bullets">
+          <li><strong>Crop protection</strong>: herbicide, fungicide, insecticide doses; enemies; kg/ha and kg/t.</li>
+          <li><strong>Sowing</strong>: seed rates (kg/ha, kg/t), operation type (row/broadcast), equipment, varieties.
+          </li>
+          <li><strong>Fertilisation</strong>: N, P, K, SO₄ rates (kg/ha, kg/t) by operation (basal/topdressing),
+            equipment, product.</li>
+          <li><strong>Machines</strong>: equipment used, area worked (repetitions normalized), area per tonne.</li>
+          <li><strong>Water</strong>: m³/ha and m³/t water use per farmer-season.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Data sources</p>
+            <h2>Mastersheets</h2>
+          </div>
+        </div>
+        <p>All pivots are built from the operations mastersheets in the <code>pivot_tables</code> folder (e.g., crop
+          protection, sowing, fertilisation, machines, water). Numbers are already normalized (kg/ha, kg/t, m³/ha, m³/t)
+          where applicable.</p>
+        <p>The data was exclusively scrapped from the farmers field notebooks, and normalsied.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Navigation</p>
+            <h2>How to use</h2>
+          </div>
+        </div>
+        <ul class="bullets">
+          <li>Open a pivot table from the home page.</li>
+          <li>Use filters (season, farmer, operation, equipment, product) to narrow scope.</li>
+          <li>Pivot tables show aggregated stats plus detailed rows; exports feed the LCA calculators.</li>
+        </ul>
+      </section>
+
+      <div style="margin-top:16px;">
+        <a class="ghost" href="./index.html">Back to home</a>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

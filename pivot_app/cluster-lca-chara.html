@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | Clustered LCA (Characterisation)</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>Clustered LCA (Characterisation)</h1>
+        <p class="lede">Average characterisation impacts per cluster-year, viewable per hectare or per tonne.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Clusters</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Scope</h2>
+          </div>
+          <div class="panel-actions">
+            <button class="ghost" id="reset-filters">Reset</button>
+            <a class="ghost" href="./index.html">Home</a>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="field">
+            <span>Season</span>
+            <select id="season-filter"></select>
+          </label>
+          <label class="field">
+            <span>Cluster</span>
+            <select id="cluster-filter"></select>
+          </label>
+          <label class="field">
+            <span>Impact basis</span>
+            <select id="basis-filter">
+              <option value="ha">Per hectare</option>
+              <option value="tonne">Per tonne</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Input</span>
+            <select id="source-filter">
+              <option value="all">All inputs</option>
+              <option value="crop_protection">Crop protection</option>
+              <option value="sowing">Sowing</option>
+              <option value="fertilisation">Fertilisation</option>
+              <option value="machines">Machines</option>
+              <option value="water">Water</option>
+              <option value="methane">Methane</option>
+              <option value="n2o">N₂O</option>
+            </select>
+          </label>
+        </div>
+        <div class="chip" id="active-filters"></div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Aggregates</h2>
+          </div>
+        </div>
+        <div class="stat-grid" id="stat-grid"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Impact</p>
+            <h2>By input</h2>
+          </div>
+          <div class="chip muted" id="impact-count"></div>
+        </div>
+        <div id="impact-bars" class="bar-chart"></div>
+        <div class="legend">
+          <span class="legend-swatch" style="background:#ef4444"></span> Crop protection
+          <span class="legend-swatch" style="background:#22c55e"></span> Sowing
+          <span class="legend-swatch" style="background:#3b82f6"></span> Fertilisation
+          <span class="legend-swatch" style="background:#a855f7"></span> Machines
+          <span class="legend-swatch" style="background:#0bb7a8"></span> Water
+          <span class="legend-swatch" style="background:#f59e0b"></span> Methane
+          <span class="legend-swatch" style="background:#10b981"></span> N₂O
+        </div>
+      </section>
+
+      <section class="panel detail">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Detail</p>
+            <h2>Rows</h2>
+          </div>
+          <div class="panel-actions">
+            <button class="ghost" id="download-csv">Download CSV</button>
+            <div class="chip muted" id="detail-count"></div>
+          </div>
+        </div>
+        <div id="detail-table" class="table-shell horizontal-scroll"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./cluster-lca-chara.js"></script>
+</body>
+
+</html>

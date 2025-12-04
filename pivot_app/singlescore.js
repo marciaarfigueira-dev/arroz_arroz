@@ -11,9 +11,8 @@ const elements = {
   barChart: document.getElementById("bar-chart"),
   barLegend: document.getElementById("bar-legend"),
   impactTable: document.getElementById("impact-table"),
-  contribTable: document.getElementById("contrib-table"),
-  contribCount: document.getElementById("contrib-count"),
-  contribChart: document.getElementById("contrib-chart"),
+  contextChart: document.getElementById("context-chart"),
+  contextCount: document.getElementById("context-count"),
 };
 
 const palette = [
@@ -45,7 +44,7 @@ async function init() {
 }
 
 async function loadData() {
-  const res = await fetch("./data/singlescore.json");
+  const res = await fetch(`./data/singlescore.json?ts=${Date.now()}`);
   if (!res.ok) throw new Error("Unable to load singlescore data");
   return res.json();
 }
@@ -61,136 +60,73 @@ function hydrateProductSelect(data) {
   elements.product.value = state.selectedProductId;
   elements.product.addEventListener("change", () => {
     state.selectedProductId = elements.product.value;
-    state.selectedCategory = "Total";
     render();
   });
 }
 
 function hydrateCategorySelect(categories) {
-  elements.category.innerHTML = "";
-  categories.forEach((cat) => {
-    const option = document.createElement("option");
-    option.value = cat.impact_category;
-    option.textContent = cat.impact_category;
-    elements.category.appendChild(option);
-  });
-  elements.category.value = state.selectedCategory;
-  elements.category.addEventListener("change", () => {
-    state.selectedCategory = elements.category.value;
-    renderContributors();
-  });
+  /* category selector removed */
 }
 
 function render() {
   const product = state.data.find((item) => item.product_id === state.selectedProductId);
   if (!product) return;
-  const categories = product.categories;
-  if (!categories.find((c) => c.impact_category === state.selectedCategory)) {
-    state.selectedCategory = categories[0]?.impact_category || "Total";
-  }
-  hydrateCategorySelect(categories);
+  const categories = product.categories.filter((c) => c.impact_category !== "Total");
   elements.functionalUnit.textContent = `${productLabel(product)} • ${product.functional_unit || ""}`;
+  renderTotalValue(categories);
   renderBars(categories);
   renderImpactTable(categories);
-  renderContributors();
+  renderContextBars();
+  bindAbout();
+}
+
+function renderTotalValue(categories) {
+  const sum = categories.reduce((acc, c) => acc + (c.total || 0), 0);
+  const unit = categories[0]?.unit || "µPt";
+  elements.barLegend.innerHTML = `<div class="chip muted">Total single score (sum): ${formatNumber(sum, 2)} ${unit}</div>`;
 }
 
 function renderBars(categories) {
   if (!categories.length) {
     elements.barChart.innerHTML = `<p class="empty">No categories for this product.</p>`;
-    elements.barLegend.innerHTML = "";
     return;
   }
-  const colorMap = new Map();
-  const legendItems = new Map();
-  let colorIndex = 0;
-
-  function colorFor(name) {
-    if (!colorMap.has(name)) {
-      const color = palette[colorIndex % palette.length];
-      colorMap.set(name, color);
-      colorIndex += 1;
-    }
-    return colorMap.get(name);
-  }
-
+  const totalSum = categories.reduce((acc, c) => acc + (c.total || 0), 0) || 1;
   const bars = categories
-    .map((cat) => {
-      const hasContribs = Array.isArray(cat.contributors) && cat.contributors.length > 0;
-      if (!hasContribs) {
-        const color = colorFor(cat.impact_category);
-        legendItems.set(cat.impact_category, color);
-        return `
-          <div class="bar-row">
-            <div class="bar-label">
-              <div>${cat.impact_category}</div>
-              <small>${formatNumber(cat.total || 0, 2)} ${cat.unit || ""}</small>
-            </div>
-            <div class="bar-track">
-              <div class="bar-fill" style="width:100%; background:${color}"></div>
-              <span class="bar-value">${formatNumber(cat.total || 0, 2)}</span>
-            </div>
+    .map((cat, idx) => {
+      const color = palette[idx % palette.length];
+      const pct = ((cat.total || 0) / totalSum) * 100;
+      const pctLabel = formatPercent(pct);
+      const pctWidth = Math.max(0, Math.min(100, pct));
+      return `
+        <div class="bar-row">
+          <div class="bar-label">
+            <div>${cat.impact_category}</div>
+            <small>${pctLabel} contribution</small>
           </div>
-        `;
-      } else {
-        const contributors = aggregateContributors(cat.contributors || [], cat.total);
-        const sorted = contributors.sort((a, b) => (b.score || 0) - (a.score || 0));
-        const top = sorted.slice(0, 10);
-        const remainderShare =
-          sorted.slice(10).reduce((sum, c) => sum + contributorShare(c, cat.total), 0) || 0;
-        const segments = top.map((c) => {
-          const share = contributorShare(c, cat.total);
-          const color = colorFor(c.name);
-          legendItems.set(c.name, color);
-          return { name: c.name, share, color };
-        });
-        if (remainderShare > 0.001) {
-          segments.push({ name: "Other", share: remainderShare, color: "#4b5563" });
-          legendItems.set("Other", "#4b5563");
-        }
-        const fills = segments
-          .map(
-            (seg) => `
-              <div class="stack-segment" style="width:${seg.share * 100}%; background:${seg.color}">
-                <span class="stack-label">
-                  ${seg.share * 100 >= 3 ? formatNumber(seg.share * 100, 1) + "%" : ""}
-                </span>
-              </div>
-            `
-          )
-          .join("");
-        return `
-          <div class="bar-row">
-            <div class="bar-label">
-              <div>${cat.impact_category}</div>
-              <small>${formatNumber(cat.total || 0, 2)} ${cat.unit || ""}</small>
-            </div>
-            <div class="stack-bar-track">
-              ${fills}
-            </div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:${pctWidth}%; background:${color}"></div>
+            <span class="bar-value">${pctLabel}</span>
           </div>
-        `;
-      }
+        </div>
+      `;
     })
     .join("");
   elements.barChart.innerHTML = bars;
-
-  const legend = Array.from(legendItems.entries())
-    .map(
-      ([name, color]) => `
-        <div class="legend-item">
-          <span class="legend-swatch" style="background:${color}"></span>
-          <span>${name}</span>
-        </div>
-      `
-    )
-    .join("");
-  elements.barLegend.innerHTML = legend;
+  elements.barLegend.innerHTML = "";
 }
 
 function renderImpactTable(categories) {
-  const rows = categories
-    .map(
+  const sum = categories.reduce((acc, c) => acc + (c.total || 0), 0);
+  const rows = [
+    `
+      <tr class="highlight">
+        <td><strong>TOTAL (Sum)</strong></td>
+        <td>${categories[0]?.unit || ""}</td>
+        <td>${formatNumber(sum, 3)}</td>
+      </tr>
+    `,
+    ...categories.map(
       (cat) => `
         <tr>
           <td>${cat.impact_category}</td>
@@ -198,8 +134,8 @@ function renderImpactTable(categories) {
           <td>${formatNumber(cat.total || 0, 3)}</td>
         </tr>
       `
-    )
-    .join("");
+    ),
+  ].join("");
   elements.impactTable.innerHTML = `
     <table>
       <thead>
@@ -214,45 +150,44 @@ function renderImpactTable(categories) {
   `;
 }
 
-function renderContributors() {
-  const product = state.data.find((item) => item.product_id === state.selectedProductId);
-  if (!product) return;
-  const category = product.categories.find((c) => c.impact_category === state.selectedCategory);
-  if (!category) {
-    elements.contribTable.innerHTML = `<p class="empty">No contributors for this category.</p>`;
-    elements.contribCount.textContent = "";
-    elements.contribChart.innerHTML = `<p class="empty">No contributors for this category.</p>`;
-    return;
-  }
-  const contributors = aggregateContributors(category.contributors || [], category.total).filter(
-    (c) => c.score !== 0
-  );
-  renderContributorBars(contributors, category);
-  elements.contribCount.textContent = `${contributors.length} items`;
-  const rows = contributors
-    .sort((a, b) => (b.score || 0) - (a.score || 0))
-    .map(
-      (c) => `
-        <tr>
-          <td>${c.name}</td>
-          <td>${formatNumber(c.score || 0, 3)} ${category.unit || ""}</td>
-          <td>${c.share == null ? "—" : formatNumber(c.share * 100, 2) + "%"}</td>
-        </tr>
-      `
-    )
+function renderContextBars() {
+  if (!elements.contextChart) return;
+  const totals = state.data.map((item) => {
+    const sum = (item.categories || []).reduce((acc, c) => {
+      if (c.impact_category === "Total") return acc;
+      return acc + (c.total || 0);
+    }, 0);
+    return { id: item.product_id, label: productLabel(item), total: sum };
+  });
+  const maxVal = Math.max(...totals.map((t) => t.total || 0), 1);
+  const currentId = state.selectedProductId;
+  elements.contextCount.textContent = `${totals.length} inputs`;
+  elements.contextChart.innerHTML = totals
+    .sort((a, b) => b.total - a.total)
+    .map((t) => {
+      const color = t.id === currentId ? "#f97316" : "#334155";
+      return `
+        <div class="bar-row compact">
+          <div class="bar-label">${t.label}</div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:${((t.total || 0) / maxVal) * 100}%; background:${color}"></div>
+            <span class="bar-value">${formatNumber(t.total || 0, 2)}</span>
+          </div>
+        </div>
+      `;
+    })
     .join("");
-  elements.contribTable.innerHTML = `
-    <table>
-      <thead>
-        <tr>
-          <th>Contributor</th>
-          <th>Score</th>
-          <th>Share</th>
-        </tr>
-      </thead>
-      <tbody>${rows}</tbody>
-    </table>
-  `;
+}
+
+function bindAbout() {
+  const btn = document.getElementById("about-btn");
+  if (btn) {
+    btn.onclick = () => (window.location.href = "./about.html");
+  }
+}
+
+function renderContributors() {
+  // contributors removed
 }
 
 function renderContributorBars(contributors, category) {
@@ -286,18 +221,20 @@ function renderContributorBars(contributors, category) {
 }
 
 function formatNumber(value, digits = 2) {
-  return new Intl.NumberFormat("en-US", {
-    minimumFractionDigits: digits,
-    maximumFractionDigits: digits,
-  }).format(value);
+  if (value == null || !isFinite(value)) return "—";
+  return value.toExponential(2);
+}
+
+function formatPercent(value) {
+  if (value == null || !isFinite(value)) return "—";
+  return `${value.toFixed(2)}%`;
 }
 
 function productLabel(item) {
   if (!item) return "";
-  const fu = item.functional_unit || "";
-  const firstPart = fu.split(",")[0].trim();
-  if (firstPart) return firstPart;
-  return item.product_id || "Product";
+  let name = item.product_name || item.functional_unit || item.product_id || "Product";
+  name = name.replace(/m2/gi, "ha");
+  return name.length > 80 ? name.slice(0, 80) + "…" : name;
 }
 
 function contributorShare(contributor, total) {

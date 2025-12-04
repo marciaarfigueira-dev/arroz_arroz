@@ -247,6 +247,34 @@ h3 {
   min-width: 4px;
 }
 
+.bar-track.stacked {
+  position: relative;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.bar-track.stacked .bar-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.bar-track.stacked .segment-value {
+  position: relative;
+  z-index: 1;
+  mix-blend-mode: screen;
+}
+
 .bar-value {
   position: relative;
   padding-left: 12px;
@@ -302,6 +330,10 @@ h3 {
   display: inline-block;
 }
 
+.col-season {
+  min-width: 100px;
+}
+
 @media (max-width: 900px) {
   .bar-row {
     grid-template-columns: 1fr;
@@ -346,6 +378,34 @@ h3 {
   border: 1px solid var(--border);
   overflow: hidden;
   margin-top: 12px;
+}
+
+.table-shell.horizontal-scroll {
+  overflow-x: auto;
+  overscroll-behavior: contain;
+}
+
+.sticky-cols thead th.sticky,
+.sticky-cols tbody td.sticky {
+  position: sticky;
+  left: 0;
+  background: var(--panel-soft);
+  z-index: 2;
+}
+
+.sticky-cols .col-season {
+  min-width: 90px;
+  left: 0;
+}
+
+.sticky-cols .col-cluster {
+  min-width: 90px;
+  left: 90px;
+}
+
+.sticky-cols .col-farmer {
+  min-width: 140px;
+  left: 180px;
 }
 
 table {

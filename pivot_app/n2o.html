@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | LCA Nitrogen Fertilisers (N₂O)</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>LCA Nitrogen Fertilisers (N₂O)</h1>
+        <p class="lede">Tier 1 N₂O/CO₂e from fertiliser and straw integration, per ha or per tonne.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>LCA</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Scope</h2>
+          </div>
+          <div class="panel-actions">
+            <button class="ghost" id="about-btn" title="See method details">About</button>
+            <button class="ghost" id="reset-filters">Reset</button>
+            <a class="ghost" href="./index.html">Home</a>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="field">
+            <span>Season</span>
+            <select id="season-filter"></select>
+          </label>
+          <label class="field">
+            <span>Farmer</span>
+            <select id="farmer-filter"></select>
+          </label>
+          <label class="field">
+            <span>Impact basis</span>
+            <select id="basis-filter">
+              <option value="ha">Per hectare</option>
+              <option value="tonne">Per tonne</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Impact type</span>
+            <select id="score-filter">
+              <option value="single">Single score</option>
+              <option value="chara">Characterisation</option>
+            </select>
+          </label>
+        </div>
+        <div class="chip" id="active-filters"></div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Totals</h2>
+          </div>
+        </div>
+        <div class="stat-grid" id="stat-grid"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Impact</p>
+            <h2>By component</h2>
+          </div>
+          <div class="chip muted" id="impact-count"></div>
+        </div>
+        <div id="impact-bars" class="bar-chart"></div>
+      </section>
+
+      <section class="panel detail">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Detail</p>
+            <h2>Farmer-season rows</h2>
+          </div>
+          <div class="chip muted" id="detail-count"></div>
+        </div>
+        <div id="detail-table" class="table-shell"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./n2o.js"></script>
+</body>
+
+</html>

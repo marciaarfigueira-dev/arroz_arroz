@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | Bioregional Pest Incidence</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    .heatmap {
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .heatmap table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .heatmap th,
+    .heatmap td {
+      padding: 6px 10px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      white-space: nowrap;
+    }
+
+    .heatmap th:first-child,
+    .heatmap td:first-child {
+      position: sticky;
+      left: 0;
+      background: var(--panel-soft);
+      font-weight: 700;
+      text-align: left;
+    }
+
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .legend-bar {
+      flex: 1;
+      height: 10px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #0ea5e9, #f59e0b, #e11d48);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>Bioregional Pest Incidence</h1>
+        <p class="lede">Heatmap of enemy incidence by farmer and season from the crop protection dataset.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>In depth view</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Scope</h2>
+          </div>
+          <div class="panel-actions">
+            <a class="ghost" href="./index.html">Home</a>
+            <button class="ghost" id="reset-filters">Reset</button>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="field">
+            <span>Season</span>
+            <select id="season-filter"></select>
+          </label>
+          <label class="field">
+            <span>Crop stage</span>
+            <select id="stage-filter"></select>
+          </label>
+        </div>
+        <div class="chip" id="active-filters"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Incidence</p>
+            <h2>Enemy heatmap</h2>
+          </div>
+          <div class="chip muted" id="pivot-count"></div>
+        </div>
+        <div id="heatmap" class="heatmap"></div>
+        <div class="legend">
+          <span class="muted" style="font-size:12px;">Low</span>
+          <div class="legend-bar"></div>
+          <span class="muted" style="font-size:12px;">High</span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./enemy-heatmap.js"></script>
+</body>
+
+</html>

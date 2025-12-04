@@ -47,6 +47,7 @@ const palette = [
   "#475569",
 ];
 
+
 init();
 
 async function init() {
@@ -93,12 +94,15 @@ function buildFactorMaps(singleRecords, charaRecords) {
   Object.entries(idsSingle).forEach(([nutrient, pid]) => {
     const rec = singleRecords.find((r) => r.product_id === pid);
     if (!rec) return;
-    const total = rec.categories.find((c) => c.impact_category === "Total");
-    const ef = total ? total.total || 0 : 0;
-    const unit = total ? total.unit || "µPt" : "µPt";
+    const cats = {};
+    rec.categories.forEach((cat) => {
+      cats[cat.impact_category] = { ef: cat.total || 0, unit: cat.unit || "" };
+    });
+    singleMaps[nutrient] = cats;
+    const total = cats["Total"];
+    const ef = total ? total.ef || 0 : 0;
+    const unit = total ? total.unit || "Pt" : "Pt";
     totals[nutrient] = { ef, unit };
-    // expose per-nutrient total as its own category so bars stay split by N/P/K
-    singleMaps[nutrient] = { [`${nutrient} total`]: { ef, unit } };
   });
 
   Object.entries(idsChara).forEach(([nutrient, pid]) => {
@@ -266,16 +270,32 @@ function renderActiveFilters(count) {
 function renderStats(rows) {
   const totalArea = sum(rows, "area_TOTAL") || sum(rows, "covered_area") || sum(rows, "area_ha");
   const totalTonnes = sum(rows, "tonnes");
-  const totalImpactHa = rows.reduce((sum, r) => sum + (r.total_impact_ha || 0), 0);
-  const totalImpactT = rows.reduce((sum, r) => sum + (r.total_impact_t || 0), 0);
-  const totalFieldImpact = rows.reduce((sum, r) => sum + (r.total_field_impact || 0), 0);
+  // convert to absolutes then normalise so we don't overcount when multiple ops exist
+  const totalAbsHa = rows.reduce((sum, r) => sum + (r.total_field_impact || 0), 0);
+  const totalAbsT = rows.reduce((sum, r) => {
+    if (r.total_impact_t != null && r.tonnes) {
+      return sum + r.total_impact_t * r.tonnes;
+    }
+    return sum;
+  }, 0);
+  const avgImpactHa = totalArea ? totalAbsHa / totalArea : null;
+  const avgImpactT = totalTonnes ? totalAbsT / totalTonnes : null;
   const stats = [
     { label: "Operations", value: formatNumber(rows.length, 0) },
     { label: "Area (ha)", value: totalArea ? formatNumber(totalArea, 2) : "—" },
     { label: "Production (t)", value: totalTonnes ? formatNumber(totalTonnes, 2) : "—" },
-    { label: "Impact (µPt/ha)", value: totalImpactHa ? formatNumber(totalImpactHa, 2) : "—" },
-    { label: "Impact (µPt/t)", value: totalImpactT ? formatNumber(totalImpactT, 2) : "—" },
-    { label: "Field impact (µPt)", value: totalFieldImpact ? formatNumber(totalFieldImpact, 2) : "—" },
+    {
+      label: "Impact (Pt/ha)",
+      value: state.filters.score === "chara" ? "—" : avgImpactHa != null ? formatNumberSci(avgImpactHa, 2) : "—",
+    },
+    {
+      label: "Impact (Pt/t)",
+      value: state.filters.score === "chara" ? "—" : avgImpactT != null ? formatNumberSci(avgImpactT, 2) : "—",
+    },
+    {
+      label: "Field impact (Pt)",
+      value: state.filters.score === "chara" ? "—" : totalAbsHa ? formatNumberSci(totalAbsHa, 2) : "—",
+    },
   ];
   elements.statGrid.innerHTML = stats
     .map(
@@ -293,48 +313,75 @@ function renderImpacts(rows) {
   const showBasisT = state.filters.basis === "tonne";
   const usingChara = state.filters.score === "chara";
   const unitMap = usingChara ? mergeUnits(state.charaMaps) : mergeUnits(state.singleMaps);
-  const agg = {};
+  const denom = showBasisT ? sum(rows, "tonnes") : sum(rows, "area_TOTAL") || sum(rows, "area_ha") || 0;
+
+  // agg[nutrient][category] = intensity (normalised)
+  const agg = { N: {}, P: {}, K: {} };
   rows.forEach((row) => {
     const source = showBasisT ? row.impact_values_t : row.impact_values_ha;
-    if (!source) return;
-    Object.entries(source).forEach(([cat, val]) => {
-      if (val == null || cat === "Total") return;
-      agg[cat] = (agg[cat] || 0) + val;
+    const scalar = showBasisT ? row.tonnes || 0 : row.area_TOTAL || row.area_ha || row.covered_area || 0;
+    if (!source || !scalar) return;
+    ["N", "P", "K"].forEach((nutrient) => {
+      const catMap = (usingChara ? state.charaMaps : state.singleMaps)[nutrient] || {};
+      Object.keys(catMap).forEach((cat) => {
+        const val = source[cat];
+        if (val == null) return;
+        agg[nutrient][cat] = (agg[nutrient][cat] || 0) + val * scalar;
+      });
     });
   });
-  const entries = Object.entries(agg)
-    .map(([cat, value]) => ({ cat, value }))
-    .sort((a, b) => b.value - a.value);
-  const totalImpact = showBasisT
-    ? rows.reduce((sum, r) => sum + (r.total_impact_t || 0), 0)
-    : rows.reduce((sum, r) => sum + (r.total_impact_ha || 0), 0);
-  elements.impactCount.textContent = `${entries.length} categories`;
-  if (!entries.length) {
+
+  // normalise
+  Object.keys(agg).forEach((nutrient) => {
+    Object.keys(agg[nutrient]).forEach((cat) => {
+      agg[nutrient][cat] = denom ? agg[nutrient][cat] / denom : agg[nutrient][cat];
+    });
+  });
+
+  // collect categories
+  const categories = Array.from(
+    new Set([...Object.keys(agg.N), ...Object.keys(agg.P), ...Object.keys(agg.K)]).values()
+  ).sort();
+  elements.impactCount.textContent = `${categories.length} categories`;
+  if (!categories.length) {
     elements.impactBars.innerHTML = `<p class="empty">No impacts to show. Check filters or ensure nutrient dose data is present.</p>`;
     return;
   }
-  const maxVal = Math.max(...entries.map((e) => e.value), 1);
-  const defaultUnit = showBasisT ? "µPt/t" : "µPt/ha";
-  const bars = entries
-    .map((entry, idx) => {
-      const color = palette[idx % palette.length];
-      const pct = totalImpact ? (entry.value / totalImpact) * 100 : 0;
-      const unit = unitMap[entry.cat] || defaultUnit;
+
+  const defaultUnit = showBasisT ? "Pt/t" : "Pt/ha";
+  const basisSuffix = showBasisT ? "/t" : "/ha";
+
+  const rowsHtml = categories
+    .map((cat) => {
+      const unit = unitMap[cat] ? `${unitMap[cat]}${basisSuffix}` : defaultUnit;
       return `
-        <div class="bar-row">
-          <div class="bar-label">
-            <div>${entry.cat}</div>
-            <small>${formatNumber(entry.value, 2)} ${unit} • ${formatNumber(pct, 1)}%</small>
-          </div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${(entry.value / maxVal) * 100}%; background:${color}"></div>
-            <span class="bar-value">${formatNumber(entry.value, 2)}</span>
-          </div>
-        </div>
+        <tr>
+          <td>${cat}</td>
+          <td>${unit}</td>
+          <td>${formatNumberSci(agg.N[cat] || 0, 2)}</td>
+          <td>${formatNumberSci(agg.P[cat] || 0, 2)}</td>
+          <td>${formatNumberSci(agg.K[cat] || 0, 2)}</td>
+        </tr>
       `;
     })
     .join("");
-  elements.impactBars.innerHTML = bars;
+
+  elements.impactBars.innerHTML = `
+    <div class="table-shell">
+      <table>
+        <thead>
+          <tr>
+            <th>Impact category</th>
+            <th>Unit</th>
+            <th>N</th>
+            <th>P</th>
+            <th>K</th>
+          </tr>
+        </thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>
+  `;
 }
 
 function renderDetail(rows) {
@@ -343,7 +390,7 @@ function renderDetail(rows) {
     elements.detailTable.innerHTML = `<p class="empty">No operations match these filters.</p>`;
     return;
   }
-  const basisLabel = state.filters.basis === "tonne" ? "µPt/t" : "µPt/ha";
+  const basisLabel = state.filters.basis === "tonne" ? "Pt/t" : "Pt/ha";
   const table = `
     <table>
       <thead>
@@ -361,8 +408,8 @@ function renderDetail(rows) {
           <th>N impact (${basisLabel})</th>
           <th>P impact (${basisLabel})</th>
           <th>K impact (${basisLabel})</th>
-          <th>${state.filters.basis === "tonne" ? "Impact (µPt/t)" : "Impact (µPt/ha)"}</th>
-          <th>Field impact (µPt)</th>
+          <th>${state.filters.basis === "tonne" ? "Impact (Pt/t)" : "Impact (Pt/ha)"}</th>
+          <th>Field impact (Pt)</th>
           <th>Date</th>
         </tr>
       </thead>
@@ -448,10 +495,24 @@ function mergeUnits(mapSet) {
   return units;
 }
 function formatNumber(value, digits = 1) {
+  if (value == null || !isFinite(value)) return "—";
+  const abs = Math.abs(value);
+  if (abs >= 1e6 || (abs > 0 && abs < 1e-3)) {
+    return value.toExponential(2);
+  }
   return new Intl.NumberFormat("en-US", {
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,
   }).format(value);
+}
+
+function formatNumberSci(value, digits = 2) {
+  if (value == null || !isFinite(value)) return "—";
+  const abs = Math.abs(value);
+  if (abs >= 1e6 || (abs > 0 && abs < 1e-3)) {
+    return value.toExponential(2);
+  }
+  return formatNumber(value, digits);
 }
 
 function toTitle(str) {

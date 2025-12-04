@@ -1,0 +1,436 @@
+product_id,impact_category,unit,total
+singlescore_1_1,Total,Pt,16980974.878934015
+singlescore_1_1,Climate change,Pt,6016.38576
+singlescore_1_1,Ozone depletion,Pt,7.7848e-11
+singlescore_1_1,Ionising radiation,Pt,5.252001
+singlescore_1_1,Photochemical ozone formation,Pt,0.0065572
+singlescore_1_1,Particulate matter,Pt,4.0509e-12
+singlescore_1_1,"Human toxicity, non-cancer",Pt,4.3437799999999997e-13
+singlescore_1_1,"Human toxicity, cancer",Pt,3.8458000000000003e-16
+singlescore_1_1,Acidification,Pt,0.01198496
+singlescore_1_1,"Eutrophication, freshwater",Pt,0.0000087756
+singlescore_1_1,"Eutrophication, marine",Pt,0.002909536
+singlescore_1_1,"Eutrophication, terrestrial",Pt,0.10404252
+singlescore_1_1,"Ecotoxicity, freshwater",Pt,22431.676919999998
+singlescore_1_1,Land use,Pt,16893889.2
+singlescore_1_1,Water use,Pt,31715.821060000002
+singlescore_1_1,"Resource use, fossils",Pt,26916.417690000002
+singlescore_1_1,"Resource use, minerals and metals",Pt,1.8431999999999996e-8
+singlescore_1_1,Climate change - Fossil,Pt,0
+singlescore_1_1,Climate change - Biogenic,Pt,0
+singlescore_1_1,Climate change - Land use and LU change,Pt,0
+singlescore_1_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_1_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_1_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_1_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_1_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_1_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_1_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_1_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_1_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_8_1,Total,Pt,519378.6717280199
+singlescore_8_1,Climate change,Pt,6645.07914
+singlescore_8_1,Ozone depletion,Pt,5.2984e-10
+singlescore_8_1,Ionising radiation,Pt,21.066451
+singlescore_8_1,Photochemical ozone formation,Pt,0.00772702
+singlescore_8_1,Particulate matter,Pt,2.56557e-11
+singlescore_8_1,"Human toxicity, non-cancer",Pt,1.748e-13
+singlescore_8_1,"Human toxicity, cancer",Pt,4.3788000000000003e-16
+singlescore_8_1,Acidification,Pt,0.19821624
+singlescore_8_1,"Eutrophication, freshwater",Pt,0.0000045732
+singlescore_8_1,"Eutrophication, marine",Pt,0.002243326
+singlescore_8_1,"Eutrophication, terrestrial",Pt,1.58592573
+singlescore_8_1,"Ecotoxicity, freshwater",Pt,5565.61551
+singlescore_8_1,Land use,Pt,254308.65899999999
+singlescore_8_1,Water use,Pt,210.37731
+singlescore_8_1,"Resource use, fossils",Pt,252626.08020000003
+singlescore_8_1,"Resource use, minerals and metals",Pt,1.3007999999999998e-7
+singlescore_8_1,Climate change - Fossil,Pt,0
+singlescore_8_1,Climate change - Biogenic,Pt,0
+singlescore_8_1,Climate change - Land use and LU change,Pt,0
+singlescore_8_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_8_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_8_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_8_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_8_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_8_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_8_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_8_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_8_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_9_1,Total,Pt,3764220.789358167
+singlescore_9_1,Climate change,Pt,5038.05543
+singlescore_9_1,Ozone depletion,Pt,5.1356e-10
+singlescore_9_1,Ionising radiation,Pt,71.22199499999999
+singlescore_9_1,Photochemical ozone formation,Pt,0.015733399999999998
+singlescore_9_1,Particulate matter,Pt,1.5046200000000003e-11
+singlescore_9_1,"Human toxicity, non-cancer",Pt,5.67226e-13
+singlescore_9_1,"Human toxicity, cancer",Pt,2.0828e-15
+singlescore_9_1,Acidification,Pt,0.09966368
+singlescore_9_1,"Eutrophication, freshwater",Pt,0.0000196112
+singlescore_9_1,"Eutrophication, marine",Pt,0.002318746
+singlescore_9_1,"Eutrophication, terrestrial",Pt,0.34276347
+singlescore_9_1,"Ecotoxicity, freshwater",Pt,90293.99429999999
+singlescore_9_1,Land use,Pt,3434320.02
+singlescore_9_1,Water use,Pt,1554.109634
+singlescore_9_1,"Resource use, fossils",Pt,232942.92750000002
+singlescore_9_1,"Resource use, minerals and metals",Pt,2.5872e-7
+singlescore_9_1,Climate change - Fossil,Pt,0
+singlescore_9_1,Climate change - Biogenic,Pt,0
+singlescore_9_1,Climate change - Land use and LU change,Pt,0
+singlescore_9_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_9_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_9_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_9_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_9_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_9_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_9_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_9_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_9_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_10_1,Total,Pt,3484059.454128132
+singlescore_10_1,Climate change,Pt,4986.658170000001
+singlescore_10_1,Ozone depletion,Pt,5.8312e-10
+singlescore_10_1,Ionising radiation,Pt,51.815903000000006
+singlescore_10_1,Photochemical ozone formation,Pt,0.015512239999999998
+singlescore_10_1,Particulate matter,Pt,1.45961e-11
+singlescore_10_1,"Human toxicity, non-cancer",Pt,8.652599999999999e-13
+singlescore_10_1,"Human toxicity, cancer",Pt,1.4514e-15
+singlescore_10_1,Acidification,Pt,0.06340608
+singlescore_10_1,"Eutrophication, freshwater",Pt,0.000012730799999999998
+singlescore_10_1,"Eutrophication, marine",Pt,0.002428524
+singlescore_10_1,"Eutrophication, terrestrial",Pt,0.38357631
+singlescore_10_1,"Ecotoxicity, freshwater",Pt,458127.314
+singlescore_10_1,Land use,Pt,2789874
+singlescore_10_1,Water use,Pt,1161.545319
+singlescore_10_1,"Resource use, fossils",Pt,229857.6558
+singlescore_10_1,"Resource use, minerals and metals",Pt,2.472e-7
+singlescore_10_1,Climate change - Fossil,Pt,0
+singlescore_10_1,Climate change - Biogenic,Pt,0
+singlescore_10_1,Climate change - Land use and LU change,Pt,0
+singlescore_10_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_10_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_10_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_10_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_10_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_10_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_10_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_10_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_10_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_11_1,Total,Pt,1684.4590994255493
+singlescore_11_1,Climate change,Pt,3.61965
+singlescore_11_1,Ozone depletion,Pt,6.1716e-13
+singlescore_11_1,Ionising radiation,Pt,0.026796999999999998
+singlescore_11_1,Photochemical ozone formation,Pt,0.000048305999999999995
+singlescore_11_1,Particulate matter,Pt,4.00589e-15
+singlescore_11_1,"Human toxicity, non-cancer",Pt,7.796079999999999e-16
+singlescore_11_1,"Human toxicity, cancer",Pt,9.266e-19
+singlescore_11_1,Acidification,Pt,0.000069488
+singlescore_11_1,"Eutrophication, freshwater",Pt,3.0076000000000002e-9
+singlescore_11_1,"Eutrophication, marine",Pt,0.00000708948
+singlescore_11_1,"Eutrophication, terrestrial",Pt,0.000609039
+singlescore_11_1,"Ecotoxicity, freshwater",Pt,5.355384
+singlescore_11_1,Land use,Pt,1526.694
+singlescore_11_1,Water use,Pt,0.0837045
+singlescore_11_1,"Resource use, fossils",Pt,148.67883
+singlescore_11_1,"Resource use, minerals and metals",Pt,6.095999999999999e-11
+singlescore_11_1,Climate change - Fossil,Pt,0
+singlescore_11_1,Climate change - Biogenic,Pt,0
+singlescore_11_1,Climate change - Land use and LU change,Pt,0
+singlescore_11_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_11_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_11_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_11_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_11_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_11_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_11_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_11_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_11_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_12_1,Total,Pt,8061.664864674218
+singlescore_12_1,Climate change,Pt,21.97986
+singlescore_12_1,Ozone depletion,Pt,3.1523999999999998e-12
+singlescore_12_1,Ionising radiation,Pt,0.166479
+singlescore_12_1,Photochemical ozone formation,Pt,0.00025802
+singlescore_12_1,Particulate matter,Pt,2.35338e-14
+singlescore_12_1,"Human toxicity, non-cancer",Pt,1.748e-15
+singlescore_12_1,"Human toxicity, cancer",Pt,8.446e-18
+singlescore_12_1,Acidification,Pt,0.0003784
+singlescore_12_1,"Eutrophication, freshwater",Pt,2.6574e-8
+singlescore_12_1,"Eutrophication, marine",Pt,0.0000372072
+singlescore_12_1,"Eutrophication, terrestrial",Pt,0.00319302
+singlescore_12_1,"Ecotoxicity, freshwater",Pt,36.047373
+singlescore_12_1,Land use,Pt,7117.209
+singlescore_12_1,Water use,Pt,0.777326
+singlescore_12_1,"Resource use, fossils",Pt,885.48096
+singlescore_12_1,"Resource use, minerals and metals",Pt,4.4015999999999996e-10
+singlescore_12_1,Climate change - Fossil,Pt,0
+singlescore_12_1,Climate change - Biogenic,Pt,0
+singlescore_12_1,Climate change - Land use and LU change,Pt,0
+singlescore_12_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_12_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_12_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_12_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_12_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_12_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_12_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_12_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_12_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_13_1,Total,Pt,1820.3540602892788
+singlescore_13_1,Climate change,Pt,4.757759999999999
+singlescore_13_1,Ozone depletion,Pt,7.3408e-13
+singlescore_13_1,Ionising radiation,Pt,0.036292000000000005
+singlescore_13_1,Photochemical ozone formation,Pt,0.00005917
+singlescore_13_1,Particulate matter,Pt,5.42049e-15
+singlescore_13_1,"Human toxicity, non-cancer",Pt,5.235259999999999e-16
+singlescore_13_1,"Human toxicity, cancer",Pt,1.6072e-18
+singlescore_13_1,Acidification,Pt,0.00008703199999999999
+singlescore_13_1,"Eutrophication, freshwater",Pt,7.1276e-9
+singlescore_13_1,"Eutrophication, marine",Pt,0.000008380000000000001
+singlescore_13_1,"Eutrophication, terrestrial",Pt,0.0007227000000000001
+singlescore_13_1,"Ecotoxicity, freshwater",Pt,9.285662
+singlescore_13_1,Land use,Pt,1612.0529999999999
+singlescore_13_1,Water use,Pt,0.206569
+singlescore_13_1,"Resource use, fossils",Pt,194.01389999999998
+singlescore_13_1,"Resource use, minerals and metals",Pt,1.5072e-10
+singlescore_13_1,Climate change - Fossil,Pt,0
+singlescore_13_1,Climate change - Biogenic,Pt,0
+singlescore_13_1,Climate change - Land use and LU change,Pt,0
+singlescore_13_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_13_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_13_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_13_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_13_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_13_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_13_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_13_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_13_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_14_1,Total,Pt,5148.343165711595
+singlescore_14_1,Climate change,Pt,12.32805
+singlescore_14_1,Ozone depletion,Pt,1.47556e-12
+singlescore_14_1,Ionising radiation,Pt,0.091152
+singlescore_14_1,Photochemical ozone formation,Pt,0.00012998
+singlescore_14_1,Particulate matter,Pt,1.7875400000000003e-14
+singlescore_14_1,"Human toxicity, non-cancer",Pt,1.1973799999999997e-15
+singlescore_14_1,"Human toxicity, cancer",Pt,9.348e-18
+singlescore_14_1,Acidification,Pt,0.000195048
+singlescore_14_1,"Eutrophication, freshwater",Pt,2.3895999999999998e-8
+singlescore_14_1,"Eutrophication, marine",Pt,0.0000178494
+singlescore_14_1,"Eutrophication, terrestrial",Pt,0.00153081
+singlescore_14_1,"Ecotoxicity, freshwater",Pt,25.753830999999998
+singlescore_14_1,Land use,Pt,4640.91
+singlescore_14_1,Water use,Pt,0.627539
+singlescore_14_1,"Resource use, fossils",Pt,468.63072000000005
+singlescore_14_1,"Resource use, minerals and metals",Pt,2.976e-10
+singlescore_14_1,Climate change - Fossil,Pt,0
+singlescore_14_1,Climate change - Biogenic,Pt,0
+singlescore_14_1,Climate change - Land use and LU change,Pt,0
+singlescore_14_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_14_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_14_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_14_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_14_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_14_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_14_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_14_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_14_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_15_1,Total,Pt,1125.3191913031221
+singlescore_15_1,Climate change,Pt,0.34161
+singlescore_15_1,Ozone depletion,Pt,4.7656e-14
+singlescore_15_1,Ionising radiation,Pt,0.0024265
+singlescore_15_1,Photochemical ozone formation,Pt,0.0000037636
+singlescore_15_1,Particulate matter,Pt,7.844600000000001e-16
+singlescore_15_1,"Human toxicity, non-cancer",Pt,1.10998e-16
+singlescore_15_1,"Human toxicity, cancer",Pt,1.5661999999999998e-19
+singlescore_15_1,Acidification,Pt,0.0000057448000000000005
+singlescore_15_1,"Eutrophication, freshwater",Pt,5.6032e-10
+singlescore_15_1,"Eutrophication, marine",Pt,5.413480000000001e-7
+singlescore_15_1,"Eutrophication, terrestrial",Pt,0.000046252800000000005
+singlescore_15_1,"Ecotoxicity, freshwater",Pt,0.732302
+singlescore_15_1,Land use,Pt,1111.443
+singlescore_15_1,Water use,Pt,0.0230065
+singlescore_15_1,"Resource use, fossils",Pt,12.77679
+singlescore_15_1,"Resource use, minerals and metals",Pt,1.3967999999999999e-11
+singlescore_15_1,Climate change - Fossil,Pt,0
+singlescore_15_1,Climate change - Biogenic,Pt,0
+singlescore_15_1,Climate change - Land use and LU change,Pt,0
+singlescore_15_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_15_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_15_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_15_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_15_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_15_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_15_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_15_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_15_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_16_1,Total,Pt,10155.19983799006
+singlescore_16_1,Climate change,Pt,29.36253
+singlescore_16_1,Ozone depletion,Pt,4.4844e-12
+singlescore_16_1,Ionising radiation,Pt,0.221339
+singlescore_16_1,Photochemical ozone formation,Pt,0.0004268
+singlescore_16_1,Particulate matter,Pt,3.4657700000000005e-14
+singlescore_16_1,"Human toxicity, non-cancer",Pt,3.0240399999999997e-15
+singlescore_16_1,"Human toxicity, cancer",Pt,1.0988e-17
+singlescore_16_1,Acidification,Pt,0.0006157599999999999
+singlescore_16_1,"Eutrophication, freshwater",Pt,4.8616e-8
+singlescore_16_1,"Eutrophication, marine",Pt,0.0000610902
+singlescore_16_1,"Eutrophication, terrestrial",Pt,0.00523629
+singlescore_16_1,"Ecotoxicity, freshwater",Pt,61.95669899999999
+singlescore_16_1,Land use,Pt,8881.554
+singlescore_16_1,Water use,Pt,1.25312
+singlescore_16_1,"Resource use, fossils",Pt,1180.84581
+singlescore_16_1,"Resource use, minerals and metals",Pt,1.2384e-9
+singlescore_16_1,Climate change - Fossil,Pt,0
+singlescore_16_1,Climate change - Biogenic,Pt,0
+singlescore_16_1,Climate change - Land use and LU change,Pt,0
+singlescore_16_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_16_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_16_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_16_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_16_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_16_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_16_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_16_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_16_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_17_1,Total,Pt,2077.4237986285693
+singlescore_17_1,Climate change,Pt,5.00379
+singlescore_17_1,Ozone depletion,Pt,5.2096e-13
+singlescore_17_1,Ionising radiation,Pt,0.036925
+singlescore_17_1,Photochemical ozone formation,Pt,0.000020757999999999997
+singlescore_17_1,Particulate matter,Pt,9.1306e-15
+singlescore_17_1,"Human toxicity, non-cancer",Pt,9.3518e-16
+singlescore_17_1,"Human toxicity, cancer",Pt,4.5428e-18
+singlescore_17_1,Acidification,Pt,0.000039904
+singlescore_17_1,"Eutrophication, freshwater",Pt,1.4111e-8
+singlescore_17_1,"Eutrophication, marine",Pt,0.0000017262800000000002
+singlescore_17_1,"Eutrophication, terrestrial",Pt,0.00014322600000000001
+singlescore_17_1,"Ecotoxicity, freshwater",Pt,13.362582
+singlescore_17_1,Land use,Pt,1875.345
+singlescore_17_1,Water use,Pt,0.336776
+singlescore_17_1,"Resource use, fossils",Pt,183.33852000000002
+singlescore_17_1,"Resource use, minerals and metals",Pt,1.7759999999999999e-10
+singlescore_17_1,Climate change - Fossil,Pt,0
+singlescore_17_1,Climate change - Biogenic,Pt,0
+singlescore_17_1,Climate change - Land use and LU change,Pt,0
+singlescore_17_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_17_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_17_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_17_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_17_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_17_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_17_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_17_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_17_1,"Ecotoxicity, freshwater - metals",Pt,0
+singlescore_18_1,Total,Pt,48558.4
+singlescore_18_1,Climate change,Pt,0
+singlescore_18_1,Ozone depletion,Pt,0
+singlescore_18_1,Ionising radiation,Pt,0
+singlescore_18_1,Photochemical ozone formation,Pt,0
+singlescore_18_1,Particulate matter,Pt,0
+singlescore_18_1,"Human toxicity, non-cancer",Pt,0
+singlescore_18_1,"Human toxicity, cancer",Pt,0
+singlescore_18_1,Acidification,Pt,0
+singlescore_18_1,"Eutrophication, freshwater",Pt,0
+singlescore_18_1,"Eutrophication, marine",Pt,0
+singlescore_18_1,"Eutrophication, terrestrial",Pt,0
+singlescore_18_1,"Ecotoxicity, freshwater",Pt,0
+singlescore_18_1,Land use,Pt,0
+singlescore_18_1,Water use,Pt,48558.4
+singlescore_18_1,"Resource use, fossils",Pt,0
+singlescore_18_1,"Resource use, minerals and metals",Pt,0
+singlescore_18_1,Climate change - Fossil,Pt,0
+singlescore_18_1,Climate change - Biogenic,Pt,0
+singlescore_18_1,Climate change - Land use and LU change,Pt,0
+singlescore_18_1,"Human toxicity, non-cancer - organics",Pt,0
+singlescore_18_1,"Human toxicity, non-cancer - inorganics",Pt,0
+singlescore_18_1,"Human toxicity, non-cancer - metals",Pt,0
+singlescore_18_1,"Human toxicity, cancer - organics",Pt,0
+singlescore_18_1,"Human toxicity, cancer - inorganics",Pt,0
+singlescore_18_1,"Human toxicity, cancer - metals",Pt,0
+singlescore_18_1,"Ecotoxicity, freshwater - organics",Pt,0
+singlescore_18_1,"Ecotoxicity, freshwater - inorganics",Pt,0
+singlescore_18_1,"Ecotoxicity, freshwater - metals",Pt,0
+Herbicide,Total,Pt,13176815.469822299
+Herbicide,Climate change,Pt,24201.564
+Herbicide,Ozone depletion,Pt,2.1756e-9
+Herbicide,Ionising radiation,Pt,837.086585
+Herbicide,Photochemical ozone formation,Pt,0.0482284
+Herbicide,Particulate matter,Pt,1.7361e-11
+Herbicide,"Human toxicity, non-cancer",Pt,7.236719999999999e-12
+Herbicide,"Human toxicity, cancer",Pt,5.3791999999999995e-15
+Herbicide,Acidification,Pt,0.17838808
+Herbicide,"Eutrophication, freshwater",Pt,0.0001366398
+Herbicide,"Eutrophication, marine",Pt,0.010586454
+Herbicide,"Eutrophication, terrestrial",Pt,0.60443343
+Herbicide,"Ecotoxicity, freshwater",Pt,1460507.7396
+Herbicide,Land use,Pt,10351420.44
+Herbicide,Water use,Pt,1884.394864
+Herbicide,"Resource use, fossils",Pt,1337963.403
+Herbicide,"Resource use, minerals and metals",Pt,2.9472e-7
+Herbicide,Climate change - Fossil,Pt,0
+Herbicide,Climate change - Biogenic,Pt,0
+Herbicide,Climate change - Land use and LU change,Pt,0
+Herbicide,"Human toxicity, non-cancer - organics",Pt,0
+Herbicide,"Human toxicity, non-cancer - inorganics",Pt,0
+Herbicide,"Human toxicity, non-cancer - metals",Pt,0
+Herbicide,"Human toxicity, cancer - organics",Pt,0
+Herbicide,"Human toxicity, cancer - inorganics",Pt,0
+Herbicide,"Human toxicity, cancer - metals",Pt,0
+Herbicide,"Ecotoxicity, freshwater - organics",Pt,0
+Herbicide,"Ecotoxicity, freshwater - inorganics",Pt,0
+Herbicide,"Ecotoxicity, freshwater - metals",Pt,0
+Insecticide,Total,Pt,540489472.3400254
+Insecticide,Climate change,Pt,18147.4914
+Insecticide,Ozone depletion,Pt,1.4799999999999999e-9
+Insecticide,Ionising radiation,Pt,711.710174
+Insecticide,Photochemical ozone formation,Pt,0.038507059999999996
+Insecticide,Particulate matter,Pt,1.54963e-11
+Insecticide,"Human toxicity, non-cancer",Pt,1.5654213999999998e-9
+Insecticide,"Human toxicity, cancer",Pt,4.6166e-15
+Insecticide,Acidification,Pt,0.14868711999999998
+Insecticide,"Eutrophication, freshwater",Pt,0.000118759
+Insecticide,"Eutrophication, marine",Pt,0.009537278
+Insecticide,"Eutrophication, terrestrial",Pt,0.50045004
+Insecticide,"Ecotoxicity, freshwater",Pt,529018443.3026
+Insecticide,Land use,Pt,10419696.54
+Insecticide,Water use,Pt,1631.081551
+Insecticide,"Resource use, fossils",Pt,1030841.5170000001
+Insecticide,"Resource use, minerals and metals",Pt,2.5343999999999997e-7
+Insecticide,Climate change - Fossil,Pt,0
+Insecticide,Climate change - Biogenic,Pt,0
+Insecticide,Climate change - Land use and LU change,Pt,0
+Insecticide,"Human toxicity, non-cancer - organics",Pt,0
+Insecticide,"Human toxicity, non-cancer - inorganics",Pt,0
+Insecticide,"Human toxicity, non-cancer - metals",Pt,0
+Insecticide,"Human toxicity, cancer - organics",Pt,0
+Insecticide,"Human toxicity, cancer - inorganics",Pt,0
+Insecticide,"Human toxicity, cancer - metals",Pt,0
+Insecticide,"Ecotoxicity, freshwater - organics",Pt,0
+Insecticide,"Ecotoxicity, freshwater - inorganics",Pt,0
+Insecticide,"Ecotoxicity, freshwater - metals",Pt,0
+Fungicide,Total,Pt,14456166.866849951
+Fungicide,Climate change,Pt,16691.588519999998
+Fungicide,Ozone depletion,Pt,1.40008e-9
+Fungicide,Ionising radiation,Pt,620.0116840000001
+Fungicide,Photochemical ozone formation,Pt,0.03470854
+Fungicide,Particulate matter,Pt,1.44032e-11
+Fungicide,"Human toxicity, non-cancer",Pt,3.766066e-12
+Fungicide,"Human toxicity, cancer",Pt,5.9696e-15
+Fungicide,Acidification,Pt,0.13245375999999998
+Fungicide,"Eutrophication, freshwater",Pt,0.000103618
+Fungicide,"Eutrophication, marine",Pt,0.008716038
+Fungicide,"Eutrophication, terrestrial",Pt,0.45373077
+Fungicide,"Ecotoxicity, freshwater",Pt,3825051.6733000004
+Fungicide,Land use,Pt,9671351.19
+Fungicide,Water use,Pt,1440.918633
+Fungicide,"Resource use, fossils",Pt,941010.855
+Fungicide,"Resource use, minerals and metals",Pt,2.208e-7
+Fungicide,Climate change - Fossil,Pt,0
+Fungicide,Climate change - Biogenic,Pt,0
+Fungicide,Climate change - Land use and LU change,Pt,0
+Fungicide,"Human toxicity, non-cancer - organics",Pt,0
+Fungicide,"Human toxicity, non-cancer - inorganics",Pt,0
+Fungicide,"Human toxicity, non-cancer - metals",Pt,0
+Fungicide,"Human toxicity, cancer - organics",Pt,0
+Fungicide,"Human toxicity, cancer - inorganics",Pt,0
+Fungicide,"Human toxicity, cancer - metals",Pt,0
+Fungicide,"Ecotoxicity, freshwater - organics",Pt,0
+Fungicide,"Ecotoxicity, freshwater - inorganics",Pt,0
+Fungicide,"Ecotoxicity, freshwater - metals",Pt,0

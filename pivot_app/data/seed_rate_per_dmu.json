@@ -1,0 +1,342 @@
+[
+  {
+    "Season": "2022",
+    "dmu_id": "C1",
+    "total_mass_kg": 7115.4,
+    "total_area": 45.92,
+    "total_prod_t": 203.6418,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 154.9520906,
+    "kg_per_t": 34.94076363
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C1",
+    "total_mass_kg": 9401.7,
+    "total_area": 45.51,
+    "total_prod_t": 196.7616,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 206.5853659,
+    "kg_per_t": 47.78218921
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C1",
+    "total_mass_kg": 8788.8,
+    "total_area": 45.51,
+    "total_prod_t": 227.7032,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 193.117996,
+    "kg_per_t": 38.59761303
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "C2",
+    "total_mass_kg": 22373.5,
+    "total_area": 111.38,
+    "total_prod_t": 777.8801,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 200.8753816,
+    "kg_per_t": 28.76214471
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C2",
+    "total_mass_kg": 20737.8,
+    "total_area": 115.21,
+    "total_prod_t": 1003.1592,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 180,
+    "kg_per_t": 20.67249146
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C2",
+    "total_mass_kg": 19315.2,
+    "total_area": 120.72,
+    "total_prod_t": 892.1208,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 160,
+    "kg_per_t": 21.65087957
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "C3",
+    "total_mass_kg": 21762.6,
+    "total_area": 114.54,
+    "total_prod_t": 496.2327,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 190,
+    "kg_per_t": 43.85563466
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C3",
+    "total_mass_kg": 18345,
+    "total_area": 112.23,
+    "total_prod_t": 639.8522,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 163.4589682,
+    "kg_per_t": 28.67068364
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C3",
+    "total_mass_kg": 21489.3,
+    "total_area": 112.23,
+    "total_prod_t": 723.4214,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 191.4755413,
+    "kg_per_t": 29.70509305
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "C4",
+    "total_mass_kg": 5546.2,
+    "total_area": 25.21,
+    "total_prod_t": 91.2602,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 220,
+    "kg_per_t": 60.77348066
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C4",
+    "total_mass_kg": 4768,
+    "total_area": 23.84,
+    "total_prod_t": 107.3744,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 200,
+    "kg_per_t": 44.40537037
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C4",
+    "total_mass_kg": 4057.9,
+    "total_area": 23.87,
+    "total_prod_t": 197.4649,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 170,
+    "kg_per_t": 20.54998129
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "C5",
+    "total_mass_kg": 5698.75,
+    "total_area": 35.75,
+    "total_prod_t": 214.045,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 159.4055944,
+    "kg_per_t": 26.62407438
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C5",
+    "total_mass_kg": 6075.2,
+    "total_area": 35.44,
+    "total_prod_t": 217.4936,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 171.4221219,
+    "kg_per_t": 27.93277595
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C5",
+    "total_mass_kg": 5472.8,
+    "total_area": 35.44,
+    "total_prod_t": 290.5825,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 154.4243792,
+    "kg_per_t": 18.83389399
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "C6",
+    "total_mass_kg": 14622,
+    "total_area": 73.11,
+    "total_prod_t": 157.1865,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 200,
+    "kg_per_t": 93.02325581
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C6",
+    "total_mass_kg": 14218,
+    "total_area": 71.09,
+    "total_prod_t": 204.7392,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 200,
+    "kg_per_t": 69.44444444
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C6",
+    "total_mass_kg": 9759.6,
+    "total_area": 54.22,
+    "total_prod_t": 393.095,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 180,
+    "kg_per_t": 24.82758621
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C7",
+    "total_mass_kg": 5972.8,
+    "total_area": 37.33,
+    "total_prod_t": 248.2616,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 160,
+    "kg_per_t": 24.05849314
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C7",
+    "total_mass_kg": 6349.5,
+    "total_area": 37.35,
+    "total_prod_t": 157.786,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 170,
+    "kg_per_t": 40.24121278
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "C8",
+    "total_mass_kg": 11414,
+    "total_area": 58.32,
+    "total_prod_t": 323.9088,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 195.7133059,
+    "kg_per_t": 35.23831399
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "C8",
+    "total_mass_kg": 7545.2,
+    "total_area": 58.04,
+    "total_prod_t": 334.3764,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 130,
+    "kg_per_t": 22.56498963
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "C8",
+    "total_mass_kg": 9459.2,
+    "total_area": 59.12,
+    "total_prod_t": 233.6194,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 160,
+    "kg_per_t": 40.48978809
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "D1",
+    "total_mass_kg": 1470,
+    "total_area": 12.25,
+    "total_prod_t": 16.66,
+    "operations": "row sowing",
+    "kg_per_ha": 120,
+    "kg_per_t": 88.23529412
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "D1",
+    "total_mass_kg": 3957.8,
+    "total_area": 17.99,
+    "total_prod_t": 88.151,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 220,
+    "kg_per_t": 44.89795918
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "D1",
+    "total_mass_kg": 3968,
+    "total_area": 24.8,
+    "total_prod_t": 137.368,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 160,
+    "kg_per_t": 28.88591229
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "D2",
+    "total_mass_kg": 3642,
+    "total_area": 18.21,
+    "total_prod_t": 22.3983,
+    "operations": "row sowing",
+    "kg_per_ha": 200,
+    "kg_per_t": 162.601626
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "D2",
+    "total_mass_kg": 4008.4,
+    "total_area": 18.22,
+    "total_prod_t": 88.1848,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 220,
+    "kg_per_t": 45.45454545
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "D2",
+    "total_mass_kg": 3461.8,
+    "total_area": 18.22,
+    "total_prod_t": 123.3494,
+    "operations": "broadcast sowing",
+    "kg_per_ha": 190,
+    "kg_per_t": 28.06499261
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "NT1",
+    "total_mass_kg": 2984,
+    "total_area": 14.92,
+    "total_prod_t": 96.8308,
+    "operations": "row sowing",
+    "kg_per_ha": 200,
+    "kg_per_t": 30.81664099
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "NT1",
+    "total_mass_kg": 8717,
+    "total_area": 37.9,
+    "total_prod_t": 269.469,
+    "operations": "row sowing",
+    "kg_per_ha": 230,
+    "kg_per_t": 32.3488045
+  },
+  {
+    "Season": "2022",
+    "dmu_id": "NT2",
+    "total_mass_kg": 2756.7,
+    "total_area": 20.42,
+    "total_prod_t": 83.1094,
+    "operations": "row sowing",
+    "kg_per_ha": 135,
+    "kg_per_t": 33.16953317
+  },
+  {
+    "Season": "2023",
+    "dmu_id": "NT2",
+    "total_mass_kg": 3028.5,
+    "total_area": 20.19,
+    "total_prod_t": 147.5889,
+    "operations": "row sowing",
+    "kg_per_ha": 150,
+    "kg_per_t": 20.51983584
+  },
+  {
+    "Season": "2024",
+    "dmu_id": "NT2",
+    "total_mass_kg": 3028.5,
+    "total_area": 20.19,
+    "total_prod_t": 96.3063,
+    "operations": "row sowing",
+    "kg_per_ha": 150,
+    "kg_per_t": 31.44654088
+  }
+]

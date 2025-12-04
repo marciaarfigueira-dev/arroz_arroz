@@ -1,0 +1,17 @@
+Impact category,"NF (per person, EF)",WF (fraction),Fₖ = WF/NF (→ Pt per unit),units
+Climate change,8.40E+03,0.2106,1.77E+03,Pt
+Ozone depletion,2.34E-02,0.0631,1.48E-03,Pt
+"Human toxicity, cancer",3.85E-05,0.0213,8.20E-07,Pt
+"Human toxicity, non-cancer",4.75E-04,0.0184,8.74E-06,Pt
+Particulate matter,7.18E-04,0.0896,6.43E-05,Pt
+Ionising radiation,4.22E+03,0.0501,2.11E+02,Pt
+Photochemical ozone formation,4.06E+01,0.0478,1.94E+00,Pt
+Acidification,5.55E+01,0.062,3.44E+00,Pt
+"Eutrophication, terrestrial",1.77E+02,0.0371,6.57E+00,Pt
+"Eutrophication, freshwater",7.34E-01,0.028,2.06E-02,Pt
+"Eutrophication, marine",2.83E+01,0.0296,8.38E-01,Pt
+"Ecotoxicity, freshwater",1.18E+04,0.0192,2.27E+02,Pt
+Land use,1.40E+06,0.0794,1.11E+05,Pt
+Water use,1.15E+04,0.0851,9.79E+02,Pt
+"Resource use, fossils",6.53E+04,0.0832,5.43E+03,Pt
+"Resource use, minerals & metals",6.36E-02,0.0755,4.80E-03,Pt

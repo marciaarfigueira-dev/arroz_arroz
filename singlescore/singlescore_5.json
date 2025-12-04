@@ -1,354 +1,181 @@
 {
   "product_id": "singlescore_5_1",
+  "product_name": "1 kg Insecticide emissions, at farm {RER} Economic, U (of project Agri-footprint - economic - unit)",
   "functional_unit": "1 kg Insecticide emissions, at farm {RER} Economic, U (of project Agri-footprint - economic - unit)",
   "categories": [
     {
       "impact_category": "Total",
       "unit": "Pt",
-      "total": 1.062588,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 1.062588,
-          "share": 1.0
-        }
-      ]
+      "total": 528939737,
+      "contributors": []
     },
     {
       "impact_category": "Climate change",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ozone depletion",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ionising radiation",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Photochemical ozone formation",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Particulate matter",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer",
       "unit": "Pt",
-      "total": 0.014365,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.014365,
-          "share": 1.0
-        }
-      ]
+      "total": 1.5644599999999998e-9,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Acidification",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, freshwater",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, marine",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, terrestrial",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater",
       "unit": "Pt",
-      "total": 1.048223,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 1.048223,
-          "share": 1.0
-        }
-      ]
+      "total": 528939737,
+      "contributors": []
     },
     {
       "impact_category": "Land use",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Water use",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Resource use, fossils",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Resource use, minerals and metals",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Fossil",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Biogenic",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Land use and LU change",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - organics",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - inorganics",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - metals",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - organics",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - inorganics",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - metals",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - organics",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - inorganics",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - metals",
       "unit": "Pt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Insecticide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "total": 0,
+      "contributors": []
     }
   ]
 }

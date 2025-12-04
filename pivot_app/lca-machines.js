@@ -106,7 +106,7 @@ function buildFactors(singleRecords, charaRecords) {
   singleRecords.forEach((rec) => {
     const catMap = {};
     rec.categories.forEach((cat) => {
-      catMap[cat.impact_category] = { ef: cat.total || 0, unit: cat.unit || "µPt" };
+      catMap[cat.impact_category] = { ef: cat.total || 0, unit: cat.unit || "Pt" };
     });
     singleMaps[rec.product_id] = catMap;
   });
@@ -224,7 +224,6 @@ function enrichRow(row) {
     state.filters.score === "chara" ? EQUIPMENT_CHARA_MAP[eqKey] : EQUIPMENT_MAP[eqKey];
   const mapSet = state.filters.score === "chara" ? state.charaMaps : state.singleMaps;
   const catMap = factorId ? mapSet[factorId] : null;
-  // Use repetitions as the normalized area basis (per-ha proxy)
   const areaHa = row.repetitions || row.total_area_worked || row.area_ha || 0;
   const areaPerTonneHa = row.area_per_tonne || 0;
   const impactHa = {};
@@ -233,8 +232,9 @@ function enrichRow(row) {
     Object.entries(catMap).forEach(([cat, ef]) => {
       const factor = typeof ef === "object" ? ef.ef : ef;
       if (factor == null) return;
-      impactHa[cat] = areaHa ? areaHa * factor : null;
-      impactT[cat] = areaPerTonneHa ? areaPerTonneHa * factor : null;
+      // EF is per ha already. Store intensity, compute absolute via area/tonnes downstream.
+      impactHa[cat] = areaHa ? factor : null;
+      impactT[cat] = areaPerTonneHa ? factor : null;
     });
   }
   const totalHa = totalFromMap(impactHa);
@@ -263,13 +263,33 @@ function renderActiveFilters(count) {
 
 function renderStats(rows) {
   const totalArea = sum(rows, "total_area_worked");
-  const totalImpactHa = rows.reduce((sum, r) => sum + (r.total_impact_ha || 0), 0);
-  const totalImpactT = rows.reduce((sum, r) => sum + (r.total_impact_t || 0), 0);
+  const totalProd = rows.reduce((sum, r) => sum + (r.area_per_tonne ? r.total_area_worked / r.area_per_tonne : 0), 0);
+  const totalAbsHa = rows.reduce((sum, r) => {
+    const abs = r.total_impact_ha != null ? r.total_impact_ha * (r.total_area_worked || 0) : 0;
+    return sum + abs;
+  }, 0);
+  const totalAbsT = rows.reduce((sum, r) => {
+    const tonnes = r.area_per_tonne ? (r.total_area_worked || 0) / r.area_per_tonne : 0;
+    const abs = r.total_impact_t != null ? r.total_impact_t * tonnes : 0;
+    return sum + abs;
+  }, 0);
+  const avgHa = totalArea ? totalAbsHa / totalArea : null;
+  const avgT = totalProd ? totalAbsT / totalProd : null;
   const stats = [
     { label: "Operations", value: formatNumber(rows.length, 0) },
     { label: "Area worked (ha)", value: formatNumber(totalArea, 2) },
-    { label: "Impact (µPt op)", value: totalImpactHa ? formatNumber(totalImpactHa, 2) : "—" },
-    { label: "Impact (µPt/t)", value: totalImpactT ? formatNumber(totalImpactT, 2) : "—" },
+    {
+      label: "Impact (Pt/ha)",
+      value: state.filters.score === "chara" ? "—" : avgHa != null ? formatNumberSci(avgHa, 2) : "—",
+    },
+    {
+      label: "Impact (Pt/t)",
+      value: state.filters.score === "chara" ? "—" : avgT != null ? formatNumberSci(avgT, 2) : "—",
+    },
+    {
+      label: "Field impact (Pt)",
+      value: state.filters.score === "chara" ? "—" : totalAbsHa ? formatNumberSci(totalAbsHa, 2) : "—",
+    },
   ];
   elements.statGrid.innerHTML = stats
     .map(
@@ -287,14 +307,26 @@ function renderImpacts(rows) {
   const showBasisT = state.filters.basis === "tonne";
   const usingChara = state.filters.score === "chara";
   const unitMap = usingChara ? mergeUnits(state.charaMaps) : mergeUnits(state.singleMaps);
-  const agg = {};
+  const denom = showBasisT
+    ? rows.reduce((sum, r) => sum + (r.area_per_tonne ? (r.total_area_worked || 0) / r.area_per_tonne : 0), 0)
+    : sum(rows, "total_area_worked");
+  const aggAbs = {};
   rows.forEach((row) => {
     const source = showBasisT ? row.impact_values_t : row.impact_values_ha;
-    if (!source) return;
+    const scalar = showBasisT
+      ? row.area_per_tonne
+        ? (row.total_area_worked || 0) / row.area_per_tonne
+        : 0
+      : row.total_area_worked || 0;
+    if (!source || !scalar) return;
     Object.entries(source).forEach(([cat, val]) => {
       if (val == null || cat === "Total") return;
-      agg[cat] = (agg[cat] || 0) + val;
+      aggAbs[cat] = (aggAbs[cat] || 0) + val * scalar;
     });
+  });
+  const agg = {};
+  Object.entries(aggAbs).forEach(([cat, abs]) => {
+    agg[cat] = denom ? abs / denom : abs;
   });
   const entries = Object.entries(agg)
     .map(([key, value]) => ({ key, value }))
@@ -305,22 +337,43 @@ function renderImpacts(rows) {
     elements.impactBars.innerHTML = `<p class="empty">No impacts to show.</p>`;
     return;
   }
+  const defaultUnit = showBasisT ? "Pt/t" : "Pt/ha";
+  const basisSuffix = showBasisT ? "/t" : "/ha";
+
+  if (usingChara) {
+    const rowsTable = entries
+      .map((entry) => {
+        const unit = unitMap[entry.key] ? `${unitMap[entry.key]}${basisSuffix}` : defaultUnit;
+        return `<tr><td>${entry.key}</td><td>${unit}</td><td>${formatNumberSci(entry.value, 4)}</td></tr>`;
+      })
+      .join("");
+    elements.impactBars.innerHTML = `
+      <div class="table-shell">
+        <table>
+          <thead><tr><th>Impact category</th><th>Unit</th><th>Value</th></tr></thead>
+          <tbody>${rowsTable}</tbody>
+        </table>
+      </div>
+    `;
+    return;
+  }
+
   const maxVal = Math.max(...entries.map((e) => e.value), 1);
-  const defaultUnit = showBasisT ? "µPt/t" : "µPt (op)";
+  const total = entries.reduce((s, e) => s + e.value, 0);
   const bars = entries
     .map((entry, idx) => {
       const color = palette[idx % palette.length];
-      const pct = totalImpact ? (entry.value / totalImpact) * 100 : 0;
+      const pct = total ? (entry.value / total) * 100 : 0;
       const unit = unitMap[entry.key] || defaultUnit;
       return `
         <div class="bar-row">
           <div class="bar-label">
             <div>${entry.key}</div>
-            <small>${formatNumber(entry.value, 2)} ${unit} • ${formatNumber(pct, 1)}%</small>
+            <small>${formatNumberSci(entry.value, 2)} ${unit} • ${formatNumber(pct, 1)}%</small>
           </div>
           <div class="bar-track">
             <div class="bar-fill" style="width:${(entry.value / maxVal) * 100}%; background:${color}"></div>
-            <span class="bar-value">${formatNumber(entry.value, 2)}</span>
+            <span class="bar-value">${formatNumber(pct, 1)}%</span>
           </div>
         </div>
       `;
@@ -345,7 +398,7 @@ function renderDetail(rows) {
           <th>Equipment</th>
           <th>Area worked (ha)</th>
           <th>Area per tonne (ha/t)</th>
-          <th>${state.filters.basis === "tonne" ? "Impact (µPt/t)" : "Impact (µPt op)"}</th>
+          <th>${state.filters.basis === "tonne" ? "Impact (Pt/t)" : "Impact (Pt/ha)"}</th>
           <th>Date</th>
         </tr>
       </thead>
@@ -414,10 +467,24 @@ function mergeUnits(mapSet) {
 }
 
 function formatNumber(value, digits = 1) {
+  if (value == null || !isFinite(value)) return "—";
+  const abs = Math.abs(value);
+  if (abs >= 1e6 || (abs > 0 && abs < 1e-3)) {
+    return value.toExponential(2);
+  }
   return new Intl.NumberFormat("en-US", {
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,
   }).format(value);
+}
+
+function formatNumberSci(value, digits = 2) {
+  if (value == null || !isFinite(value)) return "—";
+  const abs = Math.abs(value);
+  if (abs >= 1e6 || (abs > 0 && abs < 1e-3)) {
+    return value.toExponential(2);
+  }
+  return formatNumber(value, digits);
 }
 
 function toTitle(str) {

@@ -1,0 +1,181 @@
+{
+  "product_id": "Insecticide",
+  "product_name": "1 kg Insecticide, at plant + emissions {RER} Economic, U (of project Agri-footprint - economic - unit)",
+  "functional_unit": "1 kg Insecticide, at plant + emissions {RER} Economic, U (of project Agri-footprint - economic - unit)",
+  "categories": [
+    {
+      "impact_category": "Total",
+      "unit": "Pt",
+      "total": 540489472.3400254,
+      "contributors": []
+    },
+    {
+      "impact_category": "Climate change",
+      "unit": "Pt",
+      "total": 18147.4914,
+      "contributors": []
+    },
+    {
+      "impact_category": "Ozone depletion",
+      "unit": "Pt",
+      "total": 1.4799999999999999e-09,
+      "contributors": []
+    },
+    {
+      "impact_category": "Ionising radiation",
+      "unit": "Pt",
+      "total": 711.710174,
+      "contributors": []
+    },
+    {
+      "impact_category": "Photochemical ozone formation",
+      "unit": "Pt",
+      "total": 0.038507059999999996,
+      "contributors": []
+    },
+    {
+      "impact_category": "Particulate matter",
+      "unit": "Pt",
+      "total": 1.54963e-11,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer",
+      "unit": "Pt",
+      "total": 1.5654213999999998e-09,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, cancer",
+      "unit": "Pt",
+      "total": 4.6166e-15,
+      "contributors": []
+    },
+    {
+      "impact_category": "Acidification",
+      "unit": "Pt",
+      "total": 0.14868711999999998,
+      "contributors": []
+    },
+    {
+      "impact_category": "Eutrophication, freshwater",
+      "unit": "Pt",
+      "total": 0.000118759,
+      "contributors": []
+    },
+    {
+      "impact_category": "Eutrophication, marine",
+      "unit": "Pt",
+      "total": 0.009537278,
+      "contributors": []
+    },
+    {
+      "impact_category": "Eutrophication, terrestrial",
+      "unit": "Pt",
+      "total": 0.50045004,
+      "contributors": []
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater",
+      "unit": "Pt",
+      "total": 529018443.3026,
+      "contributors": []
+    },
+    {
+      "impact_category": "Land use",
+      "unit": "Pt",
+      "total": 10419696.54,
+      "contributors": []
+    },
+    {
+      "impact_category": "Water use",
+      "unit": "Pt",
+      "total": 1631.081551,
+      "contributors": []
+    },
+    {
+      "impact_category": "Resource use, fossils",
+      "unit": "Pt",
+      "total": 1030841.5170000001,
+      "contributors": []
+    },
+    {
+      "impact_category": "Resource use, minerals and metals",
+      "unit": "Pt",
+      "total": 2.5343999999999997e-07,
+      "contributors": []
+    },
+    {
+      "impact_category": "Climate change - Fossil",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Climate change - Biogenic",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Climate change - Land use and LU change",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - organics",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - inorganics",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, non-cancer - metals",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, cancer - organics",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, cancer - inorganics",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Human toxicity, cancer - metals",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - organics",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - inorganics",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    },
+    {
+      "impact_category": "Ecotoxicity, freshwater - metals",
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
+    }
+  ]
+}

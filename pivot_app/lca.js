@@ -86,32 +86,32 @@ async function init() {
 }
 
 async function loadOperations() {
-  const res = await fetch("./data/operations.json");
+  const res = await fetch(`./data/operations.json?ts=${Date.now()}`);
   if (!res.ok) throw new Error("Unable to load operations data");
   const data = await res.json();
   return data;
 }
 
 async function loadSinglescore() {
-  const res = await fetch("./data/singlescore.json");
+  const res = await fetch(`./data/singlescore.json?ts=${Date.now()}`);
   if (!res.ok) throw new Error("Unable to load singlescore data");
   return res.json();
 }
 
 async function loadChara() {
-  const res = await fetch("./data/characterisation.json");
+  const res = await fetch(`./data/characterisation.json?ts=${Date.now()}`);
   if (!res.ok) throw new Error("Unable to load characterisation data");
   return res.json();
 }
 
 async function loadFertilisation() {
-  const res = await fetch("./data/fertilisation.json");
+  const res = await fetch(`./data/fertilisation.json?ts=${Date.now()}`);
   if (!res.ok) throw new Error("Unable to load fertilisation data");
   return res.json();
 }
 
 async function loadSowing() {
-  const res = await fetch("./data/sowing.json");
+  const res = await fetch(`./data/sowing.json?ts=${Date.now()}`);
   if (!res.ok) throw new Error("Unable to load sowing data");
   return res.json();
 }
@@ -139,9 +139,9 @@ function buildImpactMap(records) {
 
 function buildCropFactors(singleRecords, charaRecords) {
   const singleIds = {
-    herbicide: ["singlescore_2_1", "singlescore_3_1"],
-    insecticide: ["singlescore_4_1", "singlescore_5_1"],
-    fungicide: ["singlescore_6_1", "singlescore_7_1"],
+    herbicide: ["Herbicide"],
+    insecticide: ["Insecticide"],
+    fungicide: ["Fungicide"],
   };
   const charaIds = {
     herbicide: ["2_chara", "3_chara"],
@@ -412,7 +412,7 @@ function renderActiveFilters(count) {
   if (f.dataset === "sowing") parts.push("Dataset: Sowing");
   else if (f.dataset === "fertilisation") parts.push("Dataset: Fertilisation");
   else parts.push("Dataset: Crop protection");
-  parts.push(f.basis === "tonne" ? "Basis: kg/t" : "Basis: kg/ha");
+  parts.push(f.basis === "tonne" ? "Basis: impact/t" : "Basis: impact/ha");
   parts.push(f.score === "chara" ? "Impact: Characterisation" : "Impact: Single score");
   const label = parts.length ? parts.join(" • ") : "No filters applied";
   elements.activeFilters.textContent = `${label} — ${count} operations`;
@@ -421,16 +421,18 @@ function renderActiveFilters(count) {
 function renderStats(rows) {
   const totalArea = sum(rows, "area_ha");
   const totalTonnes = sum(rows, "tonnes");
-  const totalImpactHa = rows.reduce((sum, r) => sum + (r.total_impact_ha || 0), 0);
-  const totalImpactT = rows.reduce((sum, r) => sum + (r.total_impact_t || 0), 0);
   const totalFieldImpact = rows.reduce((sum, r) => sum + (r.total_field_impact || 0), 0);
+  const weightedHa = rows.reduce((sum, r) => sum + (r.total_impact_ha || 0) * (r.area_ha || 0), 0);
+  const weightedT = rows.reduce((sum, r) => sum + (r.total_impact_t || 0) * (r.tonnes || 0), 0);
+  const avgImpactHa = totalArea ? weightedHa / totalArea : null;
+  const avgImpactT = totalTonnes ? weightedT / totalTonnes : null;
   const stats = [
     { label: "Operations", value: formatNumber(rows.length, 0) },
     { label: "Area (ha)", value: formatNumber(totalArea, 1) },
     { label: "Production (t)", value: totalTonnes ? formatNumber(totalTonnes, 2) : "—" },
-    { label: "Impact (µPt/ha)", value: totalImpactHa ? formatNumber(totalImpactHa, 2) : "—" },
-    { label: "Impact (µPt/t)", value: totalImpactT ? formatNumber(totalImpactT, 2) : "—" },
-    { label: "Field impact (µPt)", value: totalFieldImpact ? formatNumber(totalFieldImpact, 2) : "—" },
+    { label: "Avg impact (Pt/ha)", value: avgImpactHa == null || !avgImpactHa ? "—" : formatNumber(avgImpactHa, 2) },
+    { label: "Avg impact (Pt/t)", value: avgImpactT == null || !avgImpactT ? "—" : formatNumber(avgImpactT, 2) },
+    { label: "Field impact (Pt)", value: totalFieldImpact ? formatNumber(totalFieldImpact, 2) : "—" },
   ];
   elements.statGrid.innerHTML = stats
     .map(
@@ -450,49 +452,68 @@ function renderImpacts(rows) {
     state.filters.score === "chara"
       ? mergeUnits(state.factorChara)
       : mergeUnits(state.factorSingle);
-  const agg = {};
+  const denom = showBasisT ? sum(rows, "tonnes") : sum(rows, "area_ha");
+  const aggAbs = {};
   rows.forEach((row) => {
     const source = showBasisT ? row.impact_values_t : row.impact_values_ha;
-    if (!source) return;
+    const scalar = showBasisT ? row.tonnes || 0 : row.area_ha || row.covered_area || 0;
+    if (!source || !scalar) return;
     Object.entries(source).forEach(([cat, value]) => {
       if (value == null || cat === "Total") return;
-      agg[cat] = (agg[cat] || 0) + value;
+      aggAbs[cat] = (aggAbs[cat] || 0) + value * scalar;
     });
+  });
+  const agg = {};
+  Object.entries(aggAbs).forEach(([cat, abs]) => {
+    agg[cat] = denom ? abs / denom : abs;
   });
   const entries = Object.entries(agg)
     .map(([cat, value]) => ({ cat, value }))
     .sort((a, b) => b.value - a.value);
-  const totalImpact = showBasisT
-    ? rows.reduce((sum, r) => sum + (r.total_impact_t || 0), 0)
-    : rows.reduce((sum, r) => sum + (r.total_impact_ha || 0), 0);
+  const totalImpact = entries.reduce((s, e) => s + (e.value || 0), 0);
   elements.impactCount.textContent = `${entries.length} categories`;
   if (!entries.length) {
     elements.impactBars.innerHTML = `<p class="empty">No impacts to show. Check filters or ensure operations have matching dose data.</p>`;
     return;
   }
-  const maxVal = Math.max(...entries.map((e) => e.value), 1);
-  const defaultUnit = showBasisT ? "µPt/t" : "µPt/ha";
+  const defaultUnit = showBasisT ? "Pt/t" : "Pt/ha";
   const basisSuffix = showBasisT ? "/t" : "/ha";
+
+  if (state.filters.score === "chara") {
+    const rowsTable = entries
+      .map((entry) => {
+        const rawUnit = unitMap[entry.cat];
+        const unit = rawUnit ? `${rawUnit}${basisSuffix}` : defaultUnit;
+        return `<tr><td>${entry.cat}</td><td>${unit}</td><td>${formatNumber(entry.value, 2)}</td></tr>`;
+      })
+      .join("");
+    elements.impactBars.innerHTML = `
+      <div class="table-shell">
+        <table>
+          <thead><tr><th>Impact category</th><th>Unit</th><th>Value</th></tr></thead>
+          <tbody>${rowsTable}</tbody>
+        </table>
+      </div>
+    `;
+    return;
+  }
+
+  // single-score: show bars by % contribution
   const bars = entries
     .map((entry, idx) => {
       const color = palette[idx % palette.length];
       const pct = totalImpact ? (entry.value / totalImpact) * 100 : 0;
-      const rawUnit = unitMap[entry.cat];
-      const unit =
-        state.filters.score === "chara"
-          ? rawUnit
-            ? `${rawUnit}${basisSuffix}`
-            : defaultUnit
-          : defaultUnit;
+      const pctWidth = Math.max(0, Math.min(100, pct));
+      const unit = defaultUnit;
       return `
         <div class="bar-row">
           <div class="bar-label">
             <div>${entry.cat}</div>
-            <small>${formatNumber(entry.value, 2)} ${unit} • ${formatNumber(pct, 1)}%</small>
+            <small>${formatNumber(entry.value, 2)} ${unit} (${formatNumber(pct, 1)}%)</small>
           </div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:${(entry.value / maxVal) * 100}%; background:${color}"></div>
-            <span class="bar-value">${formatNumber(entry.value, 2)}</span>
+            <div class="bar-fill" style="width:${pctWidth}%; background:${color}"></div>
+            <span class="bar-value">${formatNumber(pct, 1)}%</span>
           </div>
         </div>
       `;
@@ -720,6 +741,11 @@ function mergeUnits(mapSet) {
 }
 
 function formatNumber(value, digits = 1) {
+  if (value == null || !isFinite(value)) return "—";
+  const abs = Math.abs(value);
+  if (abs >= 1e6 || (abs > 0 && abs < 1e-3)) {
+    return value.toExponential(2);
+  }
   return new Intl.NumberFormat("en-US", {
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,

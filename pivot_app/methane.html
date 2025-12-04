@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparroz | LCA Flooded Fields (CH₄)</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>LCA Flooded Fields (CH₄)</h1>
+        <p class="lede">Tier 1 IPCC Equation 5.2 for continuously flooded rice with straw incorporation.</p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>LCA</span>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Formula</p>
+            <h2>Adjusted daily EF</h2>
+          </div>
+          <div class="panel-actions">
+            <a class="ghost" href="./index.html">Home</a>
+          </div>
+        </div>
+        <div class="formula">
+          <code>EF<sub>i</sub> = EF<sub>c</sub> × SF<sub>w</sub> × SF<sub>p</sub> × SF<sub>o</sub></code>
+        </div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>Parameter</th>
+                <th>Value</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>EF<sub>c</sub></td><td>1.56 kg CH₄/ha/day</td><td>Baseline, continuously flooded without organic amendments</td></tr>
+              <tr><td>SF<sub>w</sub></td><td>1.00</td><td>Water regime during cultivation</td></tr>
+              <tr><td>SF<sub>p</sub></td><td>1.22</td><td>Pre-season water regime</td></tr>
+              <tr><td>SF<sub>o</sub></td><td>2.539</td><td>Organic amendments (1.5 t straw per t rice)</td></tr>
+              <tr><td>Days</td><td>130</td><td>Season length</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Results</p>
+            <h2>Emission factors</h2>
+          </div>
+        </div>
+        <div class="stat-grid">
+          <div class="stat">
+            <small>EF<sub>i</sub> (daily)</small>
+            <strong>4.8322 kg CH₄/ha/day</strong>
+          </div>
+          <div class="stat">
+            <small>Seasonal CH₄</small>
+            <strong>628.189 kg CH₄/ha</strong>
+          </div>
+          <div class="stat">
+            <small>Seasonal CO₂e (GWP 28)</small>
+            <strong>17,589.30 kg CO₂e/ha</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel detail">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Intensity</p>
+            <h2>Per-hectare basis only</h2>
+          </div>
+        </div>
+        <p class="muted">Reporting intensities in kg/ha only, based on the Tier 1 factors above.</p>
+      </section>
+
+      <section class="panel filters">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Filters</p>
+            <h2>Farmer-season CH₄</h2>
+          </div>
+          <div class="panel-actions">
+            <button class="ghost" id="about-btn" title="IPCC Tier 1 methane calculation (see About the Methods)">About</button>
+            <a class="ghost" href="./index.html">Home</a>
+            <button class="ghost" id="reset-filters">Reset</button>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label class="field">
+            <span>Season</span>
+            <select id="season-filter"></select>
+          </label>
+          <label class="field">
+            <span>Farmer</span>
+            <select id="farmer-filter"></select>
+          </label>
+          <label class="field">
+            <span>Impact basis</span>
+            <select id="basis-filter">
+              <option value="ha">Per hectare</option>
+              <option value="tonne">Per tonne</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Impact type</span>
+            <select id="score-filter">
+              <option value="single">Single score</option>
+              <option value="chara">Characterisation</option>
+            </select>
+          </label>
+        </div>
+        <div class="chip" id="active-filters"></div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2>Aggregates</h2>
+          </div>
+        </div>
+        <div class="stat-grid" id="stat-grid"></div>
+      </section>
+
+      <section class="panel pivot">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Impacts</p>
+            <h2>Impact categories (CH₄)</h2>
+          </div>
+          <div class="chip muted" id="impact-count"></div>
+        </div>
+        <div id="impact-bars" class="bar-chart"></div>
+      </section>
+
+      <section class="panel detail">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Detail</p>
+            <h2>Rows</h2>
+          </div>
+          <div class="chip muted" id="detail-count"></div>
+        </div>
+        <div id="detail-table" class="table-shell"></div>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="./methane.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+[
+  {
+    "dmu_id": "C1_2022",
+    "SUM of area_ha": 45.92,
+    "Productivity (t/ha)": 4.43,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3970.496224
+  },
+  {
+    "dmu_id": "C1_2023",
+    "SUM of area_ha": 45.51,
+    "Productivity (t/ha)": 4.54,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3874.294774
+  },
+  {
+    "dmu_id": "C1_2024",
+    "SUM of area_ha": 45.51,
+    "Productivity (t/ha)": 4.78,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3679.769513
+  },
+  {
+    "dmu_id": "C2_2022",
+    "SUM of area_ha": 111.38,
+    "Productivity (t/ha)": 6.91,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2545.484555
+  },
+  {
+    "dmu_id": "C2_2023",
+    "SUM of area_ha": 115.21,
+    "Productivity (t/ha)": 8.71,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2019.43723
+  },
+  {
+    "dmu_id": "C2_2024",
+    "SUM of area_ha": 120.72,
+    "Productivity (t/ha)": 7.39,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2380.148616
+  },
+  {
+    "dmu_id": "C3_2022",
+    "SUM of area_ha": 114.54,
+    "Productivity (t/ha)": 4.77,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3687.483914
+  },
+  {
+    "dmu_id": "C3_2023",
+    "SUM of area_ha": 112.23,
+    "Productivity (t/ha)": 5.94,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2961.161325
+  },
+  {
+    "dmu_id": "C3_2024",
+    "SUM of area_ha": 112.23,
+    "Productivity (t/ha)": 5.77,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3048.405246
+  },
+  {
+    "dmu_id": "C4_2022",
+    "SUM of area_ha": 25.21,
+    "Productivity (t/ha)": 3.62,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 4858.922175
+  },
+  {
+    "dmu_id": "C4_2023",
+    "SUM of area_ha": 23.84,
+    "Productivity (t/ha)": 4.5,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3908.732949
+  },
+  {
+    "dmu_id": "C4_2024",
+    "SUM of area_ha": 23.87,
+    "Productivity (t/ha)": 8.28,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2125.338119
+  },
+  {
+    "dmu_id": "C5_2022",
+    "SUM of area_ha": 35.75,
+    "Productivity (t/ha)": 5.99,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2936.443785
+  },
+  {
+    "dmu_id": "C5_2023",
+    "SUM of area_ha": 35.44,
+    "Productivity (t/ha)": 6.23,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2823.322355
+  },
+  {
+    "dmu_id": "C5_2024",
+    "SUM of area_ha": 35.44,
+    "Productivity (t/ha)": 8.2,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2145.036375
+  },
+  {
+    "dmu_id": "C6_2022",
+    "SUM of area_ha": 73.11,
+    "Productivity (t/ha)": 2.15,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 8181.068964
+  },
+  {
+    "dmu_id": "C6_2023",
+    "SUM of area_ha": 71.09,
+    "Productivity (t/ha)": 2.88,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 6107.395233
+  },
+  {
+    "dmu_id": "C6_2024",
+    "SUM of area_ha": 54.22,
+    "Productivity (t/ha)": 7.35,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2393.101806
+  },
+  {
+    "dmu_id": "C7_2023",
+    "SUM of area_ha": 37.33,
+    "Productivity (t/ha)": 6.65,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2645.007259
+  },
+  {
+    "dmu_id": "C7_2024",
+    "SUM of area_ha": 37.35,
+    "Productivity (t/ha)": 4.99,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3524.909473
+  },
+  {
+    "dmu_id": "C8_2022",
+    "SUM of area_ha": 58.32,
+    "Productivity (t/ha)": 5.56,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3163.542855
+  },
+  {
+    "dmu_id": "C8_2023",
+    "SUM of area_ha": 58.04,
+    "Productivity (t/ha)": 5.73,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3069.685562
+  },
+  {
+    "dmu_id": "C8_2024",
+    "SUM of area_ha": 59.12,
+    "Productivity (t/ha)": 3.95,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 4452.986904
+  },
+  {
+    "dmu_id": "D1_2022",
+    "SUM of area_ha": 12.25,
+    "Productivity (t/ha)": 1.36,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 12933.30755
+  },
+  {
+    "dmu_id": "D1_2023",
+    "SUM of area_ha": 17.99,
+    "Productivity (t/ha)": 4.9,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3589.652709
+  },
+  {
+    "dmu_id": "D1_2024",
+    "SUM of area_ha": 24.8,
+    "Productivity (t/ha)": 5.68,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3096.707442
+  },
+  {
+    "dmu_id": "D2_2022",
+    "SUM of area_ha": 18.21,
+    "Productivity (t/ha)": 1.23,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 14300.2425
+  },
+  {
+    "dmu_id": "D2_2023",
+    "SUM of area_ha": 18.22,
+    "Productivity (t/ha)": 4.84,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3634.152536
+  },
+  {
+    "dmu_id": "D2_2024",
+    "SUM of area_ha": 18.22,
+    "Productivity (t/ha)": 6.77,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2598.123822
+  },
+  {
+    "dmu_id": "NT1_2023",
+    "SUM of area_ha": 14.92,
+    "Productivity (t/ha)": 6.49,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2710.21545
+  },
+  {
+    "dmu_id": "NT1_2024",
+    "SUM of area_ha": 37.9,
+    "Productivity (t/ha)": 7.11,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2473.881614
+  },
+  {
+    "dmu_id": "NT2_2022",
+    "SUM of area_ha": 20.42,
+    "Productivity (t/ha)": 4.1,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 4290.072749
+  },
+  {
+    "dmu_id": "NT2_2023",
+    "SUM of area_ha": 20.19,
+    "Productivity (t/ha)": 7.31,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 2407.514135
+  },
+  {
+    "dmu_id": "NT2_2024",
+    "SUM of area_ha": 20.19,
+    "Productivity (t/ha)": 4.77,
+    "C02eq(ch4)_ha": 17589.3,
+    "C02eq(ch4)_t": 3690.578739
+  }
+]

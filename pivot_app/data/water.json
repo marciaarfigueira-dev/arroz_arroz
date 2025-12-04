@@ -1,0 +1,240 @@
+[
+  {
+    "DMU_ID": "C1_2022",
+    "SUM of area_ha": "45.92",
+    "Productivity (t/ha)": "4.43",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2554.944"
+  },
+  {
+    "DMU_ID": "C1_2023",
+    "SUM of area_ha": "45.51",
+    "Productivity (t/ha)": "4.54",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2493.040"
+  },
+  {
+    "DMU_ID": "C1_2024",
+    "SUM of area_ha": "45.51",
+    "Productivity (t/ha)": "4.78",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2367.866"
+  },
+  {
+    "DMU_ID": "C2_2022",
+    "SUM of area_ha": "111.38",
+    "Productivity (t/ha)": "6.91",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1637.974"
+  },
+  {
+    "DMU_ID": "C2_2023",
+    "SUM of area_ha": "115.21",
+    "Productivity (t/ha)": "8.71",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1299.472"
+  },
+  {
+    "DMU_ID": "C2_2024",
+    "SUM of area_ha": "120.72",
+    "Productivity (t/ha)": "7.39",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1531.583"
+  },
+  {
+    "DMU_ID": "C3_2022",
+    "SUM of area_ha": "114.54",
+    "Productivity (t/ha)": "4.77",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2372.830"
+  },
+  {
+    "DMU_ID": "C3_2023",
+    "SUM of area_ha": "112.23",
+    "Productivity (t/ha)": "5.94",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1905.455"
+  },
+  {
+    "DMU_ID": "C3_2024",
+    "SUM of area_ha": "112.23",
+    "Productivity (t/ha)": "5.77",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1961.594"
+  },
+  {
+    "DMU_ID": "C4_2022",
+    "SUM of area_ha": "25.21",
+    "Productivity (t/ha)": "3.62",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "3126.630"
+  },
+  {
+    "DMU_ID": "C4_2023",
+    "SUM of area_ha": "23.84",
+    "Productivity (t/ha)": "4.50",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2515.200"
+  },
+  {
+    "DMU_ID": "C4_2024",
+    "SUM of area_ha": "23.87",
+    "Productivity (t/ha)": "8.28",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1367.617"
+  },
+  {
+    "DMU_ID": "C5_2022",
+    "SUM of area_ha": "35.75",
+    "Productivity (t/ha)": "5.99",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1889.549"
+  },
+  {
+    "DMU_ID": "C5_2023",
+    "SUM of area_ha": "35.44",
+    "Productivity (t/ha)": "6.23",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1816.758"
+  },
+  {
+    "DMU_ID": "C5_2024",
+    "SUM of area_ha": "35.44",
+    "Productivity (t/ha)": "8.20",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1380.293"
+  },
+  {
+    "DMU_ID": "C6_2022",
+    "SUM of area_ha": "73.11",
+    "Productivity (t/ha)": "2.15",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "5264.372"
+  },
+  {
+    "DMU_ID": "C6_2023",
+    "SUM of area_ha": "71.09",
+    "Productivity (t/ha)": "2.88",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "3930.000"
+  },
+  {
+    "DMU_ID": "C6_2024",
+    "SUM of area_ha": "54.22",
+    "Productivity (t/ha)": "7.35",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1539.918"
+  },
+  {
+    "DMU_ID": "C7_2023",
+    "SUM of area_ha": "37.33",
+    "Productivity (t/ha)": "6.65",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1702.015"
+  },
+  {
+    "DMU_ID": "C7_2024",
+    "SUM of area_ha": "37.35",
+    "Productivity (t/ha)": "4.99",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2268.216"
+  },
+  {
+    "DMU_ID": "C8_2022",
+    "SUM of area_ha": "58.32",
+    "Productivity (t/ha)": "5.56",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2035.683"
+  },
+  {
+    "DMU_ID": "C8_2023",
+    "SUM of area_ha": "58.04",
+    "Productivity (t/ha)": "5.73",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1975.288"
+  },
+  {
+    "DMU_ID": "C8_2024",
+    "SUM of area_ha": "59.12",
+    "Productivity (t/ha)": "3.95",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2865.418"
+  },
+  {
+    "DMU_ID": "D1_2022",
+    "SUM of area_ha": "12.25",
+    "Productivity (t/ha)": "1.36",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "8322.353"
+  },
+  {
+    "DMU_ID": "D1_2023",
+    "SUM of area_ha": "17.99",
+    "Productivity (t/ha)": "4.90",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2309.878"
+  },
+  {
+    "DMU_ID": "D1_2024",
+    "SUM of area_ha": "24.80",
+    "Productivity (t/ha)": "5.68",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1992.676"
+  },
+  {
+    "DMU_ID": "D2_2022",
+    "SUM of area_ha": "18.21",
+    "Productivity (t/ha)": "1.23",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "9201.951"
+  },
+  {
+    "DMU_ID": "D2_2023",
+    "SUM of area_ha": "18.22",
+    "Productivity (t/ha)": "4.84",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2338.512"
+  },
+  {
+    "DMU_ID": "D2_2024",
+    "SUM of area_ha": "18.22",
+    "Productivity (t/ha)": "6.77",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1671.846"
+  },
+  {
+    "DMU_ID": "NT1_2023",
+    "SUM of area_ha": "14.92",
+    "Productivity (t/ha)": "6.49",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1743.975"
+  },
+  {
+    "DMU_ID": "NT1_2024",
+    "SUM of area_ha": "37.90",
+    "Productivity (t/ha)": "7.11",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1591.899"
+  },
+  {
+    "DMU_ID": "NT2_2022",
+    "SUM of area_ha": "20.42",
+    "Productivity (t/ha)": "4.10",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2760.585"
+  },
+  {
+    "DMU_ID": "NT2_2023",
+    "SUM of area_ha": "20.19",
+    "Productivity (t/ha)": "7.31",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "1549.192"
+  },
+  {
+    "DMU_ID": "NT2_2024",
+    "SUM of area_ha": "20.19",
+    "Productivity (t/ha)": "4.77",
+    "Water m3/ha": "11,318.40",
+    "Water M3/t": "2374.822"
+  }
+]

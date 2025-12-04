@@ -1,179 +1,180 @@
 {
   "product_id": "singlescore_13_1",
+  "product_name": "1 m2 Fertilising, by broadcaster {RoW}| processing | APOS, U (of project Ecoinvent 3 - allocation at point of substitution - unit)",
   "functional_unit": "1 m2 Fertilising, by broadcaster {RoW}| processing | APOS, U (of project Ecoinvent 3 - allocation at point of substitution - unit)",
   "categories": [
     {
       "impact_category": "Total",
-      "unit": "nPt",
-      "total": 305.217,
+      "unit": "Pt",
+      "total": 1820.3540602892788,
       "contributors": []
     },
     {
       "impact_category": "Climate change",
-      "unit": "nPt",
-      "total": 69.92311,
+      "unit": "Pt",
+      "total": 4.757759999999999,
       "contributors": []
     },
     {
       "impact_category": "Ozone depletion",
-      "unit": "nPt",
-      "total": 0.5833,
+      "unit": "Pt",
+      "total": 7.3408e-13,
       "contributors": []
     },
     {
       "impact_category": "Ionising radiation",
-      "unit": "nPt",
-      "total": 2.04634,
+      "unit": "Pt",
+      "total": 0.036292000000000005,
       "contributors": []
     },
     {
       "impact_category": "Photochemical ozone formation",
-      "unit": "nPt",
-      "total": 35.87775,
+      "unit": "Pt",
+      "total": 0.00005917,
       "contributors": []
     },
     {
       "impact_category": "Particulate matter",
-      "unit": "nPt",
-      "total": 12.68336,
+      "unit": "Pt",
+      "total": 5.42049e-15,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer",
-      "unit": "nPt",
-      "total": 4.802138,
+      "unit": "Pt",
+      "total": 5.235259999999999e-16,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer",
-      "unit": "nPt",
-      "total": 2.465339,
+      "unit": "Pt",
+      "total": 1.6072e-18,
       "contributors": []
     },
     {
       "impact_category": "Acidification",
-      "unit": "nPt",
-      "total": 28.23455,
+      "unit": "Pt",
+      "total": 0.00008703199999999999,
       "contributors": []
     },
     {
       "impact_category": "Eutrophication, freshwater",
-      "unit": "nPt",
-      "total": 6.036178,
+      "unit": "Pt",
+      "total": 7.1276e-9,
       "contributors": []
     },
     {
       "impact_category": "Eutrophication, marine",
-      "unit": "nPt",
-      "total": 15.19513,
+      "unit": "Pt",
+      "total": 0.000008380000000000001,
       "contributors": []
     },
     {
       "impact_category": "Eutrophication, terrestrial",
-      "unit": "nPt",
-      "total": 23.02165,
+      "unit": "Pt",
+      "total": 0.0007227000000000001,
       "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater",
-      "unit": "nPt",
-      "total": 18.402,
+      "unit": "Pt",
+      "total": 9.285662,
       "contributors": []
     },
     {
       "impact_category": "Land use",
-      "unit": "nPt",
-      "total": 1.40681,
+      "unit": "Pt",
+      "total": 1612.0529999999999,
       "contributors": []
     },
     {
       "impact_category": "Water use",
-      "unit": "nPt",
-      "total": 1.567704,
+      "unit": "Pt",
+      "total": 0.206569,
       "contributors": []
     },
     {
       "impact_category": "Resource use, fossils",
-      "unit": "nPt",
-      "total": 45.72009,
+      "unit": "Pt",
+      "total": 194.01389999999998,
       "contributors": []
     },
     {
       "impact_category": "Resource use, minerals and metals",
-      "unit": "nPt",
-      "total": 37.25154,
+      "unit": "Pt",
+      "total": 1.5072e-10,
       "contributors": []
     },
     {
       "impact_category": "Climate change - Fossil",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Climate change - Biogenic",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Climate change - Land use and LU change",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - organics",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - inorganics",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - metals",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - organics",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - inorganics",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - metals",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - organics",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - inorganics",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - metals",
-      "unit": "nPt",
-      "total": 0.0,
+      "unit": "Pt",
+      "total": 0,
       "contributors": []
     }
   ]

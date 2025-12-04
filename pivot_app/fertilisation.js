@@ -181,8 +181,8 @@ function renderStats(rows) {
     const keyT = `${nutrient}_kg_t`;
     return {
       nutrient: nutrient.toUpperCase(),
-      ha: sumField(rows, keyHa),
-      tonne: sumField(rows, keyT),
+      ha: average(rows, keyHa),
+      tonne: average(rows, keyT),
     };
   });
   const stats = [
@@ -192,12 +192,12 @@ function renderStats(rows) {
   ];
   nutrients.forEach((n) => {
     stats.push({
-      label: `${n.nutrient} (kg/ha)`,
-      value: n.ha === null ? "—" : formatNumber(n.ha, 1),
+      label: `Avg ${n.nutrient} (kg/ha)`,
+      value: n.ha === null ? "—" : formatNumber(n.ha, 2),
     });
     stats.push({
-      label: `${n.nutrient} (kg/t)`,
-      value: n.tonne === null ? "—" : formatNumber(n.tonne, 2),
+      label: `Avg ${n.nutrient} (kg/t)`,
+      value: n.tonne === null ? "—" : formatNumber(n.tonne, 3),
     });
   });
   elements.statGrid.innerHTML = stats

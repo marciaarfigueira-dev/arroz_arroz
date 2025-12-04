@@ -1,354 +1,181 @@
 {
   "product_id": "singlescore_3_1",
+  "product_name": "1 kg Herbicide emissions, at farm {RER} Economic, U (of project Agri-footprint - economic - unit)",
   "functional_unit": "1 kg Herbicide emissions, at farm {RER} Economic, U (of project Agri-footprint - economic - unit)",
   "categories": [
     {
       "impact_category": "Total",
-      "unit": "mPt",
-      "total": 2.789908,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 2.789908,
-          "share": 1.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 1379353.923,
+      "contributors": []
     },
     {
       "impact_category": "Climate change",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ozone depletion",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ionising radiation",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Photochemical ozone formation",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Particulate matter",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer",
-      "unit": "mPt",
-      "total": 0.056381,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.056381,
-          "share": 1.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 6.152959999999999e-12,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Acidification",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, freshwater",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, marine",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, terrestrial",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater",
-      "unit": "mPt",
-      "total": 2.733527,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 2.733527,
-          "share": 1.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 1379353.923,
+      "contributors": []
     },
     {
       "impact_category": "Land use",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Water use",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Resource use, fossils",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Resource use, minerals and metals",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Fossil",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Biogenic",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Land use and LU change",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - organics",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - inorganics",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - metals",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - organics",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - inorganics",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - metals",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - organics",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - inorganics",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - metals",
-      "unit": "mPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Herbicide emissions, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     }
   ]
 }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About the Methods</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <div>
+        <p class="eyebrow">Aparroz</p>
+        <h1>About the Methods</h1>
+        <p class="lede">
+          Environmental Footprint (EF) 3.0 Method (adapted), v1.03 — normalisation and weighting set.
+        </p>
+      </div>
+      <div class="pill">
+        <span class="dot"></span>
+        <span>Methodology</span>
+      </div>
+    </header>
+
+    <main class="layout single-column">
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Impact assessment</p>
+            <h2>Environmental Footprint 3.0</h2>
+          </div>
+          <div class="panel-actions">
+            <button class="ghost" id="back-btn">Back</button>
+            <a class="ghost" href="./index.html">Home</a>
+          </div>
+        </div>
+        <p>
+          This study applies the Environmental Footprint (EF) 3.0 Method (adapted), v1.03, using the EF 3.0
+          characterisation, normalisation, and weighting sets. Developed by the European Commission, the EF method
+          provides a harmonised framework for assessing environmental performance across supply chains and is used in
+          Product Environmental Footprint (PEF) and Organisation Environmental Footprint (OEF) studies.
+        </p>
+        <p>
+          At the characterisation stage, inventory flows (e.g., kg CO₂, kg NOx, m³ water, MJ fossil energy) are
+          converted into midpoint impact indicators using EF 3.0 characterisation factors.
+        </p>
+        <p>
+          After characterisation, EF 3.0 applies normalisation and weighting factors to express all impact categories on
+          a common scale. This produces the single-score results in micro Points (µPt), allowing comparison and
+          aggregation across impact categories.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Methane correction</p>
+            <h2>IPCC Tier 1 (rice, flooded)</h2>
+          </div>
+        </div>
+        <p>
+          Methane emissions for flooded rice were calculated with IPCC Tier 1 (Equation 5.2):
+          <code>EF_daily = EFc × SFw × SFp × SFo</code>;
+          <code>CH₄ (kg/ha) = EF_daily × t_days</code>;
+          <code>CO₂e (kg/ha) = CH₄ (kg/ha) × 28</code>;
+          <code>CH₄ SS (nPt/ha) = CO₂e (kg/ha) × 0.78</code> (EF3 single score factor).
+        </p>
+        <p>
+          Assumptions: EFc = 1.56; SFw = 1; SFp = 1.22; SFo = 2.539 (from straw + CFOA); t_days = 130.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Nitrous oxide correction</p>
+            <h2>IPCC equations (direct + indirect N₂O)</h2>
+          </div>
+        </div>
+        <p><strong>1. Activity data and system boundaries</strong><br />
+          Annual, per farm/DMU. Includes synthetic N (FSN), organic N (FON), crop residues (FCR, mainly rice straw).
+          No grazing deposits (FPRP = 0) and no land-use change mineralisation (FSOM = 0). Inputs aggregated per year and DMU.
+        </p>
+        <p><strong>2. Direct N₂O emissions (Eq. 11.2)</strong><br />
+          N₂O<sub>direct-N</sub> = Σ (FSNᵢ + FONᵢ) × EF₁ᵢ + FCR × EF₁<br />
+          Rice-specific EF₁: EF1FR = 0.003 (continuous flooding) or 0.005 (mid-season drainage/AWD). Residue EF₁ = 0.01 kg N₂O–N/kg N. Straw N ≈ 0.5% of dry matter; straw yield ≈ 1.5 × grain yield.<br />
+          Convert to N₂O: N₂O<sub>direct</sub> = N₂O<sub>direct-N</sub> × 44/28.
+        </p>
+        <p><strong>3. Indirect N₂O (volatilisation & leaching)</strong><br />
+          Volatilisation (Eq. 11.9): N₂O<sub>volatil-N</sub> = [Σ FSNᵢ × FracGASFᵢ + FON × FracGASM] × EF₄; with FracGASF: urea 0.20–0.25, NPK 0.07, AN/CAN 0.03; FracGASM = 0.20; EF₄ = 0.01. Convert to N₂O with 44/28.<br />
+          Leaching (Eq. 11.10): N₂O<sub>leach-N</sub> = (FSN + FON + FCR) × Frac_LEACH-(H) × EF₅; Frac_LEACH-(H) = 0.30; EF₅ = 0.0075 (or 0.01 if using 2019 refinement). Convert to N₂O with 44/28.
+        </p>
+        <p><strong>4. CO₂ from urea hydrolysis (Eq. 11.13)</strong><br />
+          CO₂ = (M<sub>urea</sub> × EF<sub>CO₂-C</sub>) × 44/12, with EF<sub>CO₂-C</sub> = 0.20 kg C/kg urea.
+        </p>
+        <p><strong>5. Conversion to EF 3.0 climate</strong><br />
+          Characterisation: N₂O → 273 kg CO₂eq/kg N₂O; CO₂ → 1 kg CO₂eq/kg CO₂. Climate Change impact = N₂O<sub>direct</sub> + N₂O<sub>volatil</sub> + N₂O<sub>leach</sub> (all ×273) + CO₂ from urea. Reported in kg CO₂eq and, where relevant, converted to EF single-score (µPt) via EF 3.0 factors.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+<script>
+  const backBtn = document.getElementById("back-btn");
+  if (backBtn) {
+    backBtn.addEventListener("click", () => {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "./singlescore.html";
+      }
+    });
+  }
+</script>
+
+</html>

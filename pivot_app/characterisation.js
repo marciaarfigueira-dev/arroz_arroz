@@ -37,6 +37,7 @@ async function init() {
   state.selected = data[0]?.product_id || null;
   hydrateProducts();
   render();
+  bindAbout();
 }
 
 async function loadData() {
@@ -69,29 +70,7 @@ function render() {
 }
 
 function renderBars(categories) {
-  if (!categories?.length) {
-    elements.barChart.innerHTML = `<p class="empty">No categories available.</p>`;
-    return;
-  }
-  const entries = categories.filter((c) => c.total != null);
-  const maxVal = entries.length ? Math.max(...entries.map((c) => c.total || 0), 1) : 1;
-  const bars = entries
-    .map(
-      (cat, idx) => `
-        <div class="bar-row">
-          <div class="bar-label">
-            <div>${cat.impact_category}</div>
-            <small>${cat.unit || ""}</small>
-          </div>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${((cat.total || 0) / maxVal) * 100}%; background:${palette[idx % palette.length]}"></div>
-            <span class="bar-value">${formatNumber(cat.total || 0, 4)}</span>
-          </div>
-        </div>
-      `
-    )
-    .join("");
-  elements.barChart.innerHTML = bars;
+  // chart removed; table only
 }
 
 function renderTable(categories) {
@@ -126,7 +105,8 @@ function renderTable(categories) {
 }
 
 function label(item) {
-  const name = item.product_name || item.product_id;
+  let name = item.product_name || item.product_id;
+  name = name.replace(/m2/gi, "ha");
   return name.length > 80 ? name.slice(0, 80) + "…" : name;
 }
 
@@ -135,4 +115,11 @@ function formatNumber(value, digits = 2) {
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,
   }).format(value);
+}
+
+function bindAbout() {
+  const btn = document.getElementById("about-btn");
+  if (btn) {
+    btn.onclick = () => (window.location.href = "./about.html");
+  }
 }

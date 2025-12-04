@@ -57,7 +57,8 @@
         <p class="eyebrow">Aparroz</p>
         <h1>Pivot Hub</h1>
         <p class="lede">
-          Explore inputs through pivot tables, then jump into LCA calculators using singlescore or characterisation factors.
+          Explore inputs through pivot tables, then jump into LCA calculators using singlescore or characterisation
+          factors.
         </p>
       </div>
       <div class="pill">
@@ -76,18 +77,31 @@
         </div>
         <div class="card">
           <h3>Sowing</h3>
-          <p>Review sowing events by season, farmer, variety, operation, and equipment with seed rates in kg/ha and kg/t.</p>
+          <p>Review sowing events by season, farmer, variety, operation, and equipment with seed rates in kg/ha and
+            kg/t.</p>
           <a class="ghost" href="./sowing.html">Open sowing</a>
         </div>
         <div class="card">
           <h3>Fertilisation</h3>
-          <p>Inspect fertiliser applications with nutrient rates (N, P, K, SO₄) in kg/ha and kg/t across operations, equipment, and products.</p>
+          <p>Inspect fertiliser applications with nutrient rates (N, P, K, SO₄) in kg/ha and kg/t across operations,
+            equipment, and products.</p>
           <a class="ghost" href="./fertilisation.html">Open fertilisation</a>
         </div>
         <div class="card">
           <h3>Machine operations</h3>
-          <p>See all field operations by category, equipment, farmer, and season. Track area worked, repetitions, and area per tonne.</p>
+          <p>See all field operations by category, equipment, farmer, and season. Track area worked, repetitions, and
+            area per tonne.</p>
           <a class="ghost" href="./machines.html">Open machine operations</a>
+        </div>
+        <div class="card">
+          <h3>Water</h3>
+          <p>View water use per farmer-season with m³/ha and m³/t from the water mastersheet.</p>
+          <a class="ghost" href="./water.html">Open water</a>
+        </div>
+        <div class="card" style="background:#1f2430; border-color:#2c3140;">
+          <h3>About these pivots</h3>
+          <p>12 farmers across 3 seasons. Use the filters in each pivot to explore their inputs and operations.</p>
+          <a class="ghost" href="./pivots-about.html">More info</a>
         </div>
       </div>
 
@@ -95,7 +109,8 @@
       <div class="hero">
         <div class="card">
           <h3>LCA Crop protection</h3>
-          <p>Combine crop protection doses with singlescore or characterisation factors to see burdens by impact category.</p>
+          <p>Combine crop protection doses with singlescore or characterisation factors to see burdens by impact
+            category.</p>
           <a class="ghost" href="./lca.html">Open LCA (crop protection)</a>
         </div>
         <div class="card">
@@ -105,13 +120,68 @@
         </div>
         <div class="card">
           <h3>LCA Fertilisation</h3>
-          <p>Calculate N/P/K impacts using fertiliser rates (kg/ha or kg/t) with singlescore/characterisation factors.</p>
+          <p>Calculate N/P/K impacts using fertiliser rates (kg/ha or kg/t) with singlescore/characterisation factors.
+          </p>
           <a class="ghost" href="./lca-fertilisation.html">Open LCA fertilisation</a>
         </div>
         <div class="card">
           <h3>LCA Machines</h3>
-          <p>Multiply area worked or area per tonne by machine factors to see equipment burdens per m² basis.</p>
+          <p>Multiply area worked or area per tonne by machine factors to see equipment burdens per ha basis.</p>
           <a class="ghost" href="./lca-machines.html">Open LCA machines</a>
+        </div>
+        <div class="card">
+          <h3>LCA Water &amp; Flooded Fields</h3>
+          <p>Water use per farmer-season with single score and characterisation impacts per ha or per tonne.</p>
+          <a class="ghost" href="./lca-water.html">Open LCA water</a>
+        </div>
+        <div class="card">
+          <h3>LCA Flooded Fields (CH₄)</h3>
+          <p>Tier 1 methane factor per farmer-season with per-ha and per-tonne views (single score or characterisation).
+          </p>
+          <a class="ghost" href="./methane.html">Open LCA flooded fields (CH₄)</a>
+        </div>
+        <div class="card">
+          <h3>LCA Nitrogen Fertilisers (N₂O)</h3>
+          <p>N₂O and CO₂e from fertiliser (direct, volatilisation, leaching), per ha or per tonne.</p>
+          <a class="ghost" href="./n2o.html">Open LCA nitrogen fertilisers</a>
+        </div>
+        <div class="card" style="background:#1f2430; border-color:#2c3140;">
+          <h3>About LCA & impacts</h3>
+          <p>Single score and characterisation views for crop protection, sowing, fertilisation, machines, water, methane, and N₂O.</p>
+          <a class="ghost" href="./about.html">More info</a>
+        </div>
+      </div>
+
+      <h3 class="section-title">Clustered results</h3>
+      <div class="hero">
+        <div class="card">
+          <h3>Clustering of farmers</h3>
+          <p>PCA + hierarchical clustering using four drivers (includes yield): N rates, pesticide load, yield, and mechanisation per farmer-season.</p>
+          <a class="ghost" href="./cluster.html">Open clustering</a>
+        </div>
+        <div class="card">
+          <h3>Clustering of input load</h3>
+          <p>PCA + hierarchical clustering on N rate, pesticide load, and mechanisation (no yield) per farmer-season.</p>
+          <a class="ghost" href="./cluster-input.html">Open input clustering</a>
+        </div>
+        <div class="card">
+          <h3>Clustered LCA (Characterisation)</h3>
+          <p>Average characterisation impacts per cluster-year, per ha or per tonne.</p>
+          <a class="ghost" href="./cluster-lca-chara.html">Open cluster LCA (chara)</a>
+        </div>
+        <div class="card">
+          <h3>Clustered LCA (Singlescore)</h3>
+          <p>Average singlescore impacts per cluster-year, per ha or per tonne, with input breakdown.</p>
+          <a class="ghost" href="./cluster-lca-single.html">Open cluster LCA (single)</a>
+        </div>
+      </div>
+
+      <h3 class="section-title">In Depth View</h3>
+      <div class="hero">
+        <div class="card">
+          <h3>Incidence of Crop Enemy</h3>
+          <p>Dive into enemy incidence across farmers and seasons.</p>
+          <a class="ghost" href="./enemy-heatmap.html">Open heatmap</a>
         </div>
       </div>
 
@@ -120,26 +190,18 @@
         <div class="card">
           <h3>Singlescore</h3>
           <p>Product-level single scores with totals and contributors for each input.</p>
-          <a class="ghost" href="./singlescore.html">Open singlescore</a>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <a class="ghost" href="./singlescore.html">Open singlescore</a>
+            <a class="ghost" href="./about-singlescore.html">About singlescore</a>
+          </div>
         </div>
         <div class="card">
           <h3>Characterisation</h3>
           <p>Impact categories with native units for each characterised product.</p>
-          <a class="ghost" href="./characterisation.html">Open characterisation</a>
-        </div>
-      </div>
-
-      <h3 class="section-title">Clustered results</h3>
-      <div class="hero">
-        <div class="card">
-          <h3>Clustering of farmers</h3>
-          <p>PCA + hierarchical clustering on N rates, pesticide load, yield, and mechanisation per farmer-season.</p>
-          <a class="ghost" href="./cluster.html">Open clustering</a>
-        </div>
-        <div class="card">
-          <h3>Clustered LCA results</h3>
-          <p>Average single-score impacts per cluster-year, viewable per ha or per tonne.</p>
-          <a class="ghost" href="./cluster-lca.html">Open cluster LCA</a>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <a class="ghost" href="./characterisation.html">Open characterisation</a>
+            <a class="ghost" href="./about-characterisation.html">About characterisation</a>
+          </div>
         </div>
       </div>
     </main>

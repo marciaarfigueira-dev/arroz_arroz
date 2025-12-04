@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Singlescore Explorer</title>
     <link rel="stylesheet" href="./styles.css" />
+    <style>
+      main.single-column {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+    </style>
   </head>
   <body>
     <div class="page">
@@ -13,7 +20,7 @@
           <p class="eyebrow">Aparroz | Singlescore</p>
           <h1>Impact Explorer</h1>
           <p class="lede">
-            Pick a product and review its impact categories with totals and top contributors.
+            Pick a product and review its impact categories.
           </p>
         </div>
         <div class="pill">
@@ -22,29 +29,23 @@
         </div>
       </header>
 
-      <main class="layout">
+      <main class="single-column">
         <section class="panel filters">
           <div class="panel-header">
             <div>
               <p class="eyebrow">Select</p>
-              <h2>Product</h2>
-            </div>
-            <div class="panel-actions">
-              <a class="ghost" href="./index.html">Home</a>
-              <a class="ghost" href="./crop-protection.html">Crop protection</a>
-              <a class="ghost" href="./sowing.html">Sowing</a>
-              <a class="ghost" href="./fertilisation.html">Fertilisation</a>
-              <a class="ghost" href="./machines.html">Machines</a>
+              <h2>
+                Product single score
+                <span class="inline-actions">
+                  <a class="ghost" href="./index.html">Home</a>
+                </span>
+              </h2>
             </div>
           </div>
-          <div class="filter-grid">
+          <div class="filter-grid single-column">
             <label class="field">
               <span>Product</span>
               <select id="product-filter"></select>
-            </label>
-            <label class="field">
-              <span>Contributors for</span>
-              <select id="category-filter"></select>
             </label>
           </div>
           <div class="chip" id="functional-unit"></div>
@@ -56,9 +57,9 @@
               <p class="eyebrow">Totals</p>
               <h2>Impact categories</h2>
             </div>
+            <div id="bar-legend"></div>
           </div>
           <div id="bar-chart" class="bar-chart"></div>
-          <div id="bar-legend" class="legend"></div>
         </section>
 
         <section class="panel pivot">
@@ -74,13 +75,12 @@
         <section class="panel detail">
           <div class="panel-header">
             <div>
-              <p class="eyebrow">Drivers</p>
-              <h2>Top contributors</h2>
+              <p class="eyebrow">Context</p>
+              <h2>Total score vs other inputs</h2>
             </div>
-            <div class="chip muted" id="contrib-count"></div>
+            <div class="chip muted" id="context-count"></div>
           </div>
-          <div id="contrib-chart" class="bar-chart"></div>
-          <div id="contrib-table" class="table-shell"></div>
+          <div id="context-chart" class="bar-chart"></div>
         </section>
       </main>
     </div>

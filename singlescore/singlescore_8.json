@@ -1,934 +1,181 @@
 {
   "product_id": "singlescore_8_1",
+  "product_name": "1 kg Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U (of project Agri-footprint - economic - unit)",
   "functional_unit": "1 kg Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U (of project Agri-footprint - economic - unit)",
   "categories": [
     {
       "impact_category": "Total",
-      "unit": "µPt",
-      "total": 393.5599,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 191.8497,
-          "share": 0.487472682049162
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 145.2719,
-          "share": 0.36912271804114183
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 56.38256,
-          "share": 0.1432629696267328
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.055759,
-          "share": 0.00014167856023949594
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 519378.6717280199,
+      "contributors": []
     },
     {
       "impact_category": "Climate change",
-      "unit": "µPt",
-      "total": 97.64548,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 51.68833,
-          "share": 0.5293468781145835
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 38.9966,
-          "share": 0.39936922835547534
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 6.932843,
-          "share": 0.07100014255652182
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.027715,
-          "share": 0.00028383290245488066
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 6645.07914,
+      "contributors": []
     },
     {
       "impact_category": "Ozone depletion",
-      "unit": "µPt",
-      "total": 0.420955,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.219492,
-          "share": 0.5214144029646874
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.164802,
-          "share": 0.3914955280255609
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.036522,
-          "share": 0.08675986744426363
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000139,
-          "share": 0.0003302015654879975
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 5.2984e-10,
+      "contributors": []
     },
     {
       "impact_category": "Ionising radiation",
-      "unit": "µPt",
-      "total": 1.185487,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.609869,
-          "share": 0.5144459618705224
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.453366,
-          "share": 0.3824301742659346
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.121902,
-          "share": 0.10282862654757075
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000349,
-          "share": 0.0002943937807837623
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 21.066451,
+      "contributors": []
     },
     {
       "impact_category": "Photochemical ozone formation",
-      "unit": "µPt",
-      "total": 4.689653,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 2.286202,
-          "share": 0.4874991817091797
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.575993,
-          "share": 0.33605748655604156
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.826331,
-          "share": 0.1762030154469851
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.001126,
-          "share": 0.00024010305240067871
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 0.00772702,
+      "contributors": []
     },
     {
       "impact_category": "Particulate matter",
-      "unit": "µPt",
-      "total": 59.98699,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 32.9074,
-          "share": 0.5485756161461011
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 25.09306,
-          "share": 0.41830836986486575
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.985845,
-          "share": 0.033104594846315845
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000681,
-          "share": 1.1352461592088551e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 2.56557e-11,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer",
-      "unit": "µPt",
-      "total": 1.59935,
-      "contributors": [
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.147644,
-          "share": 0.7175690124112921
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.259387,
-          "share": 0.1621827617469597
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.192177,
-          "share": 0.12015943977240753
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000142,
-          "share": 8.878606934066965e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 1.748e-13,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer",
-      "unit": "µPt",
-      "total": 0.672684,
-      "contributors": [
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.317763,
-          "share": 0.4723807909806091
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.203271,
-          "share": 0.30217903205665664
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.151527,
-          "share": 0.2252573273632196
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000123,
-          "share": 0.00018284959951477963
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 4.3788000000000003e-16,
+      "contributors": []
     },
     {
       "impact_category": "Acidification",
-      "unit": "µPt",
-      "total": 64.30481,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 34.73107,
-          "share": 0.5401006549898834
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 26.62173,
-          "share": 0.4139928257310767
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 2.950755,
-          "share": 0.04588700285406332
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.001259,
-          "share": 1.9578628721552866e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 0.19821624,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, freshwater",
-      "unit": "µPt",
-      "total": 3.862448,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.432383,
-          "share": 0.3708484877984118
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.345849,
-          "share": 0.3484445615837417
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.083365,
-          "share": 0.2804866240270419
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000852,
-          "share": 0.0002205854939665207
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 0.0000045732,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, marine",
-      "unit": "µPt",
-      "total": 4.053942,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 2.185236,
-          "share": 0.5390397790594932
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.593953,
-          "share": 0.39318594099274234
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.274402,
-          "share": 0.06768769755462707
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000352,
-          "share": 8.68290666220681e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 0.002243326,
+      "contributors": []
     },
     {
       "impact_category": "Eutrophication, terrestrial",
-      "unit": "µPt",
-      "total": 50.67035,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 28.44919,
-          "share": 0.561456354653165
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 21.78853,
-          "share": 0.4300055160463664
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.432119,
-          "share": 0.008528044507290753
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000509,
-          "share": 1.004532236307821e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 1.58592573,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater",
-      "unit": "µPt",
-      "total": 11.02963,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 4.323165,
-          "share": 0.391959204433875
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 3.820998,
-          "share": 0.3464302972991841
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 2.883756,
-          "share": 0.26145537066973235
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.001709,
-          "share": 0.00015494626746318782
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 5565.61551,
+      "contributors": []
     },
     {
       "impact_category": "Land use",
-      "unit": "µPt",
-      "total": 0.221931,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.089776,
-          "share": 0.40452212624644596
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.066342,
-          "share": 0.29893074874623193
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.065763,
-          "share": 0.2963218297578977
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 5.07e-05,
-          "share": 0.00022844938291631184
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 254308.65899999999,
+      "contributors": []
     },
     {
       "impact_category": "Water use",
-      "unit": "µPt",
-      "total": 1.594459,
-      "contributors": [
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.015186,
-          "share": 0.6366962085572598
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.330511,
-          "share": 0.20728723661128945
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.24865,
-          "share": 0.15594631157025673
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000113,
-          "share": 7.087043316886793e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 210.37731,
+      "contributors": []
     },
     {
       "impact_category": "Resource use, fossils",
-      "unit": "µPt",
-      "total": 59.53303,
-      "contributors": [
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 30.90343,
-          "share": 0.5190972137651989
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 23.42852,
-          "share": 0.39353817536248364
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 5.181174,
-          "share": 0.08703024186741379
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.019906,
-          "share": 0.00033436900490366444
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 252626.08020000003,
+      "contributors": []
     },
     {
       "impact_category": "Resource use, minerals and metals",
-      "unit": "µPt",
-      "total": 32.08873,
-      "contributors": [
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 29.92689,
-          "share": 0.9326293063016206
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 1.230996,
-          "share": 0.03836225366351364
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.930114,
-          "share": 0.02898569061474231
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.000734,
-          "share": 2.287407448035494e-05
-        },
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": 0.0
-        }
-      ]
+      "unit": "Pt",
+      "total": 1.3007999999999998e-7,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Fossil",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Biogenic",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Climate change - Land use and LU change",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - organics",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - inorganics",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, non-cancer - metals",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - organics",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - inorganics",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Human toxicity, cancer - metals",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - organics",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - inorganics",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     },
     {
       "impact_category": "Ecotoxicity, freshwater - metals",
-      "unit": "µPt",
-      "total": 0.0,
-      "contributors": [
-        {
-          "name": "Nitrogen (N) synthetic fertilizer application mix, at farm {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonia, as 100% NH3 (NPK 82-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium nitrate, as 100% (NH4)(NO3) (NPK 35-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Ammonium sulfate, as 100% (NH4)2SO4 (NPK 21-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        },
-        {
-          "name": "Calcium ammonium nitrate (CAN), (NPK 26.5-0-0), market mix, at regional storage {RER} Economic, U",
-          "score": 0.0,
-          "share": null
-        }
-      ]
+      "unit": "Pt",
+      "total": 0,
+      "contributors": []
     }
   ]
 }

@@ -1,6 +1,5 @@
 const state = {
   data: [], // farmer-season inventories with impacts
-  clusters: [], // cluster labels aligned
   filters: { season: "all", cluster: "all", basis: "ha" },
 };
 
@@ -23,25 +22,26 @@ const palette = ["#ef4444", "#22c55e", "#3b82f6", "#a855f7", "#f59e0b", "#10b981
 init();
 
 async function init() {
-  const [ops, sow, fert, machines, singlescore] = await Promise.all([
+  const [ops, sow, fert, machines, ch4, n2o, singlescore] = await Promise.all([
     loadJson("./data/operations.json"),
     loadJson("./data/sowing.json"),
     loadJson("./data/fertilisation.json"),
     loadJson("./data/machines.json"),
+    loadJson("./data/ch4.json"),
+    loadJson("./data/n2o.json"),
     loadJson("./data/singlescore.json"),
   ]);
   const factors = buildFactors(singlescore);
-  const obs = buildInventories(ops, sow, fert, machines, factors);
-  // reuse PCA/ward from cluster.js
-  const rowsForPca = obs.map((r) => [
-    r.N_rate_kg_ha,
-    r.Pesticide_load_kg_ha,
-    r.Yield_kg_ha,
-    r.Machinery_area_ratio,
-  ]);
-  const { scores } = pca(rowsForPca, 2);
-  const labels = ward(scores, 3);
-  state.data = obs.map((r, idx) => ({ ...r, cluster: labels[idx] }));
+  const clusterMap = computeClusters(ops, fert, sow, machines);
+  const obs = buildInventories(ops, sow, fert, machines, ch4, n2o, factors);
+  state.data = obs.map((r) => ({
+    ...r,
+    cluster:
+      clusterMap.get(r.dmu_id) ??
+      clusterMap.get(`${r.farmer_id}_${r.season}`) ??
+      clusterMap.get(`${r.farmer_id || "—"}_${r.season}`) ??
+      null,
+  }));
   hydrateFilters();
   attachEvents();
   render();
@@ -84,10 +84,11 @@ function buildFactors(records) {
       combine_harvester: byId["singlescore_16_1"] || 0,
       seeder: byId["singlescore_17_1"] || 0,
     },
+    methaneFactor: 2.601e-5, // µPt per kg CO2e
   };
 }
 
-function buildInventories(ops, sow, fert, machines, factors) {
+function buildInventories(ops, sow, fert, machines, ch4Rows, n2oRows, factors) {
   const map = new Map();
   const keyFn = (r) => `${r.farmer_id || r.dmu_id || "?"}|${r.season || r.year || "?"}`;
   const ensure = (r) => {
@@ -103,7 +104,7 @@ function buildInventories(ops, sow, fert, machines, factors) {
         Pesticide_load_kg_ha: null,
         Yield_kg_ha: null,
         Machinery_area_ratio: null,
-        impacts: { crop_protection: 0, sowing: 0, fertilisation: 0, machines: 0 },
+        impacts: { crop_protection: 0, sowing: 0, fertilisation: 0, machines: 0, methane: 0, n2o: 0 },
       });
     }
     return map.get(key);
@@ -190,6 +191,44 @@ function buildInventories(ops, sow, fert, machines, factors) {
     obj.Machinery_area_ratio = areaHa && obj.area ? areaHa / obj.area : obj.Machinery_area_ratio;
   });
 
+  // Methane (CH₄) from flooded fields (single score)
+  ch4Rows.forEach((r) => {
+    const areaHa = toNum(r["SUM of area_ha"]) || toNum(r.area_ha) || 0;
+    const prod = toNum(r["Productivity (t/ha)"]) || toNum(r.productivity) || null;
+    const tonnes = prod && areaHa ? prod * areaHa : null;
+    const obj = ensure(r);
+    const areaUse = obj.area || areaHa || 0;
+    const tonnesUse = obj.tonnes || tonnes || 0;
+    const ch4Ha = toNum(r["C02eq(ch4)_ha"]);
+    const ch4T = toNum(r["C02eq(ch4)_t"]);
+    const factor = factors.methaneFactor || 0;
+    let added = 0;
+    if (ch4Ha != null && areaUse) {
+      added = ch4Ha * areaUse * factor;
+    } else if (ch4T != null && tonnesUse) {
+      added = ch4T * tonnesUse * factor;
+    }
+    obj.impacts.methane += added;
+    if (!obj.area && areaHa) obj.area = areaHa;
+    if (!obj.tonnes && tonnes) obj.tonnes = tonnes;
+  });
+
+  // N₂O (single score conversion)
+  n2oRows.forEach((r) => {
+    const obj = ensure(r);
+    const area = toNum(r.area_TOTAL) || obj.area || 0;
+    const perHa = toNum(r["CO2 eq (direct emissions)"]) || 0;
+    const perHaSum =
+      perHa +
+      (toNum(r["CO2 eq (indirect emissions VOL)"]) || 0) +
+      (toNum(r["CO2 eq (indirect emissions VLEACH)"]) || 0) +
+      (toNum(r["CO2 from urea"]) || 0);
+    const factor = factors.methaneFactor || 0; // same µPt per kg CO2e
+    const added = perHaSum * (area || 1) * factor;
+    obj.impacts.n2o += added;
+    if (!obj.area && area) obj.area = area;
+  });
+
   // Yield and finalize rates
   ops.forEach((r) => {
     const area = toNum(r.covered_area) || toNum(r.area_ha) || 0;
@@ -204,20 +243,28 @@ function buildInventories(ops, sow, fert, machines, factors) {
     const total = sumValues(r.impacts);
     const perHa = r.area ? total / r.area : null;
     const perT = r.tonnes ? total / r.tonnes : null;
-    return { ...r, total, perHa, perT };
+    const dmu_id = `${r.farmer_id}_${r.season}`;
+    return { ...r, dmu_id, total, perHa, perT };
   });
 }
 
 function hydrateFilters() {
   fillSelect(elements.season, uniqueValues(state.data, "season").sort((a, b) => b - a), "Season");
   if (elements.cluster) {
-    elements.cluster.innerHTML = "";
-    ["all", "0", "1", "2"].forEach((val) => {
-      const opt = document.createElement("option");
-      opt.value = val;
-      opt.textContent = val === "all" ? "All clusters" : `Cluster ${Number(val) + 1}`;
-      elements.cluster.appendChild(opt);
-    });
+  const clusters = uniqueValues(state.data, "cluster")
+    .filter((c) => c !== undefined && c !== null && c !== "")
+    .sort((a, b) => a - b);
+  elements.cluster.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = "all";
+  all.textContent = "All clusters";
+  elements.cluster.appendChild(all);
+  clusters.forEach((c) => {
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = `Cluster ${Number(c) + 1}`;
+    elements.cluster.appendChild(opt);
+  });
   }
 }
 
@@ -307,7 +354,7 @@ function renderStats(rows) {
 
 function renderImpacts(rows) {
   const perBasis = state.filters.basis === "tonne" ? "perT" : "perHa";
-  const agg = { crop_protection: 0, sowing: 0, fertilisation: 0, machines: 0 };
+  const agg = { crop_protection: 0, sowing: 0, fertilisation: 0, machines: 0, methane: 0, n2o: 0 };
   rows.forEach((r) => {
     const denom = state.filters.basis === "tonne" ? r.tonnes : r.area;
     if (!denom) return;
@@ -366,6 +413,8 @@ function renderDetail(rows) {
           <th>Sowing (${unit})</th>
           <th>Fertilisation (${unit})</th>
           <th>Machines (${unit})</th>
+          <th>Methane (${unit})</th>
+          <th>N₂O (${unit})</th>
         </tr>
       </thead>
       <tbody>
@@ -376,6 +425,8 @@ function renderDetail(rows) {
             const sow = denom ? (r.impacts.sowing || 0) / denom : null;
             const fert = denom ? (r.impacts.fertilisation || 0) / denom : null;
             const mach = denom ? (r.impacts.machines || 0) / denom : null;
+            const methane = denom ? (r.impacts.methane || 0) / denom : null;
+            const n2o = denom ? (r.impacts.n2o || 0) / denom : null;
             const total = denom ? (r.total || 0) / denom : null;
             return `
               <tr>
@@ -389,6 +440,8 @@ function renderDetail(rows) {
         <td>${formatNumber(sow, 2)}</td>
         <td>${formatNumber(fert, 2)}</td>
         <td>${formatNumber(mach, 2)}</td>
+        <td>${formatNumber(methane, 2)}</td>
+        <td>${formatNumber(n2o, 2)}</td>
       </tr>
             `;
           })
@@ -414,6 +467,8 @@ function downloadCsv() {
     `sowing_${unit}`,
     `fertilisation_${unit}`,
     `machines_${unit}`,
+    `methane_${unit}`,
+    `n2o_${unit}`,
   ];
   const csv = [
     header.join(","),
@@ -423,6 +478,8 @@ function downloadCsv() {
       const sow = denom ? (r.impacts.sowing || 0) / denom : null;
       const fert = denom ? (r.impacts.fertilisation || 0) / denom : null;
       const mach = denom ? (r.impacts.machines || 0) / denom : null;
+      const methane = denom ? (r.impacts.methane || 0) / denom : null;
+      const n2o = denom ? (r.impacts.n2o || 0) / denom : null;
       const total = denom ? (r.total || 0) / denom : null;
       return [
         r.season,
@@ -435,6 +492,8 @@ function downloadCsv() {
         sow,
         fert,
         mach,
+        methane,
+        n2o,
       ]
         .map((v) => (v == null ? "" : v))
         .join(",");
@@ -585,10 +644,96 @@ function ward(data, k) {
   return labels;
 }
 
+// reuse clustering from farmer PCA (N, pesticide, yield, mechanisation)
+function computeClusters(ops, fert, sow, machines) {
+  const map = new Map();
+  const keyFn = (r) => `${(r.farmer_id || r.dmu_id || "—").toString()}_${String(r.season || r.year || "—")}`;
+  const ensure = (r) => {
+    const key = keyFn(r);
+    if (!map.has(key)) {
+      map.set(key, {
+        key,
+        farmer_id: r.farmer_id || r.dmu_id || "—",
+        season: r.season || r.year || "—",
+        area_sum: 0,
+        n_load: 0,
+        n_area: 0,
+        pest_load: 0,
+        pest_area: 0,
+        yield_sum: 0,
+        yield_area: 0,
+        mach_area: 0,
+      });
+    }
+    return map.get(key);
+  };
+
+  fert.forEach((r) => {
+    const area = toNum(r.covered_area) || toNum(r.area_TOTAL) || toNum(r.area_ha) || 0;
+    const obj = ensure(r);
+    if (area) obj.area_sum += area;
+    const nHa = toNum(r.n_kg_ha_weight);
+    if (nHa != null) {
+      obj.n_load += nHa * (area || 1);
+      obj.n_area += area || 1;
+    }
+  });
+
+  ops.forEach((r) => {
+    const op = (r.operation || "").toLowerCase();
+    if (!["herbicide", "fungicide", "insecticide", "pesticide"].some((k) => op.includes(k))) return;
+    const area = toNum(r.covered_area) || toNum(r.area_ha) || 0;
+    const obj = ensure(r);
+    if (area) obj.area_sum += area;
+    const dose = toNum(r.dose_kg_ha);
+    if (dose != null) {
+      obj.pest_load += dose * (area || 1);
+      obj.pest_area += area || 1;
+    }
+  });
+
+  ops.forEach((r) => {
+    const area = toNum(r.covered_area) || toNum(r.area_ha) || 0;
+    const prod = toNum(r.productivity) || toNum(r.productivity_weighted);
+    if (prod == null) return;
+    const obj = ensure(r);
+    obj.yield_sum += prod * 1000 * (area || 1);
+    obj.yield_area += area || 1;
+  });
+
+  machines.forEach((r) => {
+    const areaWorked = toNum(r.total_area_worked) || 0;
+    const obj = ensure(r);
+    obj.mach_area += areaWorked;
+    if (areaWorked) obj.area_sum += toNum(r.area_ha) || 0;
+  });
+
+  const obs = Array.from(map.values()).map((r) => {
+    const N_rate_kg_ha = r.n_area ? r.n_load / r.n_area : null;
+    const Pesticide_load_kg_ha = r.pest_area ? r.pest_load / r.pest_area : null;
+    const Yield_kg_ha = r.yield_area ? r.yield_sum / r.yield_area : null;
+    const base_area = r.area_sum || r.yield_area || r.pest_area || r.n_area || 1;
+    const Machinery_area_ratio = base_area ? r.mach_area / base_area : null;
+    return {
+      key: `${(r.farmer_id || "—").toString()}_${String(r.season)}`,
+      vec: [N_rate_kg_ha, Pesticide_load_kg_ha, Yield_kg_ha, Machinery_area_ratio],
+    };
+  });
+
+  const valid = obs.filter((o) => o.vec.every((v) => isFinite(v)));
+  if (!valid.length) return new Map();
+  const matrix = valid.map((o) => o.vec);
+  const { scores } = pca(matrix, 2);
+  const labels = ward(scores, 3);
+  const labelMap = new Map();
+  valid.forEach((o, idx) => labelMap.set(o.key, labels[idx]));
+  return labelMap;
+}
+
 // helpers
 
 function toNum(val) {
-  if (val === null || val === undefined) return null;
+  if (val === null || val === undefined || val === "") return null;
   const num = Number(String(val).replace(",", "."));
   return Number.isFinite(num) ? num : null;
 }
