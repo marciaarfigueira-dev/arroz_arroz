@@ -23,6 +23,9 @@ const elements = {
   detailCount: document.getElementById("detail-count"),
   download: document.getElementById("download-csv"),
   cluster: document.getElementById("cluster-filter"),
+  aboutBtn: document.getElementById("about-btn"),
+  aboutPanel: document.getElementById("about-panel"),
+  aboutClose: document.getElementById("about-close"),
 };
 
 const palette = ["#ef4444", "#22c55e", "#3b82f6", "#a855f7", "#f59e0b", "#10b981"];
@@ -190,6 +193,16 @@ function attachEvents() {
     if (elements.cluster) elements.cluster.value = "all";
     render();
   });
+  if (elements.aboutBtn && elements.aboutPanel) {
+    elements.aboutBtn.addEventListener("click", () => {
+      elements.aboutPanel.style.display = elements.aboutPanel.style.display === "none" ? "block" : "none";
+    });
+  }
+  if (elements.aboutClose && elements.aboutPanel) {
+    elements.aboutClose.addEventListener("click", () => {
+      elements.aboutPanel.style.display = "none";
+    });
+  }
   if (elements.download) {
     elements.download.addEventListener("click", downloadCsv);
   }

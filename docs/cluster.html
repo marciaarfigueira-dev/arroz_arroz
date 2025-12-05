@@ -86,11 +86,56 @@
           PCA + hierarchical clustering on four drivers per farmer-season: N rate, pesticide load, yield, and mechanisation.
         </p>
       </div>
-      <div class="pill">
-        <span class="dot"></span>
-        <span>Pilot clusters</span>
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <button class="ghost" id="about-btn">About clustering</button>
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Pilot clusters</span>
+        </div>
       </div>
     </header>
+
+    <section class="panel" id="about-panel" style="display:none; margin-bottom:16px;">
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>How to read the clustering</h2>
+        </div>
+        <button class="ghost" id="about-close">Close</button>
+      </div>
+      <div class="stack" style="gap:12px;">
+        <div class="panel mini">
+          <p class="eyebrow">🛈 PC1</p>
+          <h3>PC1: Pesticide Reliance vs. Productive Efficiency</h3>
+          <p><strong>What it measures:</strong> How much pesticide input is used relative to the yield obtained.</p>
+          <ul>
+            <li>High PC1 → high pesticide load and lower yields.</li>
+            <li>Low PC1 → low pesticide load and higher yields.</li>
+          </ul>
+          <p><strong>Interpretation:</strong> PC1 represents an environmental efficiency gradient. Lower values mean more efficient systems (less chemical use per tonne of rice); higher values reflect chemically intensive but less productive setups.</p>
+        </div>
+        <div class="panel mini">
+          <p class="eyebrow">🛈 PC2</p>
+          <h3>PC2: Mechanisation and Nutrient Intensity</h3>
+          <p><strong>What it measures:</strong> The level of mechanisation and nitrogen application, and how strongly these inputs relate to yield.</p>
+          <ul>
+            <li>High PC2 → high mechanisation + higher N inputs + generally high yields.</li>
+            <li>Low PC2 → low mechanisation + lower N inputs + lower yields.</li>
+          </ul>
+          <p><strong>Interpretation:</strong> PC2 captures management intensity—how much machinery and nitrogen a system uses, and how effectively those inputs translate into productivity.</p>
+        </div>
+        <div class="panel mini">
+          <p class="eyebrow">🛈 Clusters</p>
+          <h3>Cluster meaning</h3>
+          <p>Each cluster groups farmer-year observations with similar combinations of pesticide use, nitrogen intensity, machinery use, and yield performance. Clusters are management–performance archetypes, not fixed farmer identities.</p>
+          <ul>
+            <li>🟩 <strong>Cluster 1 – Inefficient or Stressed Systems:</strong> Highest pesticide use and lowest yields; chemical pressure high but productivity low; mechanisation and N moderate.</li>
+            <li>🟦 <strong>Cluster 2 – High-Efficiency Systems:</strong> Low nitrogen, very low pesticide, good productivity; high resource-use efficiency and likely well-timed management.</li>
+            <li>🟧 <strong>Cluster 3 – High-Input, High-Output Regime Systems:</strong> Conventional intensive style with high nitrogen, high mechanisation, and consistently high yields.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <main class="layout">
       <section class="panel filters">
